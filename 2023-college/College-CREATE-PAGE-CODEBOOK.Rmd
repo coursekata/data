@@ -1,0 +1,173 @@
+---
+title: "Create Page-Level Codebook from responses.csv"
+output: html_notebook
+---
+Make a page-level-codebook from responses.csv that will do the following:  
+- In responses.csv, page is a "string" that includes both the chapter and page number (e.g., 10.4 represents chapter 10, page 4). This codebook will have variables called chapter_num and page_num that each only include one number (e.g., chapter_num will be 10 and page_num will be 4).
+- Create a responses file that does not include survey responses and does not include pages that are not within a chapter
+- Create a "codebook_ckcode" with the count of CK codes per page.
+- Create a "codebook_lrn" with the count of auto-scored Learnosity questions per page.
+- Merge all codebooks into a "codebook_page_final.csv"
+
+This assumes we start with a basic `responses.csv` file.
+
+In this data processing, we will treat student_id+class_id+release as a unique student. If a student responds in two release versions (e.g., 4.2 and 5.0), that student will appear as two cases.
+```{r}
+#### Import Data and Setup
+library(mosaic)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r}
+setwd("~/Desktop/2023-college-claudia-ji")
+responses <-read.csv("responses.csv")
+responses_all <- responses
+```
+
+# Put in page num and chapter num
+
+```{r}
+# make a data frame where each row is a page
+codebook_page <- responses %>%
+  select(book, chapter, page, release) %>%
+  unique() %>%
+  mutate(chapter_num = as.numeric(gsub("\\D", "", chapter)),
+         page_string = str_extract(str_trunc(page, 8, "right"), "\\d+\\.*\\d*"),
+         page_num_from_string = as.numeric(str_extract(str_trunc(page, 8, "right"), "\\d+\\.*\\d*")),
+         temp_page_within_ch = round((page_num_from_string - chapter_num)/10,3),
+         is_10 = grepl(".10", page_string, fixed = TRUE),
+         is_between_10_20 = temp_page_within_ch > .010 & temp_page_within_ch < .019,
+         page_within_ch = ifelse(is_10 | is_between_10_20, temp_page_within_ch*10, temp_page_within_ch)) %>%
+  select(book, release, chapter, page, chapter_num, page_within_ch) %>% 
+  mutate(page_num = page_within_ch*100) %>%
+  filter(!is.na(page_num))
+
+```
+
+
+
+# Create responses_submits:
+- chapter_num, page_num included
+- remove survey responses
+- removes responses from pages that are not within a chapter
+
+```{r}
+
+new_responses <- responses %>%
+  left_join(codebook_page, by=c("book", "release", "chapter", "page"))
+
+### new_responses is a subset of responses columns 
+new_responses <- new_responses[, c("student_id", "class_id", "item_id", "lrn_question_reference", "item_type", "chapter_num", "page_num", "completes_page", "response", "points_possible", "points_earned", "lrn_status", "lrn_type", "attempt", "lrn_dt_started", "lrn_dt_saved", "dt_submitted", "book", "release")] 
+```
+
+
+Read in survey codebook so we can filter out survey responses
+
+```{r}
+codebook_all_surveys <- read.csv("codebook_all_surveys.csv")
+```
+
+Take out all survey responses
+```{r}
+responses_submits <- new_responses %>%
+  filter(!(item_id %in% codebook_all_surveys$item_id)) %>%
+  filter(!(is.na(page_num)))
+```
+
+```{r}
+rm(new_responses)
+```
+
+# Create codebook_ckcode with number of CK codes per page
+```{r}
+responses_code <- responses_submits %>%
+  filter(item_type == "code")
+```
+
+```{r}
+codebook_ckcode <- responses_code %>%
+  group_by(book, release, chapter_num, page_num) %>%
+  mutate(n_code = length(unique(item_id))) %>%
+  select(book, release, chapter_num, page_num, n_code) %>%
+  distinct() 
+```
+
+# Create codebook_lrn with number of auto-scored learnosity questions per page
+```{r}
+#identify different learnosity types and take out space ("")
+
+unique(responses$lrn_type)
+lrn_types <- c("mcq", "choicematrix", "shorttext", "plaintext", "clozeassociation", "association","imageclozeassociation",
+  "sortlist","formulaV2")
+
+lrn_types
+
+
+lrn_types_auto <- c("mcq", "clozeassociation", "association","imageclozeassociation",
+  "sortlist","formulaV2")
+
+lrn_types_auto
+
+```
+
+take out all coding exercises 
+```{r}
+responses_lrn <- responses_submits %>%
+  filter(item_type != "code") 
+```
+
+```{r}
+codebook_lrn <- responses_lrn %>%
+  group_by(book, release, chapter_num, page_num) %>%
+  mutate(n_lrn_q = length(unique(lrn_question_reference)),
+         n_lrn_item = length(unique(item_id))) %>%
+  select(book, release, chapter_num, page_num, n_lrn_q, n_lrn_item) %>%
+  distinct() 
+```
+
+get counts of all the lrn_types
+```{r}
+codebook_lrn_type_long <- responses_lrn %>%
+  group_by(book, release, chapter_num, page_num, lrn_type) %>%
+  mutate(n_lrn_q_per_type = length(unique(lrn_question_reference))) %>%
+  select(book, release, chapter_num, page_num, lrn_type, n_lrn_q_per_type) %>%
+  distinct() 
+```
+
+
+```{r}
+codebook_lrn_type_wide <- 
+  codebook_lrn_type_long %>%
+  filter(lrn_type %in% lrn_types) %>%
+  pivot_wider(names_from = lrn_type, values_from = n_lrn_q_per_type) %>%
+  distinct() 
+  #head()
+
+codebook_lrn_type_wide[is.na(codebook_lrn_type_wide)] <- 0
+
+codebook_lrn_type_wide <- codebook_lrn_type_wide %>%
+  mutate(lrn_auto = mcq + association + shorttext + clozeassociation + imageclozeassociation + sortlist + formulaV2)
+```
+
+```{r}
+codebook_lrn_with_types <- codebook_lrn %>%
+  left_join(codebook_lrn_type_wide, by = c("book", "release", "chapter_num", "page_num")) %>%
+  select(book, release, chapter_num, page_num, n_lrn_q, n_lrn_item, lrn_auto, mcq, association, shorttext, clozeassociation, imageclozeassociation, sortlist, formulaV2, choicematrix, plaintext)
+```
+
+```{r}
+rm(codebook_lrn, codebook_lrn_type_long, codebook_lrn_type_wide)
+```
+
+# Merge all codebooks
+```{r}
+codebook_page_final <- codebook_page %>%
+  left_join(codebook_ckcode, by = c("book", "release", "chapter_num", "page_num")) %>%
+  left_join(codebook_lrn_with_types, by = c("book", "release", "chapter_num", "page_num")) 
+write.csv(codebook_page_final, "codebook_page_final.csv")
+
+```
+
+
