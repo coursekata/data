@@ -1,0 +1,38 @@
+---
+title: "Create Chapter-Level Codebook from responses.csv"
+output: html_notebook
+---
+Make a chapter-level-codebook from responses.csv that will do the following:  
+- Create a "chapter_codebook" with the count of pages within each chapter.
+This assumes we start with a basic `responses.csv` file.
+
+In this data processing, we will treat student_id+class_id+release as a unique student. If a student responds in two release versions (e.g., 4.2 and 5.0), that student will appear as two cases.
+```{r}
+#### Import Data and Setup
+library(mosaic)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r}
+responses <-read.csv("responses.csv")
+responses_all <- responses
+codebook_page_final <- read.csv("codebook_page_final.csv")
+```
+
+
+# create chapter codebook with number of pages
+```{r}
+codebook_chapter <-codebook_page_final %>%
+  group_by(chapter_num, book, release) %>%
+  mutate(num_pages = n()) %>%
+  select(chapter_num, book, release, num_pages) %>%
+  distinct()
+```
+
+
+```{r}
+write.csv(codebook_chapter, "codebook_chapter.csv")
+```
+
