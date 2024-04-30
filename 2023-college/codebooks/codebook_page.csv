@@ -1,0 +1,993 @@
+"","book","release","chapter","page","chapter_num","page_within_ch","page_num","n_code","n_lrn_q","n_lrn_item","lrn_auto","mcq","association","shorttext","clozeassociation","imageclozeassociation","sortlist","formulaV2","choicematrix","plaintext"
+"1","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.3 Doing Statistics with R",1,0.03,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.4 Introduction to R Functions",1,0.04,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.5 Save Your Work in R Objects",1,0.05,5,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.6 Goals of This Course",1,0.06,6,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"5","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.7 Chapter 1 Review Questions",1,0.07,7,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"6","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 2 - Understanding Data","2.1 Starting with a Bunch of Numbers",2,0.01,1,2,3,1,2,2,0,0,0,0,0,0,0,1
+"7","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 2 - Understanding Data","2.2 From Numbers to Data",2,0.02,2,NA,9,7,3,2,0,1,0,0,0,0,1,5
+"8","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 2 - Understanding Data","2.3 A Data Frame Example: MindsetMatters",2,0.03,3,7,6,6,5,1,0,4,0,0,0,0,0,1
+"9","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 2 - Understanding Data","2.4 Measurement",2,0.04,4,6,7,6,3,2,0,1,0,0,0,0,1,3
+"10","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 2 - Understanding Data","2.5 Measurement (Continued)",2,0.05,5,NA,3,2,3,2,0,1,0,0,0,0,0,0
+"11","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 2 - Understanding Data","2.6 Sampling from a Population",2,0.06,6,1,2,2,0,0,0,0,0,0,0,0,0,2
+"12","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 2 - Understanding Data","2.7 The Structure of Data",2,0.07,7,3,10,6,10,8,0,2,0,0,0,0,0,0
+"13","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 2 - Understanding Data","2.8 Manipulating Data",2,0.08,8,7,7,6,5,5,0,0,0,0,0,0,0,2
+"14","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 2 - Understanding Data","2.9 Summary",2,0.09,9,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"15","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 2 - Understanding Data","2.10 Chapter 2 Review Questions",2,0.1,10,NA,19,19,17,17,0,0,0,0,0,0,0,2
+"16","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 2 - Understanding Data","2.11 Chapter 2 Review Questions 2",2,0.11,11,NA,15,15,15,15,0,0,0,0,0,0,0,0
+"17","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 3 - Examining Distributions","3.1 The Concept of Distribution",3,0.01,1,NA,2,1,0,0,0,0,0,0,0,0,2,0
+"18","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 3 - Examining Distributions","3.2 Visualizing Distributions with Histograms",3,0.02,2,7,10,9,9,8,0,0,1,0,0,0,0,1
+"19","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 3 - Examining Distributions","3.3 Shape, Center, Spread, and Weird Things",3,0.03,3,1,5,3,3,3,0,0,0,0,0,0,0,2
+"20","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 3 - Examining Distributions","3.4 The Data Generating Process",3,0.04,4,NA,3,2,0,0,0,0,0,0,0,0,0,3
+"21","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 3 - Examining Distributions","3.5 The Back and Forth Between Data and the DGP",3,0.05,5,2,5,3,2,1,0,1,0,0,0,0,0,3
+"22","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 3 - Examining Distributions","3.6 The Back and Forth Between Data and the DGP (Continued)",3,0.06,6,6,4,3,2,2,0,0,0,0,0,0,0,2
+"23","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 3 - Examining Distributions","3.7 The Five-Number Summary",3,0.07,7,5,11,9,11,10,1,0,0,0,0,0,0,0
+"24","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 3 - Examining Distributions","3.8 Boxplots and the Five-Number Summary",3,0.08,8,3,9,6,7,5,1,0,1,0,0,0,0,2
+"25","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 3 - Examining Distributions","3.9 Exploring Variation in Categorical Variables",3,0.09,9,5,5,5,0,0,0,0,0,0,0,0,0,5
+"26","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 3 - Examining Distributions","3.10 Chapter 3 Review Questions",3,0.1,10,NA,21,21,18,18,0,0,0,0,0,0,0,3
+"27","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 3 - Examining Distributions","3.11 Chapter 3 Review Questions 2",3,0.11,11,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"28","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.1 Welcome to Explaining Variation",4,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"29","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.2 Explaining One Variable with Another",4,0.02,2,4,13,8,8,8,0,0,0,0,0,0,0,5
+"30","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.3 Outcome and Explanatory Variables",4,0.03,3,2,19,8,14,14,0,0,0,0,0,0,0,5
+"31","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.4 More Ways to Visualize Relationships: Point and Jitter Plots",4,0.04,4,1,6,5,5,4,0,0,1,0,0,0,0,1
+"32","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.5 Even More Ways: Putting these Plots Together",4,0.05,5,1,11,7,7,4,0,0,2,1,0,0,0,4
+"33","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.6 Representing Relationships Among Variables",4,0.06,6,NA,4,2,1,1,0,0,0,0,0,0,0,3
+"34","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.7 Sources of Variation",4,0.07,7,NA,1,1,1,0,1,0,0,0,0,0,0,0
+"35","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.8 Randomness",4,0.08,8,3,6,3,2,1,0,1,0,0,0,0,1,3
+"36","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.9 From Categorical to Quantitative Explanatory Variables",4,0.09,9,5,8,7,4,4,0,0,0,0,0,0,0,4
+"37","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.10 Quantitative Explanatory Variables",4,0.1,10,1,10,4,7,7,0,0,0,0,0,0,0,3
+"38","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.11 Research Design",4,0.11,11,NA,14,5,9,0,1,8,0,0,0,0,0,5
+"39","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.12 Considering Randomness as a Possible DGP",4,0.12,12,1,4,4,4,4,0,0,0,0,0,0,0,0
+"40","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.13 Shuffling Can Help Us Understand Real Data Better",4,0.13,13,1,3,3,2,2,0,0,0,0,0,0,0,1
+"41","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.14 Quantifying the Data Generating Process",4,0.14,14,NA,2,1,0,0,0,0,0,0,0,0,2,0
+"42","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.15 Chapter 4 Review Questions",4,0.15,15,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"43","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 4 - Explaining Variation","4.16 Chapter 4 Review Questions 2",4,0.16,16,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"44","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.1 What is a Model, and Why Would We Want One?",5,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"45","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.2 Modeling a Distribution as a Single Number",5,0.02,2,NA,8,2,0,0,0,0,0,0,0,0,0,8
+"46","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.3 Median vs. Mean as a Model",5,0.03,3,5,4,2,3,0,0,3,0,0,0,0,0,1
+"47","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.4 Exploring the Mean",5,0.04,4,NA,2,1,2,2,0,0,0,0,0,0,0,0
+"48","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.5 Fitting the Empty Model",5,0.05,5,2,3,3,1,1,0,0,0,0,0,0,0,2
+"49","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.6 Generating Predictions from the Empty Model",5,0.06,6,2,1,1,1,1,0,0,0,0,0,0,0,0
+"50","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.7 Thinking About Error",5,0.07,7,3,4,3,2,2,0,0,0,0,0,0,0,2
+"51","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.8 The World of Mathematical Notation",5,0.08,8,NA,2,2,2,2,0,0,0,0,0,0,0,0
+"52","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.9 DATA = MODEL + ERROR: Notation",5,0.09,9,NA,12,6,9,5,4,0,0,0,0,0,0,3
+"53","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.10 Summarizing Where We Are",5,0.1,10,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"54","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.11 Chapter 5 Review Questions",5,0.11,11,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"55","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 5 - A Simple Model","5.12 Chapter 5 Review Questions 2",5,0.12,12,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"56","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.1 Quantifying Total Error Around a Model",6,0.01,1,2,7,4,7,3,3,0,0,0,1,0,0,0
+"57","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.2 The Beauty of Sum of Squares",6,0.02,2,2,2,2,2,2,0,0,0,0,0,0,0,0
+"58","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.3 Variance",6,0.03,3,1,10,6,7,6,1,0,0,0,0,0,0,3
+"59","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.4 Standard Deviation",6,0.04,4,2,9,6,9,8,1,0,0,0,0,0,0,0
+"60","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.5 Z-Scores",6,0.05,5,1,14,10,5,4,0,1,0,0,0,0,0,9
+"61","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.6 Interpreting and Using Z-Scores",6,0.06,6,1,5,4,2,1,0,1,0,0,0,0,0,3
+"62","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.7 Modeling the Shape of the Error Distribution",6,0.07,7,2,3,3,1,1,0,0,0,0,0,0,0,2
+"63","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.8 Modeling Error with the Normal Distribution",6,0.08,8,6,5,4,4,4,0,0,0,0,0,0,0,1
+"64","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.9 Using the Normal Model to Make Predictions",6,0.09,9,1,5,2,5,5,0,0,0,0,0,0,0,0
+"65","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.10 Getting Familiar with the Normal Distribution",6,0.1,10,NA,6,5,4,2,0,2,0,0,0,0,0,2
+"66","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.11 The Empirical Rule",6,0.11,11,1,2,1,2,1,0,0,0,1,0,0,0,0
+"67","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.12 Next Up: Explaining Error",6,0.12,12,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"68","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.13 Chapter 6 Review Questions",6,0.13,13,NA,20,20,19,19,0,0,0,0,0,0,0,1
+"69","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 6 - Quantifying Error","6.14 Chapter 6 Review Questions 2",6,0.14,14,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"70","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 7 - Adding an Explanatory Variable to the Model","7.1 Explaining Variation",7,0.01,1,NA,4,3,3,3,0,0,0,0,0,0,0,1
+"71","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 7 - Adding an Explanatory Variable to the Model","7.2 Using R to Fit the Group Model",7,0.02,2,3,7,4,7,4,3,0,0,0,0,0,0,0
+"72","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 7 - Adding an Explanatory Variable to the Model","7.3 GLM Notation for the Group Model",7,0.03,3,NA,7,4,7,6,1,0,0,0,0,0,0,0
+"73","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 7 - Adding an Explanatory Variable to the Model","7.4 How the Model Makes Predictions",7,0.04,4,NA,4,3,4,4,0,0,0,0,0,0,0,0
+"74","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 7 - Adding an Explanatory Variable to the Model","7.5 Error Leftover From the Group Model",7,0.05,5,NA,5,3,4,4,0,0,0,0,0,0,0,1
+"75","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 7 - Adding an Explanatory Variable to the Model","7.6 Graphing Residuals From the Model",7,0.06,6,1,3,2,3,3,0,0,0,0,0,0,0,0
+"76","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 7 - Adding an Explanatory Variable to the Model","7.7 Error Reduced by the Group Model",7,0.07,7,NA,5,3,5,5,0,0,0,0,0,0,0,0
+"77","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 7 - Adding an Explanatory Variable to the Model","7.8 Using SS Error to Compare Group to Empty Model",7,0.08,8,2,4,2,4,4,0,0,0,0,0,0,0,0
+"78","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 7 - Adding an Explanatory Variable to the Model","7.9 Partitioning Sums of Squares into Model and Error",7,0.09,9,1,2,1,2,2,0,0,0,0,0,0,0,0
+"79","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 7 - Adding an Explanatory Variable to the Model","7.10 Using Proportional Reduction in Error (PRE) to Compare Two Models",7,0.1,10,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"80","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 7 - Adding an Explanatory Variable to the Model","7.11 Chapter 7 Review Questions ",7,0.11,11,NA,12,12,12,12,0,0,0,0,0,0,0,0
+"81","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 8 - Digging Deeper into Group Models","8.1 Extending to a Three-Group Model",8,0.01,1,4,8,4,8,5,2,0,0,0,0,1,0,0
+"82","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 8 - Digging Deeper into Group Models","8.2 Fitting and Interpreting the Three-Group Model",8,0.02,2,1,5,3,5,3,2,0,0,0,0,0,0,0
+"83","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 8 - Digging Deeper into Group Models","8.3 Comparing the Fit of the Two- and Three-Group Models",8,0.03,3,1,7,2,7,7,0,0,0,0,0,0,0,0
+"84","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 8 - Digging Deeper into Group Models","8.4 The F Ratio",8,0.04,4,NA,11,5,11,11,0,0,0,0,0,0,0,0
+"85","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 8 - Digging Deeper into Group Models","8.5 Modeling the DGP",8,0.05,5,1,3,2,3,3,0,0,0,0,0,0,0,0
+"86","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 8 - Digging Deeper into Group Models","8.6 Using Shuffle to Compare Models of the DGP",8,0.06,6,2,2,2,1,1,0,0,0,0,0,0,0,1
+"87","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 8 - Digging Deeper into Group Models","8.7 Measures of Effect Size",8,0.07,7,3,4,4,4,2,1,1,0,0,0,0,0,0
+"88","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 8 - Digging Deeper into Group Models","8.8 Chapter 8 Review Questions",8,0.08,8,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"89","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.1 Using a Quantitative Explanatory Variable in a Model",9,0.01,1,1,4,4,3,3,0,0,0,0,0,0,0,1
+"90","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.2 Specifying the Height Model with GLM Notation",9,0.02,2,NA,9,7,8,6,2,0,0,0,0,0,0,1
+"91","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.3 Interpreting the Parameter Estimates for a Regression Model",9,0.03,3,1,6,5,6,6,0,0,0,0,0,0,0,0
+"92","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.4 Comparing Regression Models to Group Models",9,0.04,4,1,3,2,1,1,0,0,0,0,0,0,0,2
+"93","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.5 Error from the Height Model",9,0.05,5,1,7,5,5,4,1,0,0,0,0,0,0,2
+"94","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.6 Sums of Squares in the ANOVA Table",9,0.06,6,1,7,4,7,6,1,0,0,0,0,0,0,0
+"95","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.7 Assessing Model Fit with PRE and F",9,0.07,7,NA,14,6,13,12,1,0,0,0,0,0,0,1
+"96","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.8 Correlation",9,0.08,8,4,8,6,8,8,0,0,0,0,0,0,0,0
+"97","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.9 More on Pearson's R",9,0.09,9,2,6,4,3,3,0,0,0,0,0,0,0,3
+"98","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.10 Using Shuffle to Interpret the Slope of a Regression Line",9,0.1,10,2,3,3,2,2,0,0,0,0,0,0,0,1
+"99","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.11 Limitations to Keep in Mind",9,0.11,11,NA,4,3,0,0,0,0,0,0,0,0,2,2
+"100","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.12 Chapter 9 Review Questions",9,0.12,12,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"101","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.13 Chapter 9 Review Questions 2",9,0.13,13,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"102","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 10 - The Logic of Inference","10.1 The Problem of Inference",10,0.01,1,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"103","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 10 - The Logic of Inference","10.2 Constructing a Sampling Distribution",10,0.02,2,1,6,3,6,6,0,0,0,0,0,0,0,0
+"104","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 10 - The Logic of Inference","10.3 Exploring the Sampling Distribution of b1",10,0.03,3,2,13,7,13,13,0,0,0,0,0,0,0,0
+"105","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 10 - The Logic of Inference","10.4 The p-Value",10,0.04,4,1,10,6,10,10,0,0,0,0,0,0,0,0
+"106","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 10 - The Logic of Inference","10.5 A Mathematical Model of the Sampling Distribution of b1",10,0.05,5,1,2,1,2,2,0,0,0,0,0,0,0,0
+"107","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 10 - The Logic of Inference","10.6 Things That Affect p-Value",10,0.06,6,3,11,5,9,9,0,0,0,0,0,0,0,2
+"108","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 10 - The Logic of Inference","10.7 Hypothesis Testing for Regression Models",10,0.07,7,4,9,5,7,7,0,0,0,0,0,0,0,2
+"109","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 11 - Model Comparison with F","11.1 Moving Beyond b1",11,0.01,1,1,4,2,4,4,0,0,0,0,0,0,0,0
+"110","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 11 - Model Comparison with F","11.2 Sampling Distributions of PRE and F",11,0.02,2,5,13,7,9,9,0,0,0,0,0,0,0,4
+"111","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 11 - Model Comparison with F","11.3 The Sampling Distribution of F",11,0.03,3,2,9,5,8,8,0,0,0,0,0,0,0,1
+"112","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 11 - Model Comparison with F","11.4 The F-Distribution: A Mathematical Model of the Sampling Distribution of F",11,0.04,4,1,4,2,2,2,0,0,0,0,0,0,0,2
+"113","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 11 - Model Comparison with F","11.5 Using F to Test a Regression Model",11,0.05,5,4,5,3,5,5,0,0,0,0,0,0,0,0
+"114","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 11 - Model Comparison with F","11.6 Type I and Type II Error",11,0.06,6,NA,9,6,9,9,0,0,0,0,0,0,0,0
+"115","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 11 - Model Comparison with F","11.7 Using F to Compare Multiple Groups",11,0.07,7,2,12,5,11,8,1,2,0,0,0,0,0,1
+"116","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 11 - Model Comparison with F","11.8 Pairwise Comparisons",11,0.08,8,1,10,6,9,9,0,0,0,0,0,0,0,1
+"117","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.1 From Hypothesis Testing to Confidence Intervals",12,0.01,1,NA,12,9,11,11,0,0,0,0,0,0,0,1
+"118","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.2 Using Bootstrapping to Calculate the 95% Confidence Interval",12,0.02,2,4,7,7,5,5,0,0,0,0,0,0,0,2
+"119","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.3 Shuffle, Resample, and Standard Error",12,0.03,3,2,14,6,14,14,0,0,0,0,0,0,0,0
+"120","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.4 Interpreting the Confidence Interval",12,0.04,4,NA,14,11,13,13,0,0,0,0,0,0,0,1
+"121","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.5 Confidence Intervals for Other Parameters",12,0.05,5,6,18,12,12,12,0,0,0,0,0,0,0,6
+"122","College / Statistics and Data Science (ABC)","v5.0-exp1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.6 What Affects the Width of the Confidence Interval",12,0.06,6,2,8,7,6,6,0,0,0,0,0,0,0,2
+"123","College / Statistics and Data Science (ABC)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.3 Doing Statistics with R",1,0.03,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"124","College / Statistics and Data Science (ABC)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.4 Introduction to R Functions",1,0.04,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"125","College / Statistics and Data Science (ABC)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.5 Save Your Work in R Objects",1,0.05,5,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"126","College / Statistics and Data Science (ABC)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.6 Goals of This Course",1,0.06,6,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"127","College / Statistics and Data Science (ABC)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.7 Chapter 1 Review Questions",1,0.07,7,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"128","College / Statistics and Data Science (ABC)","v5.0","Chapter 2 - Understanding Data","2.1 Starting with a Bunch of Numbers",2,0.01,1,2,3,1,2,2,0,0,0,0,0,0,0,1
+"129","College / Statistics and Data Science (ABC)","v5.0","Chapter 2 - Understanding Data","2.2 From Numbers to Data",2,0.02,2,NA,9,7,3,2,0,1,0,0,0,0,1,5
+"130","College / Statistics and Data Science (ABC)","v5.0","Chapter 2 - Understanding Data","2.3 A Data Frame Example: MindsetMatters",2,0.03,3,7,6,6,5,1,0,4,0,0,0,0,0,1
+"131","College / Statistics and Data Science (ABC)","v5.0","Chapter 2 - Understanding Data","2.4 Measurement",2,0.04,4,6,7,6,3,2,0,1,0,0,0,0,1,3
+"132","College / Statistics and Data Science (ABC)","v5.0","Chapter 2 - Understanding Data","2.5 Measurement (Continued)",2,0.05,5,NA,3,2,3,2,0,1,0,0,0,0,0,0
+"133","College / Statistics and Data Science (ABC)","v5.0","Chapter 2 - Understanding Data","2.6 Sampling from a Population",2,0.06,6,1,2,2,0,0,0,0,0,0,0,0,0,2
+"134","College / Statistics and Data Science (ABC)","v5.0","Chapter 2 - Understanding Data","2.7 The Structure of Data",2,0.07,7,3,10,6,10,8,0,2,0,0,0,0,0,0
+"135","College / Statistics and Data Science (ABC)","v5.0","Chapter 2 - Understanding Data","2.8 Manipulating Data",2,0.08,8,7,7,6,5,5,0,0,0,0,0,0,0,2
+"136","College / Statistics and Data Science (ABC)","v5.0","Chapter 2 - Understanding Data","2.9 Summary",2,0.09,9,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"137","College / Statistics and Data Science (ABC)","v5.0","Chapter 2 - Understanding Data","2.10 Chapter 2 Review Questions",2,0.1,10,NA,19,19,17,17,0,0,0,0,0,0,0,2
+"138","College / Statistics and Data Science (ABC)","v5.0","Chapter 2 - Understanding Data","2.11 Chapter 2 Review Questions 2",2,0.11,11,NA,15,15,15,15,0,0,0,0,0,0,0,0
+"139","College / Statistics and Data Science (ABC)","v5.0","Chapter 3 - Examining Distributions","3.1 The Concept of Distribution",3,0.01,1,NA,2,1,0,0,0,0,0,0,0,0,2,0
+"140","College / Statistics and Data Science (ABC)","v5.0","Chapter 3 - Examining Distributions","3.2 Visualizing Distributions with Histograms",3,0.02,2,7,10,9,9,8,0,0,1,0,0,0,0,1
+"141","College / Statistics and Data Science (ABC)","v5.0","Chapter 3 - Examining Distributions","3.3 Shape, Center, Spread, and Weird Things",3,0.03,3,1,5,3,3,3,0,0,0,0,0,0,0,2
+"142","College / Statistics and Data Science (ABC)","v5.0","Chapter 3 - Examining Distributions","3.4 The Data Generating Process",3,0.04,4,NA,3,2,0,0,0,0,0,0,0,0,0,3
+"143","College / Statistics and Data Science (ABC)","v5.0","Chapter 3 - Examining Distributions","3.5 The Back and Forth Between Data and the DGP",3,0.05,5,2,5,3,2,1,0,1,0,0,0,0,0,3
+"144","College / Statistics and Data Science (ABC)","v5.0","Chapter 3 - Examining Distributions","3.6 The Back and Forth Between Data and the DGP (Continued)",3,0.06,6,6,4,3,2,2,0,0,0,0,0,0,0,2
+"145","College / Statistics and Data Science (ABC)","v5.0","Chapter 3 - Examining Distributions","3.7 The Five-Number Summary",3,0.07,7,5,11,9,11,10,1,0,0,0,0,0,0,0
+"146","College / Statistics and Data Science (ABC)","v5.0","Chapter 3 - Examining Distributions","3.8 Boxplots and the Five-Number Summary",3,0.08,8,3,9,6,7,5,1,0,1,0,0,0,0,2
+"147","College / Statistics and Data Science (ABC)","v5.0","Chapter 3 - Examining Distributions","3.9 Exploring Variation in Categorical Variables",3,0.09,9,5,5,5,0,0,0,0,0,0,0,0,0,5
+"148","College / Statistics and Data Science (ABC)","v5.0","Chapter 3 - Examining Distributions","3.10 Chapter 3 Review Questions",3,0.1,10,NA,21,21,18,18,0,0,0,0,0,0,0,3
+"149","College / Statistics and Data Science (ABC)","v5.0","Chapter 3 - Examining Distributions","3.11 Chapter 3 Review Questions 2",3,0.11,11,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"150","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.1 Welcome to Explaining Variation",4,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"151","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.2 Explaining One Variable with Another",4,0.02,2,4,13,8,8,8,0,0,0,0,0,0,0,5
+"152","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.3 Outcome and Explanatory Variables",4,0.03,3,2,19,8,14,14,0,0,0,0,0,0,0,5
+"153","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.4 More Ways to Visualize Relationships: Point and Jitter Plots",4,0.04,4,1,6,5,5,4,0,0,1,0,0,0,0,1
+"154","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.5 Even More Ways: Putting these Plots Together",4,0.05,5,1,11,7,7,4,0,0,2,1,0,0,0,4
+"155","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.6 Representing Relationships Among Variables",4,0.06,6,NA,4,2,1,1,0,0,0,0,0,0,0,3
+"156","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.7 Sources of Variation",4,0.07,7,NA,1,1,1,0,1,0,0,0,0,0,0,0
+"157","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.8 Randomness",4,0.08,8,3,6,3,2,1,0,1,0,0,0,0,1,3
+"158","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.9 From Categorical to Quantitative Explanatory Variables",4,0.09,9,5,8,7,4,4,0,0,0,0,0,0,0,4
+"159","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.10 Quantitative Explanatory Variables",4,0.1,10,1,10,4,7,7,0,0,0,0,0,0,0,3
+"160","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.11 Research Design",4,0.11,11,NA,14,5,9,0,1,8,0,0,0,0,0,5
+"161","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.12 Considering Randomness as a Possible DGP",4,0.12,12,1,4,4,4,4,0,0,0,0,0,0,0,0
+"162","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.13 Shuffling Can Help Us Understand Real Data Better",4,0.13,13,1,3,3,2,2,0,0,0,0,0,0,0,1
+"163","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.14 Quantifying the Data Generating Process",4,0.14,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"164","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.15 Chapter 4 Review Questions",4,0.15,15,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"165","College / Statistics and Data Science (ABC)","v5.0","Chapter 4 - Explaining Variation","4.16 Chapter 4 Review Questions 2",4,0.16,16,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"166","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.1 What is a Model, and Why Would We Want One?",5,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"167","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.2 Modeling a Distribution as a Single Number",5,0.02,2,NA,8,2,0,0,0,0,0,0,0,0,0,8
+"168","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.3 Median vs. Mean as a Model",5,0.03,3,5,4,2,3,0,0,3,0,0,0,0,0,1
+"169","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.4 Exploring the Mean",5,0.04,4,NA,2,1,2,2,0,0,0,0,0,0,0,0
+"170","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.5 Fitting the Empty Model",5,0.05,5,2,3,3,1,1,0,0,0,0,0,0,0,2
+"171","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.6 Generating Predictions from the Empty Model",5,0.06,6,2,1,1,1,1,0,0,0,0,0,0,0,0
+"172","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.7 Thinking About Error",5,0.07,7,3,4,3,2,2,0,0,0,0,0,0,0,2
+"173","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.8 The World of Mathematical Notation",5,0.08,8,NA,2,2,2,2,0,0,0,0,0,0,0,0
+"174","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.9 DATA = MODEL + ERROR: Notation",5,0.09,9,NA,12,6,9,5,4,0,0,0,0,0,0,3
+"175","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.10 Summarizing Where We Are",5,0.1,10,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"176","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.11 Chapter 5 Review Questions",5,0.11,11,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"177","College / Statistics and Data Science (ABC)","v5.0","Chapter 5 - A Simple Model","5.12 Chapter 5 Review Questions 2",5,0.12,12,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"178","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.1 Quantifying Total Error Around a Model",6,0.01,1,2,7,4,7,3,3,0,0,0,1,0,0,0
+"179","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.2 The Beauty of Sum of Squares",6,0.02,2,2,2,2,2,2,0,0,0,0,0,0,0,0
+"180","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.3 Variance",6,0.03,3,1,10,6,7,6,1,0,0,0,0,0,0,3
+"181","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.4 Standard Deviation",6,0.04,4,2,9,6,9,8,1,0,0,0,0,0,0,0
+"182","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.5 Z-Scores",6,0.05,5,1,14,10,5,4,0,1,0,0,0,0,0,9
+"183","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.6 Interpreting and Using Z-Scores",6,0.06,6,1,5,4,2,1,0,1,0,0,0,0,0,3
+"184","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.7 Modeling the Shape of the Error Distribution",6,0.07,7,2,3,3,1,1,0,0,0,0,0,0,0,2
+"185","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.8 Modeling Error with the Normal Distribution",6,0.08,8,6,5,4,4,4,0,0,0,0,0,0,0,1
+"186","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.9 Using the Normal Model to Make Predictions",6,0.09,9,1,5,2,5,5,0,0,0,0,0,0,0,0
+"187","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.10 Getting Familiar with the Normal Distribution",6,0.1,10,NA,6,5,4,2,0,2,0,0,0,0,0,2
+"188","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.11 The Empirical Rule",6,0.11,11,1,2,1,2,1,0,0,0,1,0,0,0,0
+"189","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.12 Next Up: Explaining Error",6,0.12,12,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"190","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.13 Chapter 6 Review Questions",6,0.13,13,NA,20,20,19,19,0,0,0,0,0,0,0,1
+"191","College / Statistics and Data Science (ABC)","v5.0","Chapter 6 - Quantifying Error","6.14 Chapter 6 Review Questions 2",6,0.14,14,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"192","College / Statistics and Data Science (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.1 Explaining Variation",7,0.01,1,NA,4,3,3,3,0,0,0,0,0,0,0,1
+"193","College / Statistics and Data Science (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.2 Using R to Fit the Group Model",7,0.02,2,3,7,4,7,4,3,0,0,0,0,0,0,0
+"194","College / Statistics and Data Science (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.3 GLM Notation for the Group Model",7,0.03,3,NA,7,4,7,6,1,0,0,0,0,0,0,0
+"195","College / Statistics and Data Science (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.4 How the Model Makes Predictions",7,0.04,4,NA,4,3,4,4,0,0,0,0,0,0,0,0
+"196","College / Statistics and Data Science (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.5 Error Leftover From the Group Model",7,0.05,5,NA,5,3,4,4,0,0,0,0,0,0,0,1
+"197","College / Statistics and Data Science (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.6 Graphing Residuals From the Model",7,0.06,6,1,3,2,3,3,0,0,0,0,0,0,0,0
+"198","College / Statistics and Data Science (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.7 Error Reduced by the Group Model",7,0.07,7,NA,5,3,5,5,0,0,0,0,0,0,0,0
+"199","College / Statistics and Data Science (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.8 Using SS Error to Compare Group to Empty Model",7,0.08,8,2,4,2,4,4,0,0,0,0,0,0,0,0
+"200","College / Statistics and Data Science (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.9 Partitioning Sums of Squares into Model and Error",7,0.09,9,1,2,1,2,2,0,0,0,0,0,0,0,0
+"201","College / Statistics and Data Science (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.10 Using Proportional Reduction in Error (PRE) to Compare Two Models",7,0.1,10,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"202","College / Statistics and Data Science (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.11 Chapter 7 Review Questions ",7,0.11,11,NA,12,12,12,12,0,0,0,0,0,0,0,0
+"203","College / Statistics and Data Science (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.1 Extending to a Three-Group Model",8,0.01,1,4,8,4,8,5,2,0,0,0,0,1,0,0
+"204","College / Statistics and Data Science (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.2 Fitting and Interpreting the Three-Group Model",8,0.02,2,1,5,3,5,3,2,0,0,0,0,0,0,0
+"205","College / Statistics and Data Science (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.3 Comparing the Fit of the Two- and Three-Group Models",8,0.03,3,1,7,2,7,7,0,0,0,0,0,0,0,0
+"206","College / Statistics and Data Science (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.4 The F Ratio",8,0.04,4,NA,11,5,11,11,0,0,0,0,0,0,0,0
+"207","College / Statistics and Data Science (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.5 Modeling the DGP",8,0.05,5,1,3,2,3,3,0,0,0,0,0,0,0,0
+"208","College / Statistics and Data Science (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.6 Using Shuffle to Compare Models of the DGP",8,0.06,6,2,2,2,1,1,0,0,0,0,0,0,0,1
+"209","College / Statistics and Data Science (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.7 Measures of Effect Size",8,0.07,7,3,4,4,4,2,1,1,0,0,0,0,0,0
+"210","College / Statistics and Data Science (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.8 Chapter 8 Review Questions",8,0.08,8,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"211","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.1 Using a Quantitative Explanatory Variable in a Model",9,0.01,1,1,4,4,3,3,0,0,0,0,0,0,0,1
+"212","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.2 Specifying the Height Model with GLM Notation",9,0.02,2,NA,9,7,8,6,2,0,0,0,0,0,0,1
+"213","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.3 Interpreting the Parameter Estimates for a Regression Model",9,0.03,3,1,6,5,6,6,0,0,0,0,0,0,0,0
+"214","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.4 Comparing Regression Models to Group Models",9,0.04,4,1,3,2,1,1,0,0,0,0,0,0,0,2
+"215","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.5 Error from the Height Model",9,0.05,5,1,7,5,5,4,1,0,0,0,0,0,0,2
+"216","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.6 Sums of Squares in the ANOVA Table",9,0.06,6,1,7,4,7,6,1,0,0,0,0,0,0,0
+"217","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.7 Assessing Model Fit with PRE and F",9,0.07,7,NA,14,6,13,12,1,0,0,0,0,0,0,1
+"218","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.8 Correlation",9,0.08,8,4,8,6,8,8,0,0,0,0,0,0,0,0
+"219","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.9 More on Pearson's R",9,0.09,9,2,6,4,3,3,0,0,0,0,0,0,0,3
+"220","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.10 Using Shuffle to Interpret the Slope of a Regression Line",9,0.1,10,2,3,3,2,2,0,0,0,0,0,0,0,1
+"221","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.11 Limitations to Keep in Mind",9,0.11,11,NA,2,2,0,0,0,0,0,0,0,0,0,2
+"222","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.12 Chapter 9 Review Questions",9,0.12,12,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"223","College / Statistics and Data Science (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.13 Chapter 9 Review Questions 2",9,0.13,13,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"224","College / Statistics and Data Science (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.1 The Problem of Inference",10,0.01,1,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"225","College / Statistics and Data Science (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.2 Constructing a Sampling Distribution",10,0.02,2,1,6,3,6,6,0,0,0,0,0,0,0,0
+"226","College / Statistics and Data Science (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.3 Exploring the Sampling Distribution of b1",10,0.03,3,2,13,7,13,13,0,0,0,0,0,0,0,0
+"227","College / Statistics and Data Science (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.4 The p-Value",10,0.04,4,1,10,6,10,10,0,0,0,0,0,0,0,0
+"228","College / Statistics and Data Science (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.5 A Mathematical Model of the Sampling Distribution of b1",10,0.05,5,1,2,1,2,2,0,0,0,0,0,0,0,0
+"229","College / Statistics and Data Science (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.6 Things That Affect p-Value",10,0.06,6,3,11,5,9,9,0,0,0,0,0,0,0,2
+"230","College / Statistics and Data Science (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.7 Hypothesis Testing for Regression Models",10,0.07,7,4,9,5,7,7,0,0,0,0,0,0,0,2
+"231","College / Statistics and Data Science (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.1 Moving Beyond b1",11,0.01,1,1,4,2,4,4,0,0,0,0,0,0,0,0
+"232","College / Statistics and Data Science (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.2 Sampling Distributions of PRE and F",11,0.02,2,5,13,7,9,9,0,0,0,0,0,0,0,4
+"233","College / Statistics and Data Science (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.3 The Sampling Distribution of F",11,0.03,3,2,9,5,8,8,0,0,0,0,0,0,0,1
+"234","College / Statistics and Data Science (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.4 The F-Distribution: A Mathematical Model of the Sampling Distribution of F",11,0.04,4,1,4,2,2,2,0,0,0,0,0,0,0,2
+"235","College / Statistics and Data Science (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.5 Using F to Test a Regression Model",11,0.05,5,4,5,3,5,5,0,0,0,0,0,0,0,0
+"236","College / Statistics and Data Science (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.6 Type I and Type II Error",11,0.06,6,NA,9,6,9,9,0,0,0,0,0,0,0,0
+"237","College / Statistics and Data Science (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.7 Using F to Compare Multiple Groups",11,0.07,7,2,12,5,11,8,1,2,0,0,0,0,0,1
+"238","College / Statistics and Data Science (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.8 Pairwise Comparisons",11,0.08,8,1,10,6,9,9,0,0,0,0,0,0,0,1
+"239","College / Statistics and Data Science (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.1 From Hypothesis Testing to Confidence Intervals",12,0.01,1,NA,12,9,11,11,0,0,0,0,0,0,0,1
+"240","College / Statistics and Data Science (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.2 Using Bootstrapping to Calculate the 95% Confidence Interval",12,0.02,2,4,7,7,5,5,0,0,0,0,0,0,0,2
+"241","College / Statistics and Data Science (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.3 Shuffle, Resample, and Standard Error",12,0.03,3,2,14,6,14,14,0,0,0,0,0,0,0,0
+"242","College / Statistics and Data Science (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.4 Interpreting the Confidence Interval",12,0.04,4,NA,14,11,13,13,0,0,0,0,0,0,0,1
+"243","College / Statistics and Data Science (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.5 Confidence Intervals for Other Parameters",12,0.05,5,6,18,12,12,12,0,0,0,0,0,0,0,6
+"244","College / Statistics and Data Science (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.6 What Affects the Width of the Confidence Interval",12,0.06,6,2,8,7,6,6,0,0,0,0,0,0,0,2
+"245","College / Statistics and Data Science (ABC)","v5.0","Chapter 13 - What You Have Learned","13.1 What You Have Learned About Exploring Variation",13,0.01,1,4,6,3,3,3,0,0,0,0,0,0,0,3
+"246","College / Statistics and Data Science (ABC)","v5.0","Chapter 13 - What You Have Learned","13.2 What You Have Learned About Modeling Variation",13,0.02,2,2,11,4,11,11,0,0,0,0,0,0,0,0
+"247","College / Statistics and Data Science (ABC)","v5.0","Chapter 13 - What You Have Learned","13.3 What You Have Learned About Evaluating Models",13,0.03,3,2,4,2,4,4,0,0,0,0,0,0,0,0
+"248","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 13 - What You Have Learned","13.1 What You Have Learned About Exploring Variation",13,0.01,1,4,6,3,3,3,0,0,0,0,0,0,0,3
+"249","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 13 - What You Have Learned","13.2 What You Have Learned About Modeling Variation",13,0.02,2,2,11,4,11,11,0,0,0,0,0,0,0,0
+"250","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 13 - What You Have Learned","13.3 What You Have Learned About Evaluating Models",13,0.03,3,2,4,2,4,4,0,0,0,0,0,0,0,0
+"251","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.3 Doing Statistics with R",1,0.03,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"252","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.4 Introduction to R Functions",1,0.04,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"253","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.5 Save Your Work in R Objects",1,0.05,5,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"254","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.6 Goals of This Course",1,0.06,6,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"255","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.7 Chapter 1 Review Questions",1,0.07,7,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"256","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 2 - Understanding Data","2.1 Starting with a Bunch of Numbers",2,0.01,1,2,3,1,2,2,0,0,0,0,0,0,0,1
+"257","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 2 - Understanding Data","2.2 From Numbers to Data",2,0.02,2,NA,9,7,3,2,0,1,0,0,0,0,1,5
+"258","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 2 - Understanding Data","2.3 A Data Frame Example: MindsetMatters",2,0.03,3,7,6,6,5,1,0,4,0,0,0,0,0,1
+"259","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 2 - Understanding Data","2.4 Measurement",2,0.04,4,6,7,6,3,2,0,1,0,0,0,0,1,3
+"260","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 2 - Understanding Data","2.5 Measurement (Continued)",2,0.05,5,NA,3,2,3,2,0,1,0,0,0,0,0,0
+"261","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 2 - Understanding Data","2.6 Sampling from a Population",2,0.06,6,1,2,2,0,0,0,0,0,0,0,0,0,2
+"262","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 2 - Understanding Data","2.7 The Structure of Data",2,0.07,7,3,10,6,10,8,0,2,0,0,0,0,0,0
+"263","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 2 - Understanding Data","2.8 Manipulating Data",2,0.08,8,7,7,6,5,5,0,0,0,0,0,0,0,2
+"264","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 2 - Understanding Data","2.9 Summary",2,0.09,9,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"265","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 2 - Understanding Data","2.10 Chapter 2 Review Questions",2,0.1,10,NA,19,19,17,17,0,0,0,0,0,0,0,2
+"266","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 2 - Understanding Data","2.11 Chapter 2 Review Questions 2",2,0.11,11,NA,15,15,15,15,0,0,0,0,0,0,0,0
+"267","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 3 - Examining Distributions","3.1 The Concept of Distribution",3,0.01,1,NA,2,1,0,0,0,0,0,0,0,0,2,0
+"268","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 3 - Examining Distributions","3.2 Visualizing Distributions with Histograms",3,0.02,2,7,10,9,9,8,0,0,1,0,0,0,0,1
+"269","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 3 - Examining Distributions","3.3 Shape, Center, Spread, and Weird Things",3,0.03,3,1,5,3,3,3,0,0,0,0,0,0,0,2
+"270","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 3 - Examining Distributions","3.4 The Data Generating Process",3,0.04,4,NA,3,2,0,0,0,0,0,0,0,0,0,3
+"271","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 3 - Examining Distributions","3.5 The Back and Forth Between Data and the DGP",3,0.05,5,2,5,3,2,1,0,1,0,0,0,0,0,3
+"272","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 3 - Examining Distributions","3.6 The Back and Forth Between Data and the DGP (Continued)",3,0.06,6,6,4,3,2,2,0,0,0,0,0,0,0,2
+"273","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 3 - Examining Distributions","3.7 The Five-Number Summary",3,0.07,7,5,11,9,11,10,1,0,0,0,0,0,0,0
+"274","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 3 - Examining Distributions","3.8 Boxplots and the Five-Number Summary",3,0.08,8,3,9,6,7,5,1,0,1,0,0,0,0,2
+"275","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 3 - Examining Distributions","3.9 Exploring Variation in Categorical Variables",3,0.09,9,5,5,5,0,0,0,0,0,0,0,0,0,5
+"276","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 3 - Examining Distributions","3.10 Chapter 3 Review Questions",3,0.1,10,NA,21,21,18,18,0,0,0,0,0,0,0,3
+"277","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 3 - Examining Distributions","3.11 Chapter 3 Review Questions 2",3,0.11,11,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"278","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.1 Welcome to Explaining Variation",4,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"279","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.2 Explaining One Variable with Another",4,0.02,2,4,13,8,8,8,0,0,0,0,0,0,0,5
+"280","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.3 Outcome and Explanatory Variables",4,0.03,3,2,19,8,14,14,0,0,0,0,0,0,0,5
+"281","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.4 More Ways to Visualize Relationships: Point and Jitter Plots",4,0.04,4,1,6,5,5,4,0,0,1,0,0,0,0,1
+"282","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.5 Even More Ways: Putting these Plots Together",4,0.05,5,1,11,7,7,4,0,0,2,1,0,0,0,4
+"283","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.6 Representing Relationships Among Variables",4,0.06,6,NA,4,2,1,1,0,0,0,0,0,0,0,3
+"284","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.7 Sources of Variation",4,0.07,7,NA,1,1,1,0,1,0,0,0,0,0,0,0
+"285","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.8 Randomness",4,0.08,8,3,6,3,2,1,0,1,0,0,0,0,1,3
+"286","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.9 From Categorical to Quantitative Explanatory Variables",4,0.09,9,5,8,7,4,4,0,0,0,0,0,0,0,4
+"287","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.10 Quantitative Explanatory Variables",4,0.1,10,1,10,4,7,7,0,0,0,0,0,0,0,3
+"288","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.11 Research Design",4,0.11,11,NA,14,5,9,0,1,8,0,0,0,0,0,5
+"289","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.12 Considering Randomness as a Possible DGP",4,0.12,12,1,4,4,4,4,0,0,0,0,0,0,0,0
+"290","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.13 Shuffling Can Help Us Understand Real Data Better",4,0.13,13,1,3,3,2,2,0,0,0,0,0,0,0,1
+"291","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.14 Quantifying the Data Generating Process",4,0.14,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"292","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.15 Chapter 4 Review Questions",4,0.15,15,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"293","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 4 - Explaining Variation","4.16 Chapter 4 Review Questions 2",4,0.16,16,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"294","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.1 What is a Model, and Why Would We Want One?",5,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"295","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.2 Modeling a Distribution as a Single Number",5,0.02,2,NA,8,2,0,0,0,0,0,0,0,0,0,8
+"296","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.3 Median vs. Mean as a Model",5,0.03,3,5,4,2,3,0,0,3,0,0,0,0,0,1
+"297","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.4 Exploring the Mean",5,0.04,4,NA,2,1,2,2,0,0,0,0,0,0,0,0
+"298","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.5 Fitting the Empty Model",5,0.05,5,2,3,3,1,1,0,0,0,0,0,0,0,2
+"299","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.6 Generating Predictions from the Empty Model",5,0.06,6,2,1,1,1,1,0,0,0,0,0,0,0,0
+"300","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.7 Thinking About Error",5,0.07,7,3,4,3,2,2,0,0,0,0,0,0,0,2
+"301","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.8 The World of Mathematical Notation",5,0.08,8,NA,2,2,2,2,0,0,0,0,0,0,0,0
+"302","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.9 DATA = MODEL + ERROR: Notation",5,0.09,9,NA,12,6,9,5,4,0,0,0,0,0,0,3
+"303","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.10 Summarizing Where We Are",5,0.1,10,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"304","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.11 Chapter 5 Review Questions",5,0.11,11,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"305","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.1 Quantifying Total Error Around a Model",6,0.01,1,2,7,4,7,3,3,0,0,0,1,0,0,0
+"306","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.2 The Beauty of Sum of Squares",6,0.02,2,2,2,2,2,2,0,0,0,0,0,0,0,0
+"307","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.3 Variance",6,0.03,3,1,10,6,7,6,1,0,0,0,0,0,0,3
+"308","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.4 Standard Deviation",6,0.04,4,2,9,6,9,8,1,0,0,0,0,0,0,0
+"309","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.5 Z-Scores",6,0.05,5,1,14,10,5,4,0,1,0,0,0,0,0,9
+"310","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.6 Interpreting and Using Z-Scores",6,0.06,6,1,5,4,2,1,0,1,0,0,0,0,0,3
+"311","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.7 Modeling the Shape of the Error Distribution",6,0.07,7,2,3,3,1,1,0,0,0,0,0,0,0,2
+"312","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.8 Modeling Error with the Normal Distribution",6,0.08,8,6,5,4,4,4,0,0,0,0,0,0,0,1
+"313","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.9 Using the Normal Model to Make Predictions",6,0.09,9,1,5,2,5,5,0,0,0,0,0,0,0,0
+"314","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.10 Getting Familiar with the Normal Distribution",6,0.1,10,NA,6,5,4,2,0,2,0,0,0,0,0,2
+"315","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.11 The Empirical Rule",6,0.11,11,1,2,1,2,1,0,0,0,1,0,0,0,0
+"316","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.13 Chapter 6 Review Questions",6,0.13,13,NA,20,20,19,19,0,0,0,0,0,0,0,1
+"317","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.1 Explaining Variation",7,0.01,1,NA,4,3,3,3,0,0,0,0,0,0,0,1
+"318","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.2 Using R to Fit the Group Model",7,0.02,2,3,7,4,7,4,3,0,0,0,0,0,0,0
+"319","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.3 GLM Notation for the Group Model",7,0.03,3,NA,7,4,7,6,1,0,0,0,0,0,0,0
+"320","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.4 How the Model Makes Predictions",7,0.04,4,NA,4,3,4,4,0,0,0,0,0,0,0,0
+"321","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.5 Error Leftover From the Group Model",7,0.05,5,NA,5,3,4,4,0,0,0,0,0,0,0,1
+"322","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.6 Graphing Residuals From the Model",7,0.06,6,1,3,2,3,3,0,0,0,0,0,0,0,0
+"323","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.7 Error Reduced by the Group Model",7,0.07,7,NA,5,3,5,5,0,0,0,0,0,0,0,0
+"324","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.8 Using SS Error to Compare Group to Empty Model",7,0.08,8,2,4,2,4,4,0,0,0,0,0,0,0,0
+"325","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.9 Partitioning Sums of Squares into Model and Error",7,0.09,9,1,2,1,2,2,0,0,0,0,0,0,0,0
+"326","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.10 Using Proportional Reduction in Error (PRE) to Compare Two Models",7,0.1,10,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"327","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.11 Chapter 7 Review Questions ",7,0.11,11,NA,12,12,12,12,0,0,0,0,0,0,0,0
+"328","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.1 Extending to a Three-Group Model",8,0.01,1,4,8,4,8,5,2,0,0,0,0,1,0,0
+"329","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.2 Fitting and Interpreting the Three-Group Model",8,0.02,2,1,5,3,5,3,2,0,0,0,0,0,0,0
+"330","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.3 Comparing the Fit of the Two- and Three-Group Models",8,0.03,3,1,7,2,7,7,0,0,0,0,0,0,0,0
+"331","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.4 The F Ratio",8,0.04,4,NA,11,5,11,11,0,0,0,0,0,0,0,0
+"332","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.5 Modeling the DGP",8,0.05,5,1,3,2,3,3,0,0,0,0,0,0,0,0
+"333","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.6 Using Shuffle to Compare Models of the DGP",8,0.06,6,2,2,2,1,1,0,0,0,0,0,0,0,1
+"334","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.7 Measures of Effect Size",8,0.07,7,3,4,4,4,2,1,1,0,0,0,0,0,0
+"335","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.8 Chapter 8 Review Questions",8,0.08,8,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"336","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.1 Using a Quantitative Explanatory Variable in a Model",9,0.01,1,1,4,4,3,3,0,0,0,0,0,0,0,1
+"337","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.2 Specifying the Height Model with GLM Notation",9,0.02,2,NA,9,7,8,6,2,0,0,0,0,0,0,1
+"338","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.3 Interpreting the Parameter Estimates for a Regression Model",9,0.03,3,1,6,5,6,6,0,0,0,0,0,0,0,0
+"339","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.4 Comparing Regression Models to Group Models",9,0.04,4,1,3,2,1,1,0,0,0,0,0,0,0,2
+"340","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.5 Error from the Height Model",9,0.05,5,1,7,5,5,4,1,0,0,0,0,0,0,2
+"341","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.6 Sums of Squares in the ANOVA Table",9,0.06,6,1,7,4,7,6,1,0,0,0,0,0,0,0
+"342","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.7 Assessing Model Fit with PRE and F",9,0.07,7,NA,14,6,13,12,1,0,0,0,0,0,0,1
+"343","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.8 Correlation",9,0.08,8,4,8,6,8,8,0,0,0,0,0,0,0,0
+"344","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.9 More on Pearson's R",9,0.09,9,2,6,4,3,3,0,0,0,0,0,0,0,3
+"345","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.10 Using Shuffle to Interpret the Slope of a Regression Line",9,0.1,10,2,3,3,2,2,0,0,0,0,0,0,0,1
+"346","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 5 - A Simple Model","5.12 Chapter 5 Review Questions 2",5,0.12,12,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"347","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.12 Next Up: Explaining Error",6,0.12,12,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"348","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 6 - Quantifying Error","6.14 Chapter 6 Review Questions 2",6,0.14,14,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"349","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.11 Limitations to Keep in Mind",9,0.11,11,NA,2,2,0,0,0,0,0,0,0,0,0,2
+"350","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.12 Chapter 9 Review Questions",9,0.12,12,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"351","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.13 Chapter 9 Review Questions 2",9,0.13,13,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"352","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.1 The Problem of Inference",10,0.01,1,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"353","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.2 Constructing a Sampling Distribution",10,0.02,2,1,6,3,6,6,0,0,0,0,0,0,0,0
+"354","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.3 Exploring the Sampling Distribution of b1",10,0.03,3,2,13,7,13,13,0,0,0,0,0,0,0,0
+"355","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.4 The p-Value",10,0.04,4,1,10,6,10,10,0,0,0,0,0,0,0,0
+"356","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.5 A Mathematical Model of the Sampling Distribution of b1",10,0.05,5,1,2,1,2,2,0,0,0,0,0,0,0,0
+"357","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.6 Things That Affect p-Value",10,0.06,6,3,11,5,9,9,0,0,0,0,0,0,0,2
+"358","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 10 - The Logic of Inference","10.7 Hypothesis Testing for Regression Models",10,0.07,7,4,9,5,7,7,0,0,0,0,0,0,0,2
+"359","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.1 Moving Beyond b1",11,0.01,1,1,4,2,4,4,0,0,0,0,0,0,0,0
+"360","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.2 Sampling Distributions of PRE and F",11,0.02,2,5,13,7,9,9,0,0,0,0,0,0,0,4
+"361","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.3 The Sampling Distribution of F",11,0.03,3,2,9,5,8,8,0,0,0,0,0,0,0,1
+"362","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.4 The F-Distribution: A Mathematical Model of the Sampling Distribution of F",11,0.04,4,1,4,2,2,2,0,0,0,0,0,0,0,2
+"363","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.5 Using F to Test a Regression Model",11,0.05,5,4,5,3,5,5,0,0,0,0,0,0,0,0
+"364","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.6 Type I and Type II Error",11,0.06,6,NA,9,6,9,9,0,0,0,0,0,0,0,0
+"365","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.7 Using F to Compare Multiple Groups",11,0.07,7,2,12,5,11,8,1,2,0,0,0,0,0,1
+"366","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 11 - Model Comparison with F","11.8 Pairwise Comparisons",11,0.08,8,1,10,6,9,9,0,0,0,0,0,0,0,1
+"367","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.1 From Hypothesis Testing to Confidence Intervals",12,0.01,1,NA,12,9,11,11,0,0,0,0,0,0,0,1
+"368","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.2 Using Bootstrapping to Calculate the 95% Confidence Interval",12,0.02,2,4,7,7,5,5,0,0,0,0,0,0,0,2
+"369","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.3 Shuffle, Resample, and Standard Error",12,0.03,3,2,14,6,14,14,0,0,0,0,0,0,0,0
+"370","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.4 Interpreting the Confidence Interval",12,0.04,4,NA,14,11,13,13,0,0,0,0,0,0,0,1
+"371","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.5 Confidence Intervals for Other Parameters",12,0.05,5,6,18,12,12,12,0,0,0,0,0,0,0,6
+"372","High School / Advanced Statistics and Data Science I (ABC)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.6 What Affects the Width of the Confidence Interval",12,0.06,6,2,8,7,6,6,0,0,0,0,0,0,0,2
+"373","College / Statistics and Data Science (ABC)","v5.2","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.3 Doing Statistics with R",1,0.03,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"374","College / Statistics and Data Science (ABC)","v5.2","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.4 Introduction to R Functions",1,0.04,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"375","College / Statistics and Data Science (ABC)","v5.2","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.5 Save Your Work in R Objects",1,0.05,5,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"376","College / Statistics and Data Science (ABC)","v5.2","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.7 Chapter 1 Review Questions",1,0.07,7,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"377","College / Statistics and Data Science (ABC)","v5.2","Chapter 2 - Understanding Data","2.1 Starting with a Bunch of Numbers",2,0.01,1,2,3,1,2,2,0,0,0,0,0,0,0,1
+"378","College / Statistics and Data Science (ABC)","v5.2","Chapter 2 - Understanding Data","2.2 From Numbers to Data",2,0.02,2,NA,9,7,3,2,0,1,0,0,0,0,1,5
+"379","College / Statistics and Data Science (ABC)","v5.2","Chapter 2 - Understanding Data","2.3 A Data Frame Example: MindsetMatters",2,0.03,3,7,6,6,5,1,0,4,0,0,0,0,0,1
+"380","College / Statistics and Data Science (ABC)","v5.2","Chapter 2 - Understanding Data","2.4 Measurement",2,0.04,4,6,7,6,3,2,0,1,0,0,0,0,1,3
+"381","College / Statistics and Data Science (ABC)","v5.2","Chapter 2 - Understanding Data","2.5 Measurement (Continued)",2,0.05,5,NA,3,2,3,2,0,1,0,0,0,0,0,0
+"382","College / Statistics and Data Science (ABC)","v5.2","Chapter 2 - Understanding Data","2.6 Sampling from a Population",2,0.06,6,1,2,2,0,0,0,0,0,0,0,0,0,2
+"383","College / Statistics and Data Science (ABC)","v5.2","Chapter 2 - Understanding Data","2.7 The Structure of Data",2,0.07,7,3,10,6,10,8,0,2,0,0,0,0,0,0
+"384","College / Statistics and Data Science (ABC)","v5.2","Chapter 2 - Understanding Data","2.8 Manipulating Data",2,0.08,8,7,7,6,5,5,0,0,0,0,0,0,0,2
+"385","College / Statistics and Data Science (ABC)","v5.2","Chapter 2 - Understanding Data","2.10 Chapter 2 Review Questions",2,0.1,10,NA,19,19,17,17,0,0,0,0,0,0,0,2
+"386","College / Statistics and Data Science (ABC)","v5.2","Chapter 2 - Understanding Data","2.11 Chapter 2 Review Questions 2",2,0.11,11,NA,15,15,15,15,0,0,0,0,0,0,0,0
+"387","College / Statistics and Data Science (ABC)","v5.2","Chapter 3 - Examining Distributions","3.1 The Concept of Distribution",3,0.01,1,NA,2,1,0,0,0,0,0,0,0,0,2,0
+"388","College / Statistics and Data Science (ABC)","v5.2","Chapter 3 - Examining Distributions","3.2 Visualizing Distributions with Histograms",3,0.02,2,7,10,9,9,8,0,0,1,0,0,0,0,1
+"389","College / Statistics and Data Science (ABC)","v5.2","Chapter 3 - Examining Distributions","3.3 Shape, Center, Spread, and Weird Things",3,0.03,3,1,5,3,3,3,0,0,0,0,0,0,0,2
+"390","College / Statistics and Data Science (ABC)","v5.2","Chapter 3 - Examining Distributions","3.4 The Data Generating Process",3,0.04,4,NA,3,2,0,0,0,0,0,0,0,0,0,3
+"391","College / Statistics and Data Science (ABC)","v5.2","Chapter 3 - Examining Distributions","3.5 The Back and Forth Between Data and the DGP",3,0.05,5,2,5,3,2,1,0,1,0,0,0,0,0,3
+"392","College / Statistics and Data Science (ABC)","v5.2","Chapter 3 - Examining Distributions","3.6 The Back and Forth Between Data and the DGP (Continued)",3,0.06,6,6,4,3,2,2,0,0,0,0,0,0,0,2
+"393","College / Statistics and Data Science (ABC)","v5.2","Chapter 3 - Examining Distributions","3.7 The Five-Number Summary",3,0.07,7,5,11,9,11,10,1,0,0,0,0,0,0,0
+"394","College / Statistics and Data Science (ABC)","v5.2","Chapter 3 - Examining Distributions","3.8 Boxplots and the Five-Number Summary",3,0.08,8,3,9,6,7,5,1,0,1,0,0,0,0,2
+"395","College / Statistics and Data Science (ABC)","v5.2","Chapter 3 - Examining Distributions","3.9 Exploring Variation in Categorical Variables",3,0.09,9,5,4,4,0,0,0,0,0,0,0,0,0,4
+"396","College / Statistics and Data Science (ABC)","v5.2","Chapter 3 - Examining Distributions","3.10 Chapter 3 Review Questions",3,0.1,10,NA,21,21,18,18,0,0,0,0,0,0,0,3
+"397","College / Statistics and Data Science (ABC)","v5.2","Chapter 3 - Examining Distributions","3.11 Chapter 3 Review Questions 2",3,0.11,11,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"398","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.1 Welcome to Explaining Variation",4,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"399","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.2 Explaining One Variable with Another",4,0.02,2,4,13,8,8,8,0,0,0,0,0,0,0,5
+"400","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.3 Outcome and Explanatory Variables",4,0.03,3,2,19,8,14,14,0,0,0,0,0,0,0,5
+"401","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.4 More Ways to Visualize Relationships: Point and Jitter Plots",4,0.04,4,1,6,5,5,4,0,0,1,0,0,0,0,1
+"402","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.5 Even More Ways: Putting these Plots Together",4,0.05,5,1,11,7,7,4,0,0,2,1,0,0,0,4
+"403","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.6 Representing Relationships Among Variables",4,0.06,6,NA,4,2,1,1,0,0,0,0,0,0,0,3
+"404","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.7 Sources of Variation",4,0.07,7,NA,1,1,1,0,1,0,0,0,0,0,0,0
+"405","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.8 Randomness",4,0.08,8,3,6,3,2,1,0,1,0,0,0,0,1,3
+"406","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.9 From Categorical to Quantitative Explanatory Variables",4,0.09,9,5,8,7,4,4,0,0,0,0,0,0,0,4
+"407","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.10 Quantitative Explanatory Variables",4,0.1,10,1,10,4,7,7,0,0,0,0,0,0,0,3
+"408","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.11 Research Design",4,0.11,11,NA,14,5,9,0,1,8,0,0,0,0,0,5
+"409","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.12 Considering Randomness as a Possible DGP",4,0.12,12,1,4,4,4,4,0,0,0,0,0,0,0,0
+"410","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.13 Shuffling Can Help Us Understand Real Data Better",4,0.13,13,2,3,3,2,2,0,0,0,0,0,0,0,1
+"411","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.14 Quantifying the Data Generating Process",4,0.14,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"412","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.15 Chapter 4 Review Questions",4,0.15,15,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"413","College / Statistics and Data Science (ABC)","v5.2","Chapter 4 - Explaining Variation","4.16 Chapter 4 Review Questions 2",4,0.16,16,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"414","College / Statistics and Data Science (ABC)","v5.2","Chapter 5 - A Simple Model","5.1 What is a Model, and Why Would We Want One?",5,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"415","College / Statistics and Data Science (ABC)","v5.2","Chapter 5 - A Simple Model","5.2 Modeling a Distribution as a Single Number",5,0.02,2,NA,8,2,0,0,0,0,0,0,0,0,0,8
+"416","College / Statistics and Data Science (ABC)","v5.2","Chapter 5 - A Simple Model","5.3 Median vs. Mean as a Model",5,0.03,3,5,4,2,3,0,0,3,0,0,0,0,0,1
+"417","College / Statistics and Data Science (ABC)","v5.2","Chapter 5 - A Simple Model","5.4 Exploring the Mean",5,0.04,4,NA,2,1,2,2,0,0,0,0,0,0,0,0
+"418","College / Statistics and Data Science (ABC)","v5.2","Chapter 5 - A Simple Model","5.5 Fitting the Empty Model",5,0.05,5,2,3,3,1,1,0,0,0,0,0,0,0,2
+"419","College / Statistics and Data Science (ABC)","v5.2","Chapter 5 - A Simple Model","5.6 Generating Predictions from the Empty Model",5,0.06,6,2,1,1,1,1,0,0,0,0,0,0,0,0
+"420","College / Statistics and Data Science (ABC)","v5.2","Chapter 5 - A Simple Model","5.7 Thinking About Error",5,0.07,7,3,4,3,2,2,0,0,0,0,0,0,0,2
+"421","College / Statistics and Data Science (ABC)","v5.2","Chapter 5 - A Simple Model","5.8 The World of Mathematical Notation",5,0.08,8,NA,2,2,2,2,0,0,0,0,0,0,0,0
+"422","College / Statistics and Data Science (ABC)","v5.2","Chapter 5 - A Simple Model","5.9 DATA = MODEL + ERROR: Notation",5,0.09,9,NA,12,6,9,5,4,0,0,0,0,0,0,3
+"423","College / Statistics and Data Science (ABC)","v5.2","Chapter 5 - A Simple Model","5.11 Chapter 5 Review Questions",5,0.11,11,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"424","College / Statistics and Data Science (ABC)","v5.2","Chapter 5 - A Simple Model","5.12 Chapter 5 Review Questions 2",5,0.12,12,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"425","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.1 Quantifying Total Error Around a Model",6,0.01,1,2,7,4,7,3,3,0,0,0,1,0,0,0
+"426","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.2 The Beauty of Sum of Squares",6,0.02,2,2,2,2,2,2,0,0,0,0,0,0,0,0
+"427","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.3 Variance",6,0.03,3,1,10,6,7,6,1,0,0,0,0,0,0,3
+"428","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.4 Standard Deviation",6,0.04,4,2,9,6,9,8,1,0,0,0,0,0,0,0
+"429","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.5 Z-Scores",6,0.05,5,1,14,10,5,4,0,1,0,0,0,0,0,9
+"430","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.6 Interpreting and Using Z-Scores",6,0.06,6,1,5,4,2,1,0,1,0,0,0,0,0,3
+"431","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.7 Modeling the Shape of the Error Distribution",6,0.07,7,2,3,3,1,1,0,0,0,0,0,0,0,2
+"432","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.8 Modeling Error with the Normal Distribution",6,0.08,8,6,5,4,4,4,0,0,0,0,0,0,0,1
+"433","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.9 Using the Normal Model to Make Predictions",6,0.09,9,1,5,2,5,5,0,0,0,0,0,0,0,0
+"434","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.10 Getting Familiar with the Normal Distribution",6,0.1,10,NA,6,5,4,2,0,2,0,0,0,0,0,2
+"435","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.11 The Empirical Rule",6,0.11,11,1,2,1,2,1,0,0,0,1,0,0,0,0
+"436","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.13 Chapter 6 Review Questions",6,0.13,13,NA,20,20,19,19,0,0,0,0,0,0,0,1
+"437","College / Statistics and Data Science (ABC)","v5.2","Chapter 6 - Quantifying Error","6.14 Chapter 6 Review Questions 2",6,0.14,14,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"438","College / Statistics and Data Science (ABC)","v5.2","Chapter 7 - Adding an Explanatory Variable to the Model","7.1 Explaining Variation",7,0.01,1,NA,4,3,3,3,0,0,0,0,0,0,0,1
+"439","College / Statistics and Data Science (ABC)","v5.2","Chapter 7 - Adding an Explanatory Variable to the Model","7.2 Using R to Fit the Group Model",7,0.02,2,3,7,4,7,4,3,0,0,0,0,0,0,0
+"440","College / Statistics and Data Science (ABC)","v5.2","Chapter 7 - Adding an Explanatory Variable to the Model","7.3 GLM Notation for the Group Model",7,0.03,3,NA,7,4,7,6,1,0,0,0,0,0,0,0
+"441","College / Statistics and Data Science (ABC)","v5.2","Chapter 7 - Adding an Explanatory Variable to the Model","7.4 How the Model Makes Predictions",7,0.04,4,NA,4,3,4,4,0,0,0,0,0,0,0,0
+"442","College / Statistics and Data Science (ABC)","v5.2","Chapter 7 - Adding an Explanatory Variable to the Model","7.5 Error Leftover From the Group Model",7,0.05,5,NA,5,3,4,4,0,0,0,0,0,0,0,1
+"443","College / Statistics and Data Science (ABC)","v5.2","Chapter 7 - Adding an Explanatory Variable to the Model","7.6 Graphing Residuals From the Model",7,0.06,6,1,3,2,3,3,0,0,0,0,0,0,0,0
+"444","College / Statistics and Data Science (ABC)","v5.2","Chapter 7 - Adding an Explanatory Variable to the Model","7.7 Error Reduced by the Group Model",7,0.07,7,NA,5,3,5,5,0,0,0,0,0,0,0,0
+"445","College / Statistics and Data Science (ABC)","v5.2","Chapter 7 - Adding an Explanatory Variable to the Model","7.8 Using SS Error to Compare Group to Empty Model",7,0.08,8,2,4,2,4,4,0,0,0,0,0,0,0,0
+"446","College / Statistics and Data Science (ABC)","v5.2","Chapter 7 - Adding an Explanatory Variable to the Model","7.9 Partitioning Sums of Squares into Model and Error",7,0.09,9,1,2,1,2,2,0,0,0,0,0,0,0,0
+"447","College / Statistics and Data Science (ABC)","v5.2","Chapter 7 - Adding an Explanatory Variable to the Model","7.10 Using Proportional Reduction in Error (PRE) to Compare Two Models",7,0.1,10,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"448","College / Statistics and Data Science (ABC)","v5.2","Chapter 7 - Adding an Explanatory Variable to the Model","7.11 Chapter 7 Review Questions ",7,0.11,11,NA,12,12,12,12,0,0,0,0,0,0,0,0
+"449","College / Statistics and Data Science (ABC)","v5.2","Chapter 8 - Digging Deeper into Group Models","8.1 Extending to a Three-Group Model",8,0.01,1,4,8,4,8,5,2,0,0,0,0,1,0,0
+"450","College / Statistics and Data Science (ABC)","v5.2","Chapter 8 - Digging Deeper into Group Models","8.2 Fitting and Interpreting the Three-Group Model",8,0.02,2,1,5,3,5,3,2,0,0,0,0,0,0,0
+"451","College / Statistics and Data Science (ABC)","v5.2","Chapter 8 - Digging Deeper into Group Models","8.3 Comparing the Fit of the Two- and Three-Group Models",8,0.03,3,1,7,2,7,7,0,0,0,0,0,0,0,0
+"452","College / Statistics and Data Science (ABC)","v5.2","Chapter 8 - Digging Deeper into Group Models","8.4 The F Ratio",8,0.04,4,NA,11,5,11,11,0,0,0,0,0,0,0,0
+"453","College / Statistics and Data Science (ABC)","v5.2","Chapter 8 - Digging Deeper into Group Models","8.5 Measures of Effect Size",8,0.05,5,3,4,4,4,2,1,1,0,0,0,0,0,0
+"454","College / Statistics and Data Science (ABC)","v5.2","Chapter 8 - Digging Deeper into Group Models","8.6 Modeling the DGP",8,0.06,6,NA,3,2,3,3,0,0,0,0,0,0,0,0
+"455","College / Statistics and Data Science (ABC)","v5.2","Chapter 8 - Digging Deeper into Group Models","8.7 Using Shuffle to Compare Models of the DGP",8,0.07,7,2,2,2,1,1,0,0,0,0,0,0,0,1
+"456","College / Statistics and Data Science (ABC)","v5.2","Chapter 8 - Digging Deeper into Group Models","8.8 Chapter 8 Review Questions",8,0.08,8,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"457","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.1 Using a Quantitative Explanatory Variable in a Model",9,0.01,1,1,4,4,3,3,0,0,0,0,0,0,0,1
+"458","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.2 Specifying the Height Model with GLM Notation",9,0.02,2,NA,9,7,8,6,2,0,0,0,0,0,0,1
+"459","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.3 Interpreting the Parameter Estimates for a Regression Model",9,0.03,3,1,6,5,6,6,0,0,0,0,0,0,0,0
+"460","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.4 Comparing Regression Models to Group Models",9,0.04,4,1,3,2,1,1,0,0,0,0,0,0,0,2
+"461","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.5 Error from the Height Model",9,0.05,5,1,7,5,5,4,1,0,0,0,0,0,0,2
+"462","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.6 Sums of Squares in the ANOVA Table",9,0.06,6,1,7,4,7,6,1,0,0,0,0,0,0,0
+"463","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.7 Assessing Model Fit with PRE and F",9,0.07,7,NA,14,6,13,12,1,0,0,0,0,0,0,1
+"464","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.8 Correlation",9,0.08,8,4,8,6,8,8,0,0,0,0,0,0,0,0
+"465","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.9 More on Pearson's R",9,0.09,9,2,6,4,3,3,0,0,0,0,0,0,0,3
+"466","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.10 Using Shuffle to Interpret the Slope of a Regression Line",9,0.1,10,2,3,3,2,2,0,0,0,0,0,0,0,1
+"467","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.11 Limitations to Keep in Mind",9,0.11,11,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"468","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.12 Chapter 9 Review Questions",9,0.12,12,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"469","College / Statistics and Data Science (ABC)","v5.2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.13 Chapter 9 Review Questions 2",9,0.13,13,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"470","College / Statistics and Data Science (ABC)","v5.2","Chapter 10 - The Logic of Inference","10.1 The Problem of Inference",10,0.01,1,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"471","College / Statistics and Data Science (ABC)","v5.2","Chapter 10 - The Logic of Inference","10.2 Constructing a Sampling Distribution",10,0.02,2,1,6,3,6,6,0,0,0,0,0,0,0,0
+"472","College / Statistics and Data Science (ABC)","v5.2","Chapter 10 - The Logic of Inference","10.3 Exploring the Sampling Distribution of b1",10,0.03,3,2,13,7,13,13,0,0,0,0,0,0,0,0
+"473","College / Statistics and Data Science (ABC)","v5.2","Chapter 10 - The Logic of Inference","10.4 The p-Value",10,0.04,4,1,10,6,10,10,0,0,0,0,0,0,0,0
+"474","College / Statistics and Data Science (ABC)","v5.2","Chapter 10 - The Logic of Inference","10.5 A Mathematical Model of the Sampling Distribution of b1",10,0.05,5,1,2,1,2,2,0,0,0,0,0,0,0,0
+"475","College / Statistics and Data Science (ABC)","v5.2","Chapter 10 - The Logic of Inference","10.6 Things That Affect p-Value",10,0.06,6,3,11,5,9,9,0,0,0,0,0,0,0,2
+"476","College / Statistics and Data Science (ABC)","v5.2","Chapter 10 - The Logic of Inference","10.7 Hypothesis Testing for Regression Models",10,0.07,7,4,8,4,7,7,0,0,0,0,0,0,0,1
+"477","College / Statistics and Data Science (ABC)","v5.2","Chapter 11 - Model Comparison with F","11.1 Moving Beyond b1",11,0.01,1,1,4,2,4,4,0,0,0,0,0,0,0,0
+"478","College / Statistics and Data Science (ABC)","v5.2","Chapter 11 - Model Comparison with F","11.2 Sampling Distributions of PRE and F",11,0.02,2,5,13,7,9,9,0,0,0,0,0,0,0,4
+"479","College / Statistics and Data Science (ABC)","v5.2","Chapter 11 - Model Comparison with F","11.3 The Sampling Distribution of F",11,0.03,3,2,9,5,8,8,0,0,0,0,0,0,0,1
+"480","College / Statistics and Data Science (ABC)","v5.2","Chapter 11 - Model Comparison with F","11.4 The F-Distribution: A Mathematical Model of the Sampling Distribution of F",11,0.04,4,1,4,2,2,2,0,0,0,0,0,0,0,2
+"481","College / Statistics and Data Science (ABC)","v5.2","Chapter 11 - Model Comparison with F","11.5 Using F to Test a Regression Model",11,0.05,5,4,5,3,5,5,0,0,0,0,0,0,0,0
+"482","College / Statistics and Data Science (ABC)","v5.2","Chapter 11 - Model Comparison with F","11.6 Type I and Type II Error",11,0.06,6,NA,9,6,9,9,0,0,0,0,0,0,0,0
+"483","College / Statistics and Data Science (ABC)","v5.2","Chapter 11 - Model Comparison with F","11.7 Using F to Compare Multiple Groups",11,0.07,7,2,12,5,11,8,1,2,0,0,0,0,0,1
+"484","College / Statistics and Data Science (ABC)","v5.2","Chapter 11 - Model Comparison with F","11.8 Pairwise Comparisons",11,0.08,8,1,9,5,9,9,0,0,0,0,0,0,0,0
+"485","College / Statistics and Data Science (ABC)","v5.2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.1 From Hypothesis Testing to Confidence Intervals",12,0.01,1,NA,12,9,11,11,0,0,0,0,0,0,0,1
+"486","College / Statistics and Data Science (ABC)","v5.2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.2 Using Bootstrapping to Calculate the 95% Confidence Interval",12,0.02,2,4,7,7,5,5,0,0,0,0,0,0,0,2
+"487","College / Statistics and Data Science (ABC)","v5.2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.3 Shuffle, Resample, and Standard Error",12,0.03,3,2,14,6,14,14,0,0,0,0,0,0,0,0
+"488","College / Statistics and Data Science (ABC)","v5.2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.4 Interpreting the Confidence Interval",12,0.04,4,NA,14,11,13,13,0,0,0,0,0,0,0,1
+"489","College / Statistics and Data Science (ABC)","v5.2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.5 Confidence Intervals for Other Parameters",12,0.05,5,6,18,12,12,12,0,0,0,0,0,0,0,6
+"490","College / Statistics and Data Science (ABC)","v5.2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.6 What Affects the Width of the Confidence Interval",12,0.06,6,2,7,6,6,6,0,0,0,0,0,0,0,1
+"491","College / Statistics and Data Science (ABC)","v5.2","Chapter 13 - What You Have Learned","13.1 What You Have Learned About Exploring Variation",13,0.01,1,4,6,3,3,3,0,0,0,0,0,0,0,3
+"492","College / Statistics and Data Science (ABC)","v5.2","Chapter 13 - What You Have Learned","13.2 What You Have Learned About Modeling Variation",13,0.02,2,2,11,4,11,11,0,0,0,0,0,0,0,0
+"493","College / Statistics and Data Science (ABC)","v5.2","Chapter 13 - What You Have Learned","13.3 What You Have Learned About Evaluating Models",13,0.03,3,2,4,2,4,4,0,0,0,0,0,0,0,0
+"494","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.3 Doing Statistics with R",1,0.03,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"495","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.4 Introduction to R Functions",1,0.04,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"496","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.5 Save Your Work in R Objects",1,0.05,5,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"497","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.6 Goals of This Course",1,0.06,6,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"498","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.7 Chapter 1 Review Questions",1,0.07,7,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"499","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 2 - Understanding Data","2.1 Starting with a Bunch of Numbers",2,0.01,1,2,3,1,2,2,0,0,0,0,0,0,0,1
+"500","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 2 - Understanding Data","2.2 From Numbers to Data",2,0.02,2,NA,9,7,3,2,0,1,0,0,0,0,1,5
+"501","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 2 - Understanding Data","2.3 A Data Frame Example: MindsetMatters",2,0.03,3,7,6,6,5,1,0,4,0,0,0,0,0,1
+"502","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 2 - Understanding Data","2.4 Measurement",2,0.04,4,6,7,6,3,2,0,1,0,0,0,0,1,3
+"503","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 2 - Understanding Data","2.5 Measurement (Continued)",2,0.05,5,NA,3,2,3,2,0,1,0,0,0,0,0,0
+"504","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 2 - Understanding Data","2.6 Sampling from a Population",2,0.06,6,1,2,2,0,0,0,0,0,0,0,0,0,2
+"505","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 2 - Understanding Data","2.7 The Structure of Data",2,0.07,7,3,10,6,10,8,0,2,0,0,0,0,0,0
+"506","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 2 - Understanding Data","2.8 Manipulating Data",2,0.08,8,7,7,6,5,5,0,0,0,0,0,0,0,2
+"507","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 2 - Understanding Data","2.9 Summary",2,0.09,9,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"508","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 2 - Understanding Data","2.10 Chapter 2 Review Questions",2,0.1,10,NA,19,19,17,17,0,0,0,0,0,0,0,2
+"509","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 2 - Understanding Data","2.11 Chapter 2 Review Questions 2",2,0.11,11,NA,15,15,15,15,0,0,0,0,0,0,0,0
+"510","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 3 - Examining Distributions","3.1 The Concept of Distribution",3,0.01,1,NA,2,1,0,0,0,0,0,0,0,0,2,0
+"511","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 3 - Examining Distributions","3.2 Visualizing Distributions with Histograms",3,0.02,2,7,10,9,9,8,0,0,1,0,0,0,0,1
+"512","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 3 - Examining Distributions","3.3 Shape, Center, Spread, and Weird Things",3,0.03,3,1,5,3,3,3,0,0,0,0,0,0,0,2
+"513","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 3 - Examining Distributions","3.4 The Data Generating Process",3,0.04,4,NA,3,2,0,0,0,0,0,0,0,0,0,3
+"514","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 3 - Examining Distributions","3.5 The Back and Forth Between Data and the DGP",3,0.05,5,2,5,3,2,1,0,1,0,0,0,0,0,3
+"515","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 3 - Examining Distributions","3.6 The Back and Forth Between Data and the DGP (Continued)",3,0.06,6,6,4,3,2,2,0,0,0,0,0,0,0,2
+"516","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 3 - Examining Distributions","3.7 The Five-Number Summary",3,0.07,7,5,11,9,11,10,1,0,0,0,0,0,0,0
+"517","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 3 - Examining Distributions","3.8 Boxplots and the Five-Number Summary",3,0.08,8,3,9,6,7,5,1,0,1,0,0,0,0,2
+"518","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 3 - Examining Distributions","3.9 Exploring Variation in Categorical Variables",3,0.09,9,5,5,5,0,0,0,0,0,0,0,0,0,5
+"519","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 3 - Examining Distributions","3.10 Chapter 3 Review Questions",3,0.1,10,NA,21,21,18,18,0,0,0,0,0,0,0,3
+"520","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 3 - Examining Distributions","3.11 Chapter 3 Review Questions 2",3,0.11,11,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"521","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 4 - Explaining Variation","4.2 Explaining One Variable with Another",4,0.02,2,4,13,8,8,8,0,0,0,0,0,0,0,5
+"522","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 4 - Explaining Variation","4.3 Outcome and Explanatory Variables",4,0.03,3,2,19,8,14,14,0,0,0,0,0,0,0,5
+"523","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 4 - Explaining Variation","4.4 More Ways to Visualize Relationships: Point and Jitter Plots",4,0.04,4,1,6,5,5,4,0,0,1,0,0,0,0,1
+"524","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 4 - Explaining Variation","4.5 Even More Ways: Putting these Plots Together",4,0.05,5,1,11,7,7,4,0,0,2,1,0,0,0,4
+"525","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 4 - Explaining Variation","4.9 From Categorical to Quantitative Explanatory Variables",4,0.09,9,5,8,7,4,4,0,0,0,0,0,0,0,4
+"526","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 4 - Explaining Variation","4.10 Quantitative Explanatory Variables",4,0.1,10,1,10,4,7,7,0,0,0,0,0,0,0,3
+"527","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 4 - Explaining Variation","4.15 Chapter 4 Review Questions",4,0.15,15,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"528","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 4 - Explaining Variation","4.16 Chapter 4 Review Questions 2",4,0.16,16,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"529","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 5 - A Simple Model","5.1 What is a Model, and Why Would We Want One?",5,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"530","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 5 - A Simple Model","5.2 Modeling a Distribution as a Single Number",5,0.02,2,NA,8,2,0,0,0,0,0,0,0,0,0,8
+"531","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 5 - A Simple Model","5.5 Fitting the Empty Model",5,0.05,5,2,3,3,1,1,0,0,0,0,0,0,0,2
+"532","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 5 - A Simple Model","5.6 Generating Predictions from the Empty Model",5,0.06,6,2,1,1,1,1,0,0,0,0,0,0,0,0
+"533","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 5 - A Simple Model","5.8 The World of Mathematical Notation",5,0.08,8,NA,2,2,2,2,0,0,0,0,0,0,0,0
+"534","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 5 - A Simple Model","5.9 DATA = MODEL + ERROR: Notation",5,0.09,9,NA,12,6,9,5,4,0,0,0,0,0,0,3
+"535","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 5 - A Simple Model","5.11 Chapter 5 Review Questions",5,0.11,11,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"536","College / Statistics and Data Science (ABC)","v5.1.1","Chapter 5 - A Simple Model","5.12 Chapter 5 Review Questions 2",5,0.12,12,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"537","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.3 Doing Statistics with R",1,0.03,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"538","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.4 Introduction to R Functions",1,0.04,4,5,1,1,0,0,0,0,0,0,0,0,1,0
+"539","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.5 Save Your Work in R Objects",1,0.05,5,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"540","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.6 Goals of This Course",1,0.06,6,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"541","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.7 Chapter 1 Review Questions",1,0.07,7,NA,14,14,13,13,0,0,0,0,0,0,1,0
+"542","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 2 - Understanding Data","2.1 Starting with a Bunch of Numbers",2,0.01,1,2,3,1,2,2,0,0,0,0,0,0,0,1
+"543","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 2 - Understanding Data","2.2 From Numbers to Data",2,0.02,2,NA,9,7,3,2,0,1,0,0,0,0,1,5
+"544","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 2 - Understanding Data","2.3 A Data Frame Example: MindsetMatters",2,0.03,3,7,6,6,5,1,0,4,0,0,0,0,0,1
+"545","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 2 - Understanding Data","2.4 Measurement",2,0.04,4,6,8,7,3,2,0,1,0,0,0,0,2,3
+"546","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 2 - Understanding Data","2.5 Measurement (Continued)",2,0.05,5,NA,3,2,3,2,0,1,0,0,0,0,0,0
+"547","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 2 - Understanding Data","2.6 Sampling from a Population",2,0.06,6,1,2,2,0,0,0,0,0,0,0,0,0,2
+"548","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 2 - Understanding Data","2.7 The Structure of Data",2,0.07,7,3,10,6,10,8,0,2,0,0,0,0,0,0
+"549","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 2 - Understanding Data","2.8 Manipulating Data",2,0.08,8,7,8,7,5,5,0,0,0,0,0,0,1,2
+"550","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 2 - Understanding Data","2.9 Summary",2,0.09,9,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"551","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 2 - Understanding Data","2.10 Chapter 2 Review Questions",2,0.1,10,NA,19,19,17,17,0,0,0,0,0,0,0,2
+"552","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 2 - Understanding Data","2.11 Chapter 2 Review Questions 2",2,0.11,11,NA,16,16,15,15,0,0,0,0,0,0,1,0
+"553","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 3 - Examining Distributions","3.1 The Concept of Distribution",3,0.01,1,NA,2,1,0,0,0,0,0,0,0,0,2,0
+"554","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 3 - Examining Distributions","3.2 Visualizing Distributions with Histograms",3,0.02,2,7,10,9,9,8,0,0,1,0,0,0,0,1
+"555","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 3 - Examining Distributions","3.3 Shape, Center, Spread, and Weird Things",3,0.03,3,1,5,3,3,3,0,0,0,0,0,0,0,2
+"556","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 3 - Examining Distributions","3.4 The Data Generating Process",3,0.04,4,NA,4,3,0,0,0,0,0,0,0,0,1,3
+"557","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 3 - Examining Distributions","3.5 The Back and Forth Between Data and the DGP",3,0.05,5,2,5,3,2,1,0,1,0,0,0,0,0,3
+"558","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 3 - Examining Distributions","3.6 The Back and Forth Between Data and the DGP (Continued)",3,0.06,6,6,4,3,2,2,0,0,0,0,0,0,0,2
+"559","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 3 - Examining Distributions","3.7 The Five-Number Summary",3,0.07,7,5,11,9,11,10,1,0,0,0,0,0,0,0
+"560","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 3 - Examining Distributions","3.8 Boxplots and the Five-Number Summary",3,0.08,8,3,10,7,7,5,1,0,1,0,0,0,1,2
+"561","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 3 - Examining Distributions","3.9 Exploring Variation in Categorical Variables",3,0.09,9,5,5,5,0,0,0,0,0,0,0,0,0,5
+"562","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 3 - Examining Distributions","3.10 Chapter 3 Review Questions",3,0.1,10,NA,21,21,18,18,0,0,0,0,0,0,0,3
+"563","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 3 - Examining Distributions","3.11 Chapter 3 Review Questions 2",3,0.11,11,NA,14,14,13,13,0,0,0,0,0,0,1,0
+"564","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.2 Explaining One Variable with Another",4,0.02,2,4,13,8,8,8,0,0,0,0,0,0,0,5
+"565","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.3 Outcome and Explanatory Variables",4,0.03,3,2,19,8,14,14,0,0,0,0,0,0,0,5
+"566","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.4 More Ways to Visualize Relationships: Point and Jitter Plots",4,0.04,4,1,6,5,5,4,0,0,1,0,0,0,0,1
+"567","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.5 Even More Ways: Putting these Plots Together",4,0.05,5,1,12,8,7,4,0,0,2,1,0,0,1,4
+"568","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.6 Representing Relationships Among Variables",4,0.06,6,NA,4,2,1,1,0,0,0,0,0,0,0,3
+"569","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.7 Sources of Variation",4,0.07,7,NA,1,1,1,0,1,0,0,0,0,0,0,0
+"570","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.8 Randomness",4,0.08,8,3,6,3,2,1,0,1,0,0,0,0,1,3
+"571","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.9 From Categorical to Quantitative Explanatory Variables",4,0.09,9,5,8,7,4,4,0,0,0,0,0,0,0,4
+"572","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.10 Quantitative Explanatory Variables",4,0.1,10,1,11,5,7,7,0,0,0,0,0,0,1,3
+"573","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.11 Research Design",4,0.11,11,NA,14,5,9,0,1,8,0,0,0,0,0,5
+"574","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.12 Considering Randomness as a Possible DGP",4,0.12,12,1,4,4,4,4,0,0,0,0,0,0,0,0
+"575","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.13 Shuffling Can Help Us Understand Real Data Better",4,0.13,13,2,3,3,2,2,0,0,0,0,0,0,0,1
+"576","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.14 Quantifying the Data Generating Process",4,0.14,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"577","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.15 Chapter 4 Review Questions",4,0.15,15,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"578","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 4 - Explaining Variation","4.16 Chapter 4 Review Questions 2",4,0.16,16,NA,15,15,14,14,0,0,0,0,0,0,1,0
+"579","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 5 - A Simple Model","5.2 Modeling a Distribution as a Single Number",5,0.02,2,NA,8,2,0,0,0,0,0,0,0,0,0,8
+"580","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 5 - A Simple Model","5.3 Median vs. Mean as a Model",5,0.03,3,5,4,2,3,0,0,3,0,0,0,0,0,1
+"581","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 5 - A Simple Model","5.4 Exploring the Mean",5,0.04,4,NA,3,2,2,2,0,0,0,0,0,0,1,0
+"582","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 5 - A Simple Model","5.5 Fitting the Empty Model",5,0.05,5,2,3,3,1,1,0,0,0,0,0,0,0,2
+"583","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 5 - A Simple Model","5.6 Generating Predictions from the Empty Model",5,0.06,6,2,1,1,1,1,0,0,0,0,0,0,0,0
+"584","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 5 - A Simple Model","5.7 Thinking About Error",5,0.07,7,3,4,3,2,2,0,0,0,0,0,0,0,2
+"585","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 5 - A Simple Model","5.8 The World of Mathematical Notation",5,0.08,8,NA,2,2,2,2,0,0,0,0,0,0,0,0
+"586","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 5 - A Simple Model","5.9 DATA = MODEL + ERROR: Notation",5,0.09,9,NA,13,7,9,5,4,0,0,0,0,0,1,3
+"587","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 5 - A Simple Model","5.10 Summarizing Where We Are",5,0.1,10,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"588","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 5 - A Simple Model","5.11 Chapter 5 Review Questions",5,0.11,11,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"589","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 5 - A Simple Model","5.12 Chapter 5 Review Questions 2",5,0.12,12,NA,15,15,14,14,0,0,0,0,0,0,1,0
+"590","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.1 Quantifying Total Error Around a Model",6,0.01,1,2,7,4,7,3,3,0,0,0,1,0,0,0
+"591","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.2 The Beauty of Sum of Squares",6,0.02,2,2,2,2,2,2,0,0,0,0,0,0,0,0
+"592","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.3 Variance",6,0.03,3,1,10,6,7,6,1,0,0,0,0,0,0,3
+"593","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.4 Standard Deviation",6,0.04,4,2,9,6,9,8,1,0,0,0,0,0,0,0
+"594","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.5 Z-Scores",6,0.05,5,1,15,11,5,4,0,1,0,0,0,0,1,9
+"595","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.6 Interpreting and Using Z-Scores",6,0.06,6,1,5,4,2,1,0,1,0,0,0,0,0,3
+"596","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.7 Modeling the Shape of the Error Distribution",6,0.07,7,2,3,3,1,1,0,0,0,0,0,0,0,2
+"597","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.8 Modeling Error with the Normal Distribution",6,0.08,8,6,5,4,4,4,0,0,0,0,0,0,0,1
+"598","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.9 Using the Normal Model to Make Predictions",6,0.09,9,1,5,2,5,5,0,0,0,0,0,0,0,0
+"599","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.10 Getting Familiar with the Normal Distribution",6,0.1,10,NA,7,6,4,2,0,2,0,0,0,0,1,2
+"600","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.11 The Empirical Rule",6,0.11,11,1,2,1,2,1,0,0,0,1,0,0,0,0
+"601","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.12 Next Up: Explaining Error",6,0.12,12,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"602","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.13 Chapter 6 Review Questions",6,0.13,13,NA,20,20,19,19,0,0,0,0,0,0,0,1
+"603","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 6 - Quantifying Error","6.14 Chapter 6 Review Questions 2",6,0.14,14,NA,12,12,11,11,0,0,0,0,0,0,1,0
+"604","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 7 - Adding an Explanatory Variable to the Model","7.1 Explaining Variation",7,0.01,1,NA,4,3,3,3,0,0,0,0,0,0,0,1
+"605","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 7 - Adding an Explanatory Variable to the Model","7.2 Using R to Fit the Group Model",7,0.02,2,3,7,4,7,4,3,0,0,0,0,0,0,0
+"606","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 7 - Adding an Explanatory Variable to the Model","7.3 GLM Notation for the Group Model",7,0.03,3,NA,7,4,7,6,1,0,0,0,0,0,0,0
+"607","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 7 - Adding an Explanatory Variable to the Model","7.4 How the Model Makes Predictions",7,0.04,4,NA,5,4,4,4,0,0,0,0,0,0,1,0
+"608","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 7 - Adding an Explanatory Variable to the Model","7.5 Error Leftover From the Group Model",7,0.05,5,NA,5,3,4,4,0,0,0,0,0,0,0,1
+"609","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 7 - Adding an Explanatory Variable to the Model","7.6 Graphing Residuals From the Model",7,0.06,6,1,3,2,3,3,0,0,0,0,0,0,0,0
+"610","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 7 - Adding an Explanatory Variable to the Model","7.7 Error Reduced by the Group Model",7,0.07,7,NA,5,3,5,5,0,0,0,0,0,0,0,0
+"611","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 7 - Adding an Explanatory Variable to the Model","7.8 Using SS Error to Compare Group to Empty Model",7,0.08,8,2,5,3,4,4,0,0,0,0,0,0,1,0
+"612","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 7 - Adding an Explanatory Variable to the Model","7.9 Partitioning Sums of Squares into Model and Error",7,0.09,9,1,2,1,2,2,0,0,0,0,0,0,0,0
+"613","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 7 - Adding an Explanatory Variable to the Model","7.10 Using Proportional Reduction in Error (PRE) to Compare Two Models",7,0.1,10,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"614","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 7 - Adding an Explanatory Variable to the Model","7.11 Chapter 7 Review Questions ",7,0.11,11,NA,13,13,12,12,0,0,0,0,0,0,1,0
+"615","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 8 - Digging Deeper into Group Models","8.1 Extending to a Three-Group Model",8,0.01,1,4,8,4,8,5,2,0,0,0,0,1,0,0
+"616","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 8 - Digging Deeper into Group Models","8.2 Fitting and Interpreting the Three-Group Model",8,0.02,2,1,5,3,5,3,2,0,0,0,0,0,0,0
+"617","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 8 - Digging Deeper into Group Models","8.3 Comparing the Fit of the Two- and Three-Group Models",8,0.03,3,1,7,2,7,7,0,0,0,0,0,0,0,0
+"618","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 8 - Digging Deeper into Group Models","8.4 The F Ratio",8,0.04,4,NA,11,5,11,11,0,0,0,0,0,0,0,0
+"619","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 8 - Digging Deeper into Group Models","8.5 Modeling the DGP",8,0.05,5,1,4,3,3,3,0,0,0,0,0,0,1,0
+"620","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 8 - Digging Deeper into Group Models","8.6 Using Shuffle to Compare Models of the DGP",8,0.06,6,2,2,2,1,1,0,0,0,0,0,0,0,1
+"621","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 8 - Digging Deeper into Group Models","8.7 Measures of Effect Size",8,0.07,7,3,4,4,4,2,1,1,0,0,0,0,0,0
+"622","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 8 - Digging Deeper into Group Models","8.8 Chapter 8 Review Questions",8,0.08,8,NA,21,21,18,18,0,0,0,0,0,0,1,2
+"623","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.1 Using a Quantitative Explanatory Variable in a Model",9,0.01,1,1,4,4,3,3,0,0,0,0,0,0,0,1
+"624","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.2 Specifying the Height Model with GLM Notation",9,0.02,2,NA,9,7,8,6,2,0,0,0,0,0,0,1
+"625","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.3 Interpreting the Parameter Estimates for a Regression Model",9,0.03,3,1,6,5,6,6,0,0,0,0,0,0,0,0
+"626","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.4 Comparing Regression Models to Group Models",9,0.04,4,1,4,3,1,1,0,0,0,0,0,0,1,2
+"627","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.5 Error from the Height Model",9,0.05,5,1,7,5,5,4,1,0,0,0,0,0,0,2
+"628","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.6 Sums of Squares in the ANOVA Table",9,0.06,6,1,7,4,7,6,1,0,0,0,0,0,0,0
+"629","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.7 Assessing Model Fit with PRE and F",9,0.07,7,NA,14,6,13,12,1,0,0,0,0,0,0,1
+"630","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.8 Correlation",9,0.08,8,4,9,7,8,8,0,0,0,0,0,0,1,0
+"631","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.9 More on Pearson's R",9,0.09,9,2,6,4,3,3,0,0,0,0,0,0,0,3
+"632","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.10 Using Shuffle to Interpret the Slope of a Regression Line",9,0.1,10,2,3,3,2,2,0,0,0,0,0,0,0,1
+"633","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.11 Limitations to Keep in Mind",9,0.11,11,NA,2,2,0,0,0,0,0,0,0,0,0,2
+"634","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.12 Chapter 9 Review Questions",9,0.12,12,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"635","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 9 - Models with a Quantitative Explanatory Variable","9.13 Chapter 9 Review Questions 2",9,0.13,13,NA,12,12,11,11,0,0,0,0,0,0,1,0
+"636","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 10 - The Logic of Inference","10.1 The Problem of Inference",10,0.01,1,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"637","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 10 - The Logic of Inference","10.2 Constructing a Sampling Distribution",10,0.02,2,1,6,3,6,6,0,0,0,0,0,0,0,0
+"638","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 10 - The Logic of Inference","10.3 Exploring the Sampling Distribution of b1",10,0.03,3,2,13,7,13,13,0,0,0,0,0,0,0,0
+"639","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 10 - The Logic of Inference","10.4 The p-Value",10,0.04,4,1,11,7,10,10,0,0,0,0,0,0,1,0
+"640","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 10 - The Logic of Inference","10.5 A Mathematical Model of the Sampling Distribution of b1",10,0.05,5,1,2,1,2,2,0,0,0,0,0,0,0,0
+"641","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 10 - The Logic of Inference","10.6 Things That Affect p-Value",10,0.06,6,3,11,5,9,9,0,0,0,0,0,0,0,2
+"642","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 10 - The Logic of Inference","10.7 Hypothesis Testing for Regression Models",10,0.07,7,4,10,6,7,7,0,0,0,0,0,0,1,2
+"643","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 11 - Model Comparison with F","11.1 Moving Beyond b1",11,0.01,1,1,4,2,4,4,0,0,0,0,0,0,0,0
+"644","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 11 - Model Comparison with F","11.2 Sampling Distributions of PRE and F",11,0.02,2,5,13,7,9,9,0,0,0,0,0,0,0,4
+"645","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 11 - Model Comparison with F","11.3 The Sampling Distribution of F",11,0.03,3,2,9,5,8,8,0,0,0,0,0,0,0,1
+"646","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 11 - Model Comparison with F","11.4 The F-Distribution: A Mathematical Model of the Sampling Distribution of F",11,0.04,4,1,4,2,2,2,0,0,0,0,0,0,0,2
+"647","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 11 - Model Comparison with F","11.5 Using F to Test a Regression Model",11,0.05,5,4,6,4,5,5,0,0,0,0,0,0,1,0
+"648","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 11 - Model Comparison with F","11.6 Type I and Type II Error",11,0.06,6,NA,9,6,9,9,0,0,0,0,0,0,0,0
+"649","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 11 - Model Comparison with F","11.7 Using F to Compare Multiple Groups",11,0.07,7,2,12,5,11,8,1,2,0,0,0,0,0,1
+"650","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 11 - Model Comparison with F","11.8 Pairwise Comparisons",11,0.08,8,1,11,7,9,9,0,0,0,0,0,0,1,1
+"651","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.1 From Hypothesis Testing to Confidence Intervals",12,0.01,1,NA,12,9,11,11,0,0,0,0,0,0,0,1
+"652","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.2 Using Bootstrapping to Calculate the 95% Confidence Interval",12,0.02,2,4,7,7,5,5,0,0,0,0,0,0,0,2
+"653","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.3 Shuffle, Resample, and Standard Error",12,0.03,3,2,14,6,14,14,0,0,0,0,0,0,0,0
+"654","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.4 Interpreting the Confidence Interval",12,0.04,4,NA,14,11,13,13,0,0,0,0,0,0,0,1
+"655","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.5 Confidence Intervals for Other Parameters",12,0.05,5,6,18,12,12,12,0,0,0,0,0,0,0,6
+"656","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 12 - Parameter Estimation and Confidence Intervals","12.6 What Affects the Width of the Confidence Interval",12,0.06,6,2,8,7,6,6,0,0,0,0,0,0,0,2
+"657","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 13 - Introduction to Multivariate Models","13.1 Models with Two Explanatory Variables",13,0.01,1,1,2,2,1,1,0,0,0,0,0,0,1,0
+"658","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 13 - Introduction to Multivariate Models","13.2 Visualizing Price = Home Size + Neighborhood",13,0.02,2,2,1,1,1,1,0,0,0,0,0,0,0,0
+"659","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 13 - Introduction to Multivariate Models","13.3 Specifying and Fitting a Multivariate Model",13,0.03,3,1,5,5,4,3,1,0,0,0,0,0,0,1
+"660","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 13 - Introduction to Multivariate Models","13.4 Interpreting the Parameter Estimates for a Multivariate Model",13,0.04,4,NA,8,5,7,7,0,0,0,0,0,0,0,1
+"661","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 13 - Introduction to Multivariate Models","13.5 Predictions from the Multivariate Model",13,0.05,5,1,4,2,4,4,0,0,0,0,0,0,0,0
+"662","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 13 - Introduction to Multivariate Models","13.6 Using Residuals and Sums of Squares to Measure Error Around the Multivariate Model",13,0.06,6,2,8,5,8,8,0,0,0,0,0,0,0,0
+"663","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 13 - Introduction to Multivariate Models","13.7 Using Venn Diagrams to Conceptualize Sums of Squares, PRE, and F",13,0.07,7,NA,16,7,14,11,0,3,0,0,0,0,0,2
+"664","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 13 - Introduction to Multivariate Models","13.8 The Logic of Inference with the Multivariate Model",13,0.08,8,2,4,3,3,3,0,0,0,0,0,0,0,1
+"665","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 13 - Introduction to Multivariate Models","13.9 Using the Sampling Distribution of F",13,0.09,9,2,6,5,5,5,0,0,0,0,0,0,0,1
+"666","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 14 - Multivariate Model Comparisons","14.1 Targeted Model Comparisons",14,0.01,1,NA,7,4,5,5,0,0,0,0,0,0,2,0
+"667","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 14 - Multivariate Model Comparisons","14.2 Sums of Squares for Targeted Model Comparisons",14,0.02,2,2,5,4,3,3,0,0,0,0,0,0,0,2
+"668","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 14 - Multivariate Model Comparisons","14.3 PRE and F for Targeted Model Comparisons",14,0.03,3,1,5,4,4,4,0,0,0,0,0,0,0,1
+"669","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 14 - Multivariate Model Comparisons","14.4 Inference for Targeted Model Comparisons",14,0.04,4,NA,1,1,1,1,0,0,0,0,0,0,0,0
+"670","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 14 - Multivariate Model Comparisons","14.5 Using `shuffle()` for Targeted Model Comparisons (Part 1)",14,0.05,5,2,1,1,0,0,0,0,0,0,0,0,0,1
+"671","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 14 - Multivariate Model Comparisons","14.6 Using `shuffle()` for Targeted Model Comparisons (Part 2)",14,0.06,6,3,2,2,2,2,0,0,0,0,0,0,0,0
+"672","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 14 - Multivariate Model Comparisons","14.7 Deciding Which Predictors to Include in a Model",14,0.07,7,1,4,4,2,2,0,0,0,0,0,0,0,2
+"673","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 14 - Multivariate Model Comparisons","14.8 Models with Multiple Categorical Predictors",14,0.08,8,2,11,7,8,8,0,0,0,0,0,0,0,3
+"674","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 14 - Multivariate Model Comparisons","14.9 Error and Inference from Models with Multiple Categorical Predictors",14,0.09,9,1,7,5,5,5,0,0,0,0,0,0,0,2
+"675","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 14 - Multivariate Model Comparisons","14.10 Models with Multiple Quantitative Predictors",14,0.1,10,4,4,4,1,1,0,0,0,0,0,0,0,3
+"676","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2","Chapter 14 - Multivariate Model Comparisons","14.11 Error and Inference from Models with Multiple Quantitative Predictors",14,0.11,11,1,6,3,4,2,0,2,0,0,0,0,0,2
+"677","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.3 Doing Statistics with R",1,0.03,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"678","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.4 Introduction to R Functions",1,0.04,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"679","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.5 Save Your Work in R Objects",1,0.05,5,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"680","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.6 Goals of This Course",1,0.06,6,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"681","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.7 Chapter 1 Review Questions",1,0.07,7,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"682","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 2 - Understanding Data","2.1 Starting with a Bunch of Numbers",2,0.01,1,2,3,1,2,2,0,0,0,0,0,0,0,1
+"683","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 2 - Understanding Data","2.2 From Numbers to Data",2,0.02,2,NA,9,7,3,2,0,1,0,0,0,0,1,5
+"684","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 2 - Understanding Data","2.3 A Data Frame Example: MindsetMatters",2,0.03,3,7,6,6,5,1,0,4,0,0,0,0,0,1
+"685","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 2 - Understanding Data","2.4 Measurement",2,0.04,4,6,7,6,3,2,0,1,0,0,0,0,1,3
+"686","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 2 - Understanding Data","2.5 Measurement (Continued)",2,0.05,5,NA,3,2,3,2,0,1,0,0,0,0,0,0
+"687","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 2 - Understanding Data","2.6 Sampling from a Population",2,0.06,6,1,2,2,0,0,0,0,0,0,0,0,0,2
+"688","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 2 - Understanding Data","2.7 The Structure of Data",2,0.07,7,3,10,6,10,8,0,2,0,0,0,0,0,0
+"689","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 2 - Understanding Data","2.8 Manipulating Data",2,0.08,8,7,7,6,5,5,0,0,0,0,0,0,0,2
+"690","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 2 - Understanding Data","2.9 Summary",2,0.09,9,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"691","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 2 - Understanding Data","2.10 Chapter 2 Review Questions",2,0.1,10,NA,19,19,17,17,0,0,0,0,0,0,0,2
+"692","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 2 - Understanding Data","2.11 Chapter 2 Review Questions 2",2,0.11,11,NA,15,15,15,15,0,0,0,0,0,0,0,0
+"693","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 3 - Examining Distributions","3.1 The Concept of Distribution",3,0.01,1,NA,2,1,0,0,0,0,0,0,0,0,2,0
+"694","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 3 - Examining Distributions","3.2 Visualizing Distributions with Histograms",3,0.02,2,7,10,9,9,8,0,0,1,0,0,0,0,1
+"695","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 3 - Examining Distributions","3.3 Shape, Center, Spread, and Weird Things",3,0.03,3,1,5,3,3,3,0,0,0,0,0,0,0,2
+"696","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 3 - Examining Distributions","3.4 The Data Generating Process",3,0.04,4,NA,3,2,0,0,0,0,0,0,0,0,0,3
+"697","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 3 - Examining Distributions","3.5 The Back and Forth Between Data and the DGP",3,0.05,5,2,5,3,2,1,0,1,0,0,0,0,0,3
+"698","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 3 - Examining Distributions","3.6 The Back and Forth Between Data and the DGP (Continued)",3,0.06,6,6,4,3,2,2,0,0,0,0,0,0,0,2
+"699","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 3 - Examining Distributions","3.7 The Five-Number Summary",3,0.07,7,5,11,9,11,10,1,0,0,0,0,0,0,0
+"700","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 3 - Examining Distributions","3.8 Boxplots and the Five-Number Summary",3,0.08,8,3,9,6,7,5,1,0,1,0,0,0,0,2
+"701","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 3 - Examining Distributions","3.9 Exploring Variation in Categorical Variables",3,0.09,9,5,5,5,0,0,0,0,0,0,0,0,0,5
+"702","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 3 - Examining Distributions","3.10 Chapter 3 Review Questions",3,0.1,10,NA,21,21,18,18,0,0,0,0,0,0,0,3
+"703","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 3 - Examining Distributions","3.11 Chapter 3 Review Questions 2",3,0.11,11,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"704","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.1 Welcome to Explaining Variation",4,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"705","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.2 Explaining One Variable with Another",4,0.02,2,4,13,8,8,8,0,0,0,0,0,0,0,5
+"706","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.3 Outcome and Explanatory Variables",4,0.03,3,2,19,8,14,14,0,0,0,0,0,0,0,5
+"707","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.4 More Ways to Visualize Relationships: Point and Jitter Plots",4,0.04,4,1,6,5,5,4,0,0,1,0,0,0,0,1
+"708","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.5 Even More Ways: Putting these Plots Together",4,0.05,5,1,11,7,7,4,0,0,2,1,0,0,0,4
+"709","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.6 Representing Relationships Among Variables",4,0.06,6,NA,4,2,1,1,0,0,0,0,0,0,0,3
+"710","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.7 Sources of Variation",4,0.07,7,NA,1,1,1,0,1,0,0,0,0,0,0,0
+"711","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.8 Randomness",4,0.08,8,3,6,3,2,1,0,1,0,0,0,0,1,3
+"712","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.9 From Categorical to Quantitative Explanatory Variables",4,0.09,9,5,8,7,4,4,0,0,0,0,0,0,0,4
+"713","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.10 Quantitative Explanatory Variables",4,0.1,10,1,10,4,7,7,0,0,0,0,0,0,0,3
+"714","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.11 Research Design",4,0.11,11,NA,14,5,9,0,1,8,0,0,0,0,0,5
+"715","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.12 Considering Randomness as a Possible DGP",4,0.12,12,1,4,4,4,4,0,0,0,0,0,0,0,0
+"716","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.13 Shuffling Can Help Us Understand Real Data Better",4,0.13,13,2,3,3,2,2,0,0,0,0,0,0,0,1
+"717","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.14 Quantifying the Data Generating Process",4,0.14,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"718","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.15 Chapter 4 Review Questions",4,0.15,15,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"719","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 4 - Explaining Variation","4.16 Chapter 4 Review Questions 2",4,0.16,16,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"720","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.1 What is a Model, and Why Would We Want One?",5,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"721","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.2 Modeling a Distribution as a Single Number",5,0.02,2,NA,8,2,0,0,0,0,0,0,0,0,0,8
+"722","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.3 Median vs. Mean as a Model",5,0.03,3,5,4,2,3,0,0,3,0,0,0,0,0,1
+"723","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.4 Exploring the Mean",5,0.04,4,NA,2,1,2,2,0,0,0,0,0,0,0,0
+"724","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.5 Fitting the Empty Model",5,0.05,5,2,3,3,1,1,0,0,0,0,0,0,0,2
+"725","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.6 Generating Predictions from the Empty Model",5,0.06,6,2,1,1,1,1,0,0,0,0,0,0,0,0
+"726","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.7 Thinking About Error",5,0.07,7,3,4,3,2,2,0,0,0,0,0,0,0,2
+"727","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.8 The World of Mathematical Notation",5,0.08,8,NA,2,2,2,2,0,0,0,0,0,0,0,0
+"728","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.9 DATA = MODEL + ERROR: Notation",5,0.09,9,NA,12,6,9,5,4,0,0,0,0,0,0,3
+"729","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.10 Summarizing Where We Are",5,0.1,10,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"730","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.11 Chapter 5 Review Questions",5,0.11,11,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"731","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 5 - A Simple Model","5.12 Chapter 5 Review Questions 2",5,0.12,12,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"732","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.1 Quantifying Total Error Around a Model",6,0.01,1,2,7,4,7,3,3,0,0,0,1,0,0,0
+"733","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.2 The Beauty of Sum of Squares",6,0.02,2,2,2,2,2,2,0,0,0,0,0,0,0,0
+"734","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.3 Variance",6,0.03,3,1,10,6,7,6,1,0,0,0,0,0,0,3
+"735","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.4 Standard Deviation",6,0.04,4,2,9,6,9,8,1,0,0,0,0,0,0,0
+"736","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.5 Z-Scores",6,0.05,5,1,14,10,5,4,0,1,0,0,0,0,0,9
+"737","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.6 Interpreting and Using Z-Scores",6,0.06,6,1,5,4,2,1,0,1,0,0,0,0,0,3
+"738","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.7 Modeling the Shape of the Error Distribution",6,0.07,7,2,3,3,1,1,0,0,0,0,0,0,0,2
+"739","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.8 Modeling Error with the Normal Distribution",6,0.08,8,6,5,4,4,4,0,0,0,0,0,0,0,1
+"740","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.9 Using the Normal Model to Make Predictions",6,0.09,9,1,5,2,5,5,0,0,0,0,0,0,0,0
+"741","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.10 Getting Familiar with the Normal Distribution",6,0.1,10,NA,6,5,4,2,0,2,0,0,0,0,0,2
+"742","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.11 The Empirical Rule",6,0.11,11,1,2,1,2,1,0,0,0,1,0,0,0,0
+"743","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.12 Next Up: Explaining Error",6,0.12,12,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"744","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.13 Chapter 6 Review Questions",6,0.13,13,NA,20,20,19,19,0,0,0,0,0,0,0,1
+"745","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 6 - Quantifying Error","6.14 Chapter 6 Review Questions 2",6,0.14,14,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"746","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 7 - Adding an Explanatory Variable to the Model","7.1 Explaining Variation",7,0.01,1,NA,4,3,3,3,0,0,0,0,0,0,0,1
+"747","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 7 - Adding an Explanatory Variable to the Model","7.2 Using R to Fit the Group Model",7,0.02,2,3,7,4,7,4,3,0,0,0,0,0,0,0
+"748","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 7 - Adding an Explanatory Variable to the Model","7.3 GLM Notation for the Group Model",7,0.03,3,NA,7,4,7,6,1,0,0,0,0,0,0,0
+"749","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 7 - Adding an Explanatory Variable to the Model","7.4 How the Model Makes Predictions",7,0.04,4,NA,4,3,4,4,0,0,0,0,0,0,0,0
+"750","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 7 - Adding an Explanatory Variable to the Model","7.5 Error Leftover From the Group Model",7,0.05,5,NA,5,3,4,4,0,0,0,0,0,0,0,1
+"751","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 7 - Adding an Explanatory Variable to the Model","7.6 Graphing Residuals From the Model",7,0.06,6,1,3,2,3,3,0,0,0,0,0,0,0,0
+"752","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 7 - Adding an Explanatory Variable to the Model","7.7 Error Reduced by the Group Model",7,0.07,7,NA,5,3,5,5,0,0,0,0,0,0,0,0
+"753","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 7 - Adding an Explanatory Variable to the Model","7.8 Using SS Error to Compare Group to Empty Model",7,0.08,8,2,4,2,4,4,0,0,0,0,0,0,0,0
+"754","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 7 - Adding an Explanatory Variable to the Model","7.9 Partitioning Sums of Squares into Model and Error",7,0.09,9,1,2,1,2,2,0,0,0,0,0,0,0,0
+"755","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 7 - Adding an Explanatory Variable to the Model","7.10 Using Proportional Reduction in Error (PRE) to Compare Two Models",7,0.1,10,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"756","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 7 - Adding an Explanatory Variable to the Model","7.11 Chapter 7 Review Questions ",7,0.11,11,NA,12,12,12,12,0,0,0,0,0,0,0,0
+"757","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 8 - Digging Deeper into Group Models","8.1 Extending to a Three-Group Model",8,0.01,1,4,8,4,8,5,2,0,0,0,0,1,0,0
+"758","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 8 - Digging Deeper into Group Models","8.2 Fitting and Interpreting the Three-Group Model",8,0.02,2,1,5,3,5,3,2,0,0,0,0,0,0,0
+"759","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 8 - Digging Deeper into Group Models","8.3 Comparing the Fit of the Two- and Three-Group Models",8,0.03,3,1,7,2,7,7,0,0,0,0,0,0,0,0
+"760","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 8 - Digging Deeper into Group Models","8.4 The F Ratio",8,0.04,4,NA,11,5,11,11,0,0,0,0,0,0,0,0
+"761","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 8 - Digging Deeper into Group Models","8.5 Modeling the DGP",8,0.05,5,1,3,2,3,3,0,0,0,0,0,0,0,0
+"762","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 8 - Digging Deeper into Group Models","8.6 Using Shuffle to Compare Models of the DGP",8,0.06,6,2,2,2,1,1,0,0,0,0,0,0,0,1
+"763","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 8 - Digging Deeper into Group Models","8.7 Measures of Effect Size",8,0.07,7,3,4,4,4,2,1,1,0,0,0,0,0,0
+"764","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 8 - Digging Deeper into Group Models","8.8 Chapter 8 Review Questions",8,0.08,8,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"765","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.1 Using a Quantitative Explanatory Variable in a Model",9,0.01,1,1,4,4,3,3,0,0,0,0,0,0,0,1
+"766","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.2 Specifying the Height Model with GLM Notation",9,0.02,2,NA,9,7,8,6,2,0,0,0,0,0,0,1
+"767","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.3 Interpreting the Parameter Estimates for a Regression Model",9,0.03,3,1,6,5,6,6,0,0,0,0,0,0,0,0
+"768","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.4 Comparing Regression Models to Group Models",9,0.04,4,1,3,2,1,1,0,0,0,0,0,0,0,2
+"769","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.5 Error from the Height Model",9,0.05,5,1,7,5,5,4,1,0,0,0,0,0,0,2
+"770","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.6 Sums of Squares in the ANOVA Table",9,0.06,6,1,7,4,7,6,1,0,0,0,0,0,0,0
+"771","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.7 Assessing Model Fit with PRE and F",9,0.07,7,NA,14,6,13,12,1,0,0,0,0,0,0,1
+"772","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.8 Correlation",9,0.08,8,4,8,6,8,8,0,0,0,0,0,0,0,0
+"773","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.9 More on Pearson's R",9,0.09,9,2,6,4,3,3,0,0,0,0,0,0,0,3
+"774","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.10 Using Shuffle to Interpret the Slope of a Regression Line",9,0.1,10,2,3,3,2,2,0,0,0,0,0,0,0,1
+"775","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.11 Limitations to Keep in Mind",9,0.11,11,NA,2,2,0,0,0,0,0,0,0,0,0,2
+"776","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.12 Chapter 9 Review Questions",9,0.12,12,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"777","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 9 - Models with a Quantitative Explanatory Variable","9.13 Chapter 9 Review Questions 2",9,0.13,13,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"778","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 10 - The Logic of Inference","10.1 The Problem of Inference",10,0.01,1,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"779","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 10 - The Logic of Inference","10.2 Constructing a Sampling Distribution",10,0.02,2,1,6,3,6,6,0,0,0,0,0,0,0,0
+"780","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 10 - The Logic of Inference","10.3 Exploring the Sampling Distribution of b1",10,0.03,3,2,13,7,13,13,0,0,0,0,0,0,0,0
+"781","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 10 - The Logic of Inference","10.4 The p-Value",10,0.04,4,1,10,6,10,10,0,0,0,0,0,0,0,0
+"782","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 10 - The Logic of Inference","10.5 A Mathematical Model of the Sampling Distribution of b1",10,0.05,5,1,2,1,2,2,0,0,0,0,0,0,0,0
+"783","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 10 - The Logic of Inference","10.6 Things That Affect p-Value",10,0.06,6,3,11,5,9,9,0,0,0,0,0,0,0,2
+"784","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 10 - The Logic of Inference","10.7 Hypothesis Testing for Regression Models",10,0.07,7,4,9,5,7,7,0,0,0,0,0,0,0,2
+"785","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 11 - Model Comparison with F","11.1 Moving Beyond b1",11,0.01,1,1,4,2,4,4,0,0,0,0,0,0,0,0
+"786","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 11 - Model Comparison with F","11.2 Sampling Distributions of PRE and F",11,0.02,2,5,13,7,9,9,0,0,0,0,0,0,0,4
+"787","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 11 - Model Comparison with F","11.3 The Sampling Distribution of F",11,0.03,3,2,9,5,8,8,0,0,0,0,0,0,0,1
+"788","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 11 - Model Comparison with F","11.4 The F-Distribution: A Mathematical Model of the Sampling Distribution of F",11,0.04,4,1,4,2,2,2,0,0,0,0,0,0,0,2
+"789","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 11 - Model Comparison with F","11.5 Using F to Test a Regression Model",11,0.05,5,4,5,3,5,5,0,0,0,0,0,0,0,0
+"790","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 11 - Model Comparison with F","11.6 Type I and Type II Error",11,0.06,6,NA,9,6,9,9,0,0,0,0,0,0,0,0
+"791","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 11 - Model Comparison with F","11.7 Using F to Compare Multiple Groups",11,0.07,7,2,12,5,11,8,1,2,0,0,0,0,0,1
+"792","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 11 - Model Comparison with F","11.8 Pairwise Comparisons",11,0.08,8,1,10,6,9,9,0,0,0,0,0,0,0,1
+"793","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.1 From Hypothesis Testing to Confidence Intervals",12,0.01,1,NA,12,9,11,11,0,0,0,0,0,0,0,1
+"794","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.2 Using Bootstrapping to Calculate the 95% Confidence Interval",12,0.02,2,4,7,7,5,5,0,0,0,0,0,0,0,2
+"795","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.3 Shuffle, Resample, and Standard Error",12,0.03,3,2,14,6,14,14,0,0,0,0,0,0,0,0
+"796","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.4 Interpreting the Confidence Interval",12,0.04,4,NA,14,11,13,13,0,0,0,0,0,0,0,1
+"797","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.5 Confidence Intervals for Other Parameters",12,0.05,5,6,18,12,12,12,0,0,0,0,0,0,0,6
+"798","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 12 - Parameter Estimation and Confidence Intervals","12.6 What Affects the Width of the Confidence Interval",12,0.06,6,2,8,7,6,6,0,0,0,0,0,0,0,2
+"799","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 13 - Introduction to Multivariate Models","13.1 Models with Two Explanatory Variables",13,0.01,1,1,2,2,1,1,0,0,0,0,0,0,1,0
+"800","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 13 - Introduction to Multivariate Models","13.2 Visualizing Price = Home Size + Neighborhood",13,0.02,2,2,1,1,1,1,0,0,0,0,0,0,0,0
+"801","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 13 - Introduction to Multivariate Models","13.3 Specifying and Fitting a Multivariate Model",13,0.03,3,1,5,5,4,3,1,0,0,0,0,0,0,1
+"802","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 13 - Introduction to Multivariate Models","13.4 Interpreting the Parameter Estimates for a Multivariate Model",13,0.04,4,NA,8,5,7,7,0,0,0,0,0,0,0,1
+"803","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 13 - Introduction to Multivariate Models","13.5 Predictions from the Multivariate Model",13,0.05,5,1,4,2,4,4,0,0,0,0,0,0,0,0
+"804","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 13 - Introduction to Multivariate Models","13.6 Using Residuals and Sums of Squares to Measure Error Around the Multivariate Model",13,0.06,6,2,8,5,8,8,0,0,0,0,0,0,0,0
+"805","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 13 - Introduction to Multivariate Models","13.7 Using Venn Diagrams to Conceptualize Sums of Squares, PRE, and F",13,0.07,7,NA,16,7,14,11,0,3,0,0,0,0,0,2
+"806","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 13 - Introduction to Multivariate Models","13.8 The Logic of Inference with the Multivariate Model",13,0.08,8,2,4,3,3,3,0,0,0,0,0,0,0,1
+"807","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 13 - Introduction to Multivariate Models","13.9 Using the Sampling Distribution of F",13,0.09,9,2,6,5,5,5,0,0,0,0,0,0,0,1
+"808","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 14 - Multivariate Model Comparisons","14.1 Targeted Model Comparisons",14,0.01,1,NA,7,4,5,5,0,0,0,0,0,0,2,0
+"809","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 14 - Multivariate Model Comparisons","14.2 Sums of Squares for Targeted Model Comparisons",14,0.02,2,2,5,4,3,3,0,0,0,0,0,0,0,2
+"810","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 14 - Multivariate Model Comparisons","14.3 PRE and F for Targeted Model Comparisons",14,0.03,3,1,5,4,4,4,0,0,0,0,0,0,0,1
+"811","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 14 - Multivariate Model Comparisons","14.4 Inference for Targeted Model Comparisons",14,0.04,4,NA,1,1,1,1,0,0,0,0,0,0,0,0
+"812","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 14 - Multivariate Model Comparisons","14.5 Using `shuffle()` for Targeted Model Comparisons (Part 1)",14,0.05,5,2,1,1,0,0,0,0,0,0,0,0,0,1
+"813","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 14 - Multivariate Model Comparisons","14.6 Using `shuffle()` for Targeted Model Comparisons (Part 2)",14,0.06,6,3,2,2,2,2,0,0,0,0,0,0,0,0
+"814","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 14 - Multivariate Model Comparisons","14.7 Deciding Which Predictors to Include in a Model",14,0.07,7,1,4,4,2,2,0,0,0,0,0,0,0,2
+"815","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 14 - Multivariate Model Comparisons","14.8 Models with Multiple Categorical Predictors",14,0.08,8,2,11,7,8,8,0,0,0,0,0,0,0,3
+"816","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 14 - Multivariate Model Comparisons","14.9 Error and Inference from Models with Multiple Categorical Predictors",14,0.09,9,1,7,5,5,5,0,0,0,0,0,0,0,2
+"817","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 14 - Multivariate Model Comparisons","14.10 Models with Multiple Quantitative Predictors",14,0.1,10,4,4,4,1,1,0,0,0,0,0,0,0,3
+"818","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 14 - Multivariate Model Comparisons","14.11 Error and Inference from Models with Multiple Quantitative Predictors",14,0.11,11,1,6,3,4,2,0,2,0,0,0,0,0,2
+"819","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 15 - Models with Interactions","15.1 Dogs in the Emergency Room",15,0.01,1,3,10,9,5,5,0,0,0,0,0,0,1,4
+"820","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 15 - Models with Interactions","15.2 Additive versus Non-Additive Models",15,0.02,2,NA,6,5,5,5,0,0,0,0,0,0,0,1
+"821","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 15 - Models with Interactions","15.3 Representing the Interaction Model in GLM Notation",15,0.03,3,NA,6,4,5,4,1,0,0,0,0,0,0,1
+"822","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 15 - Models with Interactions","15.4 Interpreting Parameter Estimates for the Interaction Model",15,0.04,4,3,9,7,6,4,0,2,0,0,0,0,0,3
+"823","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 15 - Models with Interactions","15.5 Making Parameter Estimates More Meaningful in Interaction",15,0.05,5,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"824","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 15 - Models with Interactions","15.6 Centering a Quantitative Predictor at 0",15,0.06,6,2,7,5,5,5,0,0,0,0,0,0,0,2
+"825","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 15 - Models with Interactions","15.7 Comparing the Interaction Model to the Additive Model (Part 1)",15,0.07,7,1,6,3,5,5,0,0,0,0,0,0,0,1
+"826","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 15 - Models with Interactions","15.8 Comparing the Interaction Model to the Additive Model (Part 2)",15,0.08,8,NA,4,3,4,4,0,0,0,0,0,0,0,0
+"827","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 16 - More Models with Interactions","16.1 Interactions with Two Quantitative Predictors",16,0.01,1,1,3,3,1,1,0,0,0,0,0,0,1,1
+"828","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 16 - More Models with Interactions","16.2 Fitting and Visualizing an Interaction Model with Two Quantitative Predictors",16,0.02,2,1,5,3,4,4,0,0,0,0,0,0,0,1
+"829","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 16 - More Models with Interactions","16.3 Interpreting Parameter Estimates of Interaction Models with Two Quantitative Predictors",16,0.03,3,1,4,1,3,3,0,0,0,0,0,0,0,1
+"830","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 16 - More Models with Interactions","16.4 Comparing the Interaction Model to the Additive Model with Two Quantitative Predictors",16,0.04,4,1,4,3,3,3,0,0,0,0,0,0,0,1
+"831","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 16 - More Models with Interactions","16.5 Interactions with Two Categorical Predictors",16,0.05,5,2,7,4,4,4,0,0,0,0,0,0,0,3
+"832","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 16 - More Models with Interactions","16.6 Predictions of the Interaction Model with Two Categorical Predictors",16,0.06,6,1,8,4,8,7,1,0,0,0,0,0,0,0
+"833","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 16 - More Models with Interactions","16.7 Visually Comparing the Interaction Model to the Additive Model with Two Categorical Predictors",16,0.07,7,NA,2,2,1,1,0,0,0,0,0,0,0,1
+"834","College / Advanced Statistics and Data Science (ABCD)","v5.1.1","Chapter 16 - More Models with Interactions","16.8 Thinking of Factorial Models in Terms of Intercepts and Slopes",16,0.08,8,1,3,2,1,1,0,0,0,0,0,0,0,2
+"835","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.3 Doing Statistics with R",1,0.03,3,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"836","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.4 Introduction to R Functions",1,0.04,4,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"837","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.5 Save Your Work in R Objects",1,0.05,5,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"838","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.6 Goals of This Course",1,0.06,6,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"839","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 2 - Understanding Data","2.1 Starting with a Bunch of Numbers",2,0.01,1,2,3,1,2,2,0,0,0,0,0,0,0,1
+"840","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 2 - Understanding Data","2.2 From Numbers to Data",2,0.02,2,NA,9,7,3,2,0,1,0,0,0,0,1,5
+"841","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 2 - Understanding Data","2.3 A Data Frame Example: MindsetMatters",2,0.03,3,7,6,6,5,1,0,4,0,0,0,0,0,1
+"842","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 2 - Understanding Data","2.4 Measurement",2,0.04,4,6,7,6,3,2,0,1,0,0,0,0,1,3
+"843","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 2 - Understanding Data","2.5 Measurement (Continued)",2,0.05,5,NA,3,2,3,2,0,1,0,0,0,0,0,0
+"844","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 2 - Understanding Data","2.6 Sampling from a Population",2,0.06,6,1,2,2,0,0,0,0,0,0,0,0,0,2
+"845","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 2 - Understanding Data","2.7 The Structure of Data",2,0.07,7,3,10,6,10,8,0,2,0,0,0,0,0,0
+"846","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 2 - Understanding Data","2.8 Manipulating Data",2,0.08,8,7,7,6,5,5,0,0,0,0,0,0,0,2
+"847","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 2 - Understanding Data","2.9 Summary",2,0.09,9,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"848","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 3 - Examining Distributions","3.1 The Concept of Distribution",3,0.01,1,NA,2,1,0,0,0,0,0,0,0,0,2,0
+"849","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 3 - Examining Distributions","3.2 Visualizing Distributions with Histograms",3,0.02,2,7,10,9,9,8,0,0,1,0,0,0,0,1
+"850","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 3 - Examining Distributions","3.3 Shape, Center, Spread, and Weird Things",3,0.03,3,1,5,3,3,3,0,0,0,0,0,0,0,2
+"851","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 3 - Examining Distributions","3.4 The Data Generating Process",3,0.04,4,NA,3,2,0,0,0,0,0,0,0,0,0,3
+"852","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 3 - Examining Distributions","3.5 The Back and Forth Between Data and the DGP",3,0.05,5,2,5,3,2,1,0,1,0,0,0,0,0,3
+"853","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 3 - Examining Distributions","3.6 The Back and Forth Between Data and the DGP (Continued)",3,0.06,6,6,4,3,2,2,0,0,0,0,0,0,0,2
+"854","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 3 - Examining Distributions","3.7 The Five-Number Summary",3,0.07,7,5,11,9,11,10,1,0,0,0,0,0,0,0
+"855","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 3 - Examining Distributions","3.8 Boxplots and the Five-Number Summary",3,0.08,8,3,9,6,7,5,1,0,1,0,0,0,0,2
+"856","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 3 - Examining Distributions","3.9 Exploring Variation in Categorical Variables",3,0.09,9,5,5,5,0,0,0,0,0,0,0,0,0,5
+"857","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.1 Welcome to Explaining Variation",4,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"858","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.2 Explaining One Variable with Another",4,0.02,2,4,13,8,8,8,0,0,0,0,0,0,0,5
+"859","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.3 Outcome and Explanatory Variables",4,0.03,3,2,19,8,14,14,0,0,0,0,0,0,0,5
+"860","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.4 More Ways to Visualize Relationships: Point and Jitter Plots",4,0.04,4,1,6,5,5,4,0,0,1,0,0,0,0,1
+"861","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.5 Even More Ways: Putting these Plots Together",4,0.05,5,1,11,7,7,4,0,0,2,1,0,0,0,4
+"862","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.6 Representing Relationships Among Variables",4,0.06,6,NA,4,2,1,1,0,0,0,0,0,0,0,3
+"863","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.7 Sources of Variation",4,0.07,7,NA,1,1,1,0,1,0,0,0,0,0,0,0
+"864","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.8 Randomness",4,0.08,8,3,6,3,2,1,0,1,0,0,0,0,1,3
+"865","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.9 From Categorical to Quantitative Explanatory Variables",4,0.09,9,5,8,7,4,4,0,0,0,0,0,0,0,4
+"866","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.10 Quantitative Explanatory Variables",4,0.1,10,1,10,4,7,7,0,0,0,0,0,0,0,3
+"867","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.11 Research Design",4,0.11,11,NA,14,5,9,0,1,8,0,0,0,0,0,5
+"868","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.12 Considering Randomness as a Possible DGP",4,0.12,12,1,4,4,4,4,0,0,0,0,0,0,0,0
+"869","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.13 Shuffling Can Help Us Understand Real Data Better",4,0.13,13,1,3,3,2,2,0,0,0,0,0,0,0,1
+"870","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.14 Quantifying the Data Generating Process",4,0.14,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"871","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.1 What is a Model, and Why Would We Want One?",5,0.01,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"872","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.2 Modeling a Distribution as a Single Number",5,0.02,2,NA,8,2,0,0,0,0,0,0,0,0,0,8
+"873","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.3 Median vs. Mean as a Model",5,0.03,3,5,4,2,3,0,0,3,0,0,0,0,0,1
+"874","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.4 Exploring the Mean",5,0.04,4,NA,2,1,2,2,0,0,0,0,0,0,0,0
+"875","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.5 Fitting the Empty Model",5,0.05,5,2,3,3,1,1,0,0,0,0,0,0,0,2
+"876","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.6 Generating Predictions from the Empty Model",5,0.06,6,2,1,1,1,1,0,0,0,0,0,0,0,0
+"877","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.7 Thinking About Error",5,0.07,7,3,4,3,2,2,0,0,0,0,0,0,0,2
+"878","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.8 The World of Mathematical Notation",5,0.08,8,NA,2,2,2,2,0,0,0,0,0,0,0,0
+"879","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.9 DATA = MODEL + ERROR: Notation",5,0.09,9,NA,12,6,9,5,4,0,0,0,0,0,0,3
+"880","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.10 Summarizing Where We Are",5,0.1,10,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"881","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.1 Quantifying Total Error Around a Model",6,0.01,1,2,7,4,7,3,3,0,0,0,1,0,0,0
+"882","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.2 The Beauty of Sum of Squares",6,0.02,2,2,2,2,2,2,0,0,0,0,0,0,0,0
+"883","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.3 Variance",6,0.03,3,1,10,6,7,6,1,0,0,0,0,0,0,3
+"884","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.4 Standard Deviation",6,0.04,4,2,9,6,9,8,1,0,0,0,0,0,0,0
+"885","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.5 Z-Scores",6,0.05,5,1,14,10,5,4,0,1,0,0,0,0,0,9
+"886","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.6 Interpreting and Using Z-Scores",6,0.06,6,1,5,4,2,1,0,1,0,0,0,0,0,3
+"887","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.7 Modeling the Shape of the Error Distribution",6,0.07,7,2,3,3,1,1,0,0,0,0,0,0,0,2
+"888","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.8 Modeling Error with the Normal Distribution",6,0.08,8,6,5,4,4,4,0,0,0,0,0,0,0,1
+"889","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.9 Using the Normal Model to Make Predictions",6,0.09,9,1,5,2,5,5,0,0,0,0,0,0,0,0
+"890","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.10 Getting Familiar with the Normal Distribution",6,0.1,10,NA,6,5,4,2,0,2,0,0,0,0,0,2
+"891","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.11 The Empirical Rule",6,0.11,11,1,2,1,2,1,0,0,0,1,0,0,0,0
+"892","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.12 Next Up: Explaining Error",6,0.12,12,NA,1,1,0,0,0,0,0,0,0,0,0,1
+"893","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.1 Explaining Variation",7,0.01,1,NA,4,3,3,3,0,0,0,0,0,0,0,1
+"894","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.2 Using R to Fit the Group Model",7,0.02,2,3,7,4,7,4,3,0,0,0,0,0,0,0
+"895","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.3 GLM Notation for the Group Model",7,0.03,3,NA,7,4,7,6,1,0,0,0,0,0,0,0
+"896","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.4 How the Model Makes Predictions",7,0.04,4,NA,4,3,4,4,0,0,0,0,0,0,0,0
+"897","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.5 Error Leftover From the Group Model",7,0.05,5,NA,5,3,4,4,0,0,0,0,0,0,0,1
+"898","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.6 Graphing Residuals From the Model",7,0.06,6,1,3,2,3,3,0,0,0,0,0,0,0,0
+"899","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.7 Error Reduced by the Group Model",7,0.07,7,NA,5,3,5,5,0,0,0,0,0,0,0,0
+"900","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.8 Using SS Error to Compare Group to Empty Model",7,0.08,8,2,4,2,4,4,0,0,0,0,0,0,0,0
+"901","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.9 Partitioning Sums of Squares into Model and Error",7,0.09,9,1,2,1,2,2,0,0,0,0,0,0,0,0
+"902","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.10 Using Proportional Reduction in Error (PRE) to Compare Two Models",7,0.1,10,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"903","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.1 Extending to a Three-Group Model",8,0.01,1,4,8,4,8,5,2,0,0,0,0,1,0,0
+"904","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.2 Fitting and Interpreting the Three-Group Model",8,0.02,2,1,5,3,5,3,2,0,0,0,0,0,0,0
+"905","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.3 Comparing the Fit of the Two- and Three-Group Models",8,0.03,3,1,7,2,7,7,0,0,0,0,0,0,0,0
+"906","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.4 The F Ratio",8,0.04,4,NA,11,5,11,11,0,0,0,0,0,0,0,0
+"907","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.5 Modeling the DGP",8,0.05,5,1,3,2,3,3,0,0,0,0,0,0,0,0
+"908","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.6 Using Shuffle to Compare Models of the DGP",8,0.06,6,2,2,2,1,1,0,0,0,0,0,0,0,1
+"909","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.7 Measures of Effect Size",8,0.07,7,3,4,4,4,2,1,1,0,0,0,0,0,0
+"910","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.1 Using a Quantitative Explanatory Variable in a Model",9,0.01,1,1,4,4,3,3,0,0,0,0,0,0,0,1
+"911","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.2 Specifying the Height Model with GLM Notation",9,0.02,2,NA,9,7,8,6,2,0,0,0,0,0,0,1
+"912","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.3 Interpreting the Parameter Estimates for a Regression Model",9,0.03,3,1,6,5,6,6,0,0,0,0,0,0,0,0
+"913","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.4 Comparing Regression Models to Group Models",9,0.04,4,1,3,2,1,1,0,0,0,0,0,0,0,2
+"914","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.5 Error from the Height Model",9,0.05,5,1,7,5,5,4,1,0,0,0,0,0,0,2
+"915","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.6 Sums of Squares in the ANOVA Table",9,0.06,6,1,7,4,7,6,1,0,0,0,0,0,0,0
+"916","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.7 Assessing Model Fit with PRE and F",9,0.07,7,NA,14,6,13,12,1,0,0,0,0,0,0,1
+"917","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.8 Correlation",9,0.08,8,4,8,6,8,8,0,0,0,0,0,0,0,0
+"918","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.9 More on Pearson's R",9,0.09,9,2,6,4,3,3,0,0,0,0,0,0,0,3
+"919","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.10 Using Shuffle to Interpret the Slope of a Regression Line",9,0.1,10,2,3,3,2,2,0,0,0,0,0,0,0,1
+"920","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.11 Limitations to Keep in Mind",9,0.11,11,NA,2,2,0,0,0,0,0,0,0,0,0,2
+"921","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 10 - The Logic of Inference","10.1 The Problem of Inference",10,0.01,1,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"922","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 10 - The Logic of Inference","10.2 Constructing a Sampling Distribution",10,0.02,2,1,6,3,6,6,0,0,0,0,0,0,0,0
+"923","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 10 - The Logic of Inference","10.3 Exploring the Sampling Distribution of b1",10,0.03,3,2,13,7,13,13,0,0,0,0,0,0,0,0
+"924","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 10 - The Logic of Inference","10.4 The p-Value",10,0.04,4,1,10,6,10,10,0,0,0,0,0,0,0,0
+"925","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 10 - The Logic of Inference","10.5 A Mathematical Model of the Sampling Distribution of b1",10,0.05,5,1,2,1,2,2,0,0,0,0,0,0,0,0
+"926","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 10 - The Logic of Inference","10.6 Things That Affect p-Value",10,0.06,6,3,11,5,9,9,0,0,0,0,0,0,0,2
+"927","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 10 - The Logic of Inference","10.7 Hypothesis Testing for Regression Models",10,0.07,7,4,9,5,7,7,0,0,0,0,0,0,0,2
+"928","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 11 - Model Comparison with F","11.1 Moving Beyond b1",11,0.01,1,1,4,2,4,4,0,0,0,0,0,0,0,0
+"929","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 11 - Model Comparison with F","11.2 Sampling Distributions of PRE and F",11,0.02,2,5,13,7,9,9,0,0,0,0,0,0,0,4
+"930","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 11 - Model Comparison with F","11.3 The Sampling Distribution of F",11,0.03,3,2,9,5,8,8,0,0,0,0,0,0,0,1
+"931","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 11 - Model Comparison with F","11.4 The F-Distribution: A Mathematical Model of the Sampling Distribution of F",11,0.04,4,1,4,2,2,2,0,0,0,0,0,0,0,2
+"932","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 11 - Model Comparison with F","11.5 Using F to Test a Regression Model",11,0.05,5,4,5,3,5,5,0,0,0,0,0,0,0,0
+"933","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 11 - Model Comparison with F","11.6 Type I and Type II Error",11,0.06,6,NA,9,6,9,9,0,0,0,0,0,0,0,0
+"934","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 11 - Model Comparison with F","11.7 Using F to Compare Multiple Groups",11,0.07,7,2,12,5,11,8,1,2,0,0,0,0,0,1
+"935","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 11 - Model Comparison with F","11.8 Pairwise Comparisons",11,0.08,8,1,10,6,9,9,0,0,0,0,0,0,0,1
+"936","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.1 From Hypothesis Testing to Confidence Intervals",12,0.01,1,NA,12,9,11,11,0,0,0,0,0,0,0,1
+"937","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.2 Using Bootstrapping to Calculate the 95% Confidence Interval",12,0.02,2,4,7,7,5,5,0,0,0,0,0,0,0,2
+"938","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.3 Shuffle, Resample, and Standard Error",12,0.03,3,2,14,6,14,14,0,0,0,0,0,0,0,0
+"939","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.4 Interpreting the Confidence Interval",12,0.04,4,NA,14,11,13,13,0,0,0,0,0,0,0,1
+"940","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.5 Confidence Intervals for Other Parameters",12,0.05,5,6,18,12,12,12,0,0,0,0,0,0,0,6
+"941","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 12 - Parameter Estimation and Confidence Intervals","12.6 What Affects the Width of the Confidence Interval",12,0.06,6,2,8,7,6,6,0,0,0,0,0,0,0,2
+"942","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 13 - Introduction to Multivariate Models","13.1 Models with Two Explanatory Variables",13,0.01,1,1,2,2,1,1,0,0,0,0,0,0,1,0
+"943","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 1 - Welcome to Statistics: A Modeling Approach","1.7 Chapter 1 Review Questions",1,0.07,7,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"944","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 2 - Understanding Data","2.10 Chapter 2 Review Questions",2,0.1,10,NA,19,19,17,17,0,0,0,0,0,0,0,2
+"945","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 2 - Understanding Data","2.11 Chapter 2 Review Questions 2",2,0.11,11,NA,15,15,15,15,0,0,0,0,0,0,0,0
+"946","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 3 - Examining Distributions","3.10 Chapter 3 Review Questions",3,0.1,10,NA,21,21,18,18,0,0,0,0,0,0,0,3
+"947","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 3 - Examining Distributions","3.11 Chapter 3 Review Questions 2",3,0.11,11,NA,13,13,13,13,0,0,0,0,0,0,0,0
+"948","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.15 Chapter 4 Review Questions",4,0.15,15,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"949","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 4 - Explaining Variation","4.16 Chapter 4 Review Questions 2",4,0.16,16,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"950","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.11 Chapter 5 Review Questions",5,0.11,11,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"951","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 5 - A Simple Model","5.12 Chapter 5 Review Questions 2",5,0.12,12,NA,14,14,14,14,0,0,0,0,0,0,0,0
+"952","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.13 Chapter 6 Review Questions",6,0.13,13,NA,20,20,19,19,0,0,0,0,0,0,0,1
+"953","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 6 - Quantifying Error","6.14 Chapter 6 Review Questions 2",6,0.14,14,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"954","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 7 - Adding an Explanatory Variable to the Model","7.11 Chapter 7 Review Questions ",7,0.11,11,NA,12,12,12,12,0,0,0,0,0,0,0,0
+"955","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 8 - Digging Deeper into Group Models","8.8 Chapter 8 Review Questions",8,0.08,8,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"956","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.12 Chapter 9 Review Questions",9,0.12,12,NA,20,20,18,18,0,0,0,0,0,0,0,2
+"957","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 9 - Models with a Quantitative Explanatory Variable","9.13 Chapter 9 Review Questions 2",9,0.13,13,NA,11,11,11,11,0,0,0,0,0,0,0,0
+"958","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 15 - Models with Interactions","15.7 Comparing the Interaction Model to the Additive Model (Part 1)",15,0.07,7,1,6,3,5,5,0,0,0,0,0,0,0,1
+"959","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 13 - Introduction to Multivariate Models","13.2 Visualizing Price = Home Size + Neighborhood",13,0.02,2,2,1,1,1,1,0,0,0,0,0,0,0,0
+"960","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 13 - Introduction to Multivariate Models","13.3 Specifying and Fitting a Multivariate Model",13,0.03,3,1,5,5,4,3,1,0,0,0,0,0,0,1
+"961","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 13 - Introduction to Multivariate Models","13.4 Interpreting the Parameter Estimates for a Multivariate Model",13,0.04,4,NA,8,5,7,7,0,0,0,0,0,0,0,1
+"962","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 13 - Introduction to Multivariate Models","13.5 Predictions from the Multivariate Model",13,0.05,5,1,4,2,4,4,0,0,0,0,0,0,0,0
+"963","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 13 - Introduction to Multivariate Models","13.6 Using Residuals and Sums of Squares to Measure Error Around the Multivariate Model",13,0.06,6,2,8,5,8,8,0,0,0,0,0,0,0,0
+"964","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 13 - Introduction to Multivariate Models","13.7 Using Venn Diagrams to Conceptualize Sums of Squares, PRE, and F",13,0.07,7,NA,16,7,14,11,0,3,0,0,0,0,0,2
+"965","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 13 - Introduction to Multivariate Models","13.8 The Logic of Inference with the Multivariate Model",13,0.08,8,2,4,3,3,3,0,0,0,0,0,0,0,1
+"966","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 13 - Introduction to Multivariate Models","13.9 Using the Sampling Distribution of F",13,0.09,9,2,6,5,5,5,0,0,0,0,0,0,0,1
+"967","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 14 - Multivariate Model Comparisons","14.1 Targeted Model Comparisons",14,0.01,1,NA,7,4,5,5,0,0,0,0,0,0,2,0
+"968","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 14 - Multivariate Model Comparisons","14.2 Sums of Squares for Targeted Model Comparisons",14,0.02,2,2,5,4,3,3,0,0,0,0,0,0,0,2
+"969","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 14 - Multivariate Model Comparisons","14.3 PRE and F for Targeted Model Comparisons",14,0.03,3,1,5,4,4,4,0,0,0,0,0,0,0,1
+"970","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 14 - Multivariate Model Comparisons","14.4 Inference for Targeted Model Comparisons",14,0.04,4,NA,1,1,1,1,0,0,0,0,0,0,0,0
+"971","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 14 - Multivariate Model Comparisons","14.5 Using `shuffle()` for Targeted Model Comparisons (Part 1)",14,0.05,5,2,1,1,0,0,0,0,0,0,0,0,0,1
+"972","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 14 - Multivariate Model Comparisons","14.6 Using `shuffle()` for Targeted Model Comparisons (Part 2)",14,0.06,6,3,2,2,2,2,0,0,0,0,0,0,0,0
+"973","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 14 - Multivariate Model Comparisons","14.7 Deciding Which Predictors to Include in a Model",14,0.07,7,1,4,4,2,2,0,0,0,0,0,0,0,2
+"974","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 14 - Multivariate Model Comparisons","14.8 Models with Multiple Categorical Predictors",14,0.08,8,2,11,7,8,8,0,0,0,0,0,0,0,3
+"975","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 14 - Multivariate Model Comparisons","14.9 Error and Inference from Models with Multiple Categorical Predictors",14,0.09,9,1,7,5,5,5,0,0,0,0,0,0,0,2
+"976","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 14 - Multivariate Model Comparisons","14.10 Models with Multiple Quantitative Predictors",14,0.1,10,4,4,4,1,1,0,0,0,0,0,0,0,3
+"977","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 14 - Multivariate Model Comparisons","14.11 Error and Inference from Models with Multiple Quantitative Predictors",14,0.11,11,1,6,3,4,2,0,2,0,0,0,0,0,2
+"978","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 15 - Models with Interactions","15.1 Dogs in the Emergency Room",15,0.01,1,NA,9,8,4,4,0,0,0,0,0,0,1,4
+"979","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 15 - Models with Interactions","15.2 Additive versus Non-Additive Models",15,0.02,2,NA,6,5,5,5,0,0,0,0,0,0,0,1
+"980","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 15 - Models with Interactions","15.3 Representing the Interaction Model in GLM Notation",15,0.03,3,NA,6,4,5,4,1,0,0,0,0,0,0,1
+"981","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 15 - Models with Interactions","15.4 Interpreting Parameter Estimates for the Interaction Model",15,0.04,4,3,9,7,6,4,0,2,0,0,0,0,0,3
+"982","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 15 - Models with Interactions","15.5 Making Parameter Estimates More Meaningful in Interaction",15,0.05,5,NA,3,3,3,3,0,0,0,0,0,0,0,0
+"983","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 15 - Models with Interactions","15.6 Centering a Quantitative Predictor at 0",15,0.06,6,2,7,5,5,5,0,0,0,0,0,0,0,2
+"984","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 15 - Models with Interactions","15.8 Comparing the Interaction Model to the Additive Model (Part 2)",15,0.08,8,NA,4,3,4,4,0,0,0,0,0,0,0,0
+"985","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 16 - More Models with Interactions","16.1 Interactions with Two Quantitative Predictors",16,0.01,1,1,3,3,1,1,0,0,0,0,0,0,1,1
+"986","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 16 - More Models with Interactions","16.2 Fitting and Visualizing an Interaction Model with Two Quantitative Predictors",16,0.02,2,1,5,3,4,4,0,0,0,0,0,0,0,1
+"987","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 16 - More Models with Interactions","16.3 Interpreting Parameter Estimates of Interaction Models with Two Quantitative Predictors",16,0.03,3,1,4,1,3,3,0,0,0,0,0,0,0,1
+"988","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 16 - More Models with Interactions","16.4 Comparing the Interaction Model to the Additive Model with Two Quantitative Predictors",16,0.04,4,1,4,3,3,3,0,0,0,0,0,0,0,1
+"989","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 16 - More Models with Interactions","16.5 Interactions with Two Categorical Predictors",16,0.05,5,2,7,4,4,4,0,0,0,0,0,0,0,3
+"990","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 16 - More Models with Interactions","16.6 Predictions of the Interaction Model with Two Categorical Predictors",16,0.06,6,1,8,4,8,7,1,0,0,0,0,0,0,0
+"991","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 16 - More Models with Interactions","16.7 Visually Comparing the Interaction Model to the Additive Model with Two Categorical Predictors",16,0.07,7,NA,2,2,1,1,0,0,0,0,0,0,0,1
+"992","College / Advanced Statistics and Data Science (ABCD)","v5.0","Chapter 16 - More Models with Interactions","16.8 Thinking of Factorial Models in Terms of Intercepts and Slopes",16,0.08,8,1,3,2,1,1,0,0,0,0,0,0,0,2

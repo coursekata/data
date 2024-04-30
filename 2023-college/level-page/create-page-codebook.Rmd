@@ -1,36 +1,37 @@
 ---
-title: "Create Page-Level Codebook from responses.csv"
+title: Create Page-Level Codebook from `responses.Rdata`
 output: html_notebook
 ---
-Make a page-level-codebook from responses.csv that will do the following:  
-- In responses.csv, page is a "string" that includes both the chapter and page number (e.g., 10.4 represents chapter 10, page 4). This codebook will have variables called chapter_num and page_num that each only include one number (e.g., chapter_num will be 10 and page_num will be 4).
-- Create a responses file that does not include survey responses and does not include pages that are not within a chapter
-- Create a "codebook_ckcode" with the count of CK codes per page.
-- Create a "codebook_lrn" with the count of auto-scored Learnosity questions per page.
-- Merge all codebooks into a "codebook_page_final.csv"
 
-This assumes we start with a basic `responses.csv` file.
+The purpose of this script is to make a page-level codebook (eventually called `codebook_page`) from `responses.Rdata` that will do the following: 
 
-In this data processing, we will treat student_id+class_id+release as a unique student. If a student responds in two release versions (e.g., 4.2 and 5.0), that student will appear as two cases.
+1. In `responses`, `page` variable is a string that includes both the chapter and page number (e.g., 10.4 represents chapter 10, page 4) and descriptive text. This codebook will have variables called `chapter_num` and `page_num` that each only include one number (e.g., `chapter_num` will be 10 and `page_num` will be 4).
+2. Create `responses_nosurvey` which is a responses data file that does not include survey responses and does not include pages that are not within a chapter
+3. Create a `codebook_ckcode` with the count of ckcode exercises per page.
+4. Create a `codebook_lrn` with the count of auto-scored Learnosity questions per page.
+5. Merge all page-level codebooks (e.g., `codebook_ckcode`, `codebook_lrn`) into `codebook_page`
+
+## Set up and load `responses.Rdata`
+
 ```{r}
-#### Import Data and Setup
+# load libraries
 library(mosaic)
 library(dplyr)
 library(tidyverse)
 library(ggplot2)
+
+# start with raw data from responses.Rdata
+load("../raw/responses.Rdata")
+
+# there should be no duplicates but just in case, this removes duplicate rows
+responses_all <- distinct(responses)
 ```
 
-```{r}
-setwd("~/Desktop/2023-college-claudia-ji")
-responses <-read.csv("responses.csv")
-responses_all <- responses
-```
-
-# Put in page num and chapter num
+## 1. Create page_num and chapter_num variables
 
 ```{r}
 # make a data frame where each row is a page
-codebook_page <- responses %>%
+codebook_page_temp <- responses %>%
   select(book, chapter, page, release) %>%
   unique() %>%
   mutate(chapter_num = as.numeric(gsub("\\D", "", chapter)),
@@ -46,79 +47,61 @@ codebook_page <- responses %>%
 
 ```
 
+## 2. Create responses_nosurvey data frame
 
-
-# Create responses_submits:
+This data frame has these features:
 - chapter_num, page_num included
 - remove survey responses
 - removes responses from pages that are not within a chapter
+- removes extra variables that are not frequently used
+
+Read in survey codebook so we can filter out survey responses.
 
 ```{r}
-
-new_responses <- responses %>%
-  left_join(codebook_page, by=c("book", "release", "chapter", "page"))
-
-### new_responses is a subset of responses columns 
-new_responses <- new_responses[, c("student_id", "class_id", "item_id", "lrn_question_reference", "item_type", "chapter_num", "page_num", "completes_page", "response", "points_possible", "points_earned", "lrn_status", "lrn_type", "attempt", "lrn_dt_started", "lrn_dt_saved", "dt_submitted", "book", "release")] 
+codebook_all_surveys <- read.csv("../codebooks/codebook_all_surveys.csv")
 ```
 
-
-Read in survey codebook so we can filter out survey responses
-
 ```{r}
-codebook_all_surveys <- read.csv("codebook_all_surveys.csv")
-```
+responses_nosurvey <- responses %>%
+  left_join(codebook_page_temp, by=c("book", "release", "chapter", "page"))
 
-Take out all survey responses
-```{r}
-responses_submits <- new_responses %>%
+responses_nosurvey <- responses_nosurvey[, c("student_id", "class_id", "item_id", "lrn_question_reference", "item_type", "chapter_num", "page_num", "completes_page", "response", "points_possible", "points_earned", "lrn_status", "lrn_type", "attempt", "lrn_dt_started", "lrn_dt_saved", "dt_submitted", "book", "release")] %>%
   filter(!(item_id %in% codebook_all_surveys$item_id)) %>%
   filter(!(is.na(page_num)))
 ```
 
-```{r}
-rm(new_responses)
-```
-
-# Create codebook_ckcode with number of CK codes per page
-```{r}
-responses_code <- responses_submits %>%
-  filter(item_type == "code")
-```
+## 3. Create codebook_ckcode with number of CK codes per page
 
 ```{r}
-codebook_ckcode <- responses_code %>%
+codebook_ckcode <- responses_nosurvey %>%
+  filter(item_type == "code") %>%
   group_by(book, release, chapter_num, page_num) %>%
   mutate(n_code = length(unique(item_id))) %>%
   select(book, release, chapter_num, page_num, n_code) %>%
   distinct() 
 ```
 
-# Create codebook_lrn with number of auto-scored learnosity questions per page
-```{r}
-#identify different learnosity types and take out space ("")
+## 4. Create codebook_lrn with number of auto-scored learnosity questions per page
 
-unique(responses$lrn_type)
+```{r}
+
 lrn_types <- c("mcq", "choicematrix", "shorttext", "plaintext", "clozeassociation", "association","imageclozeassociation",
   "sortlist","formulaV2")
-
-lrn_types
-
 
 lrn_types_auto <- c("mcq", "clozeassociation", "association","imageclozeassociation",
   "sortlist","formulaV2")
 
-lrn_types_auto
-
 ```
 
-take out all coding exercises 
+Focus solely on responses from learnosity questions.
+
 ```{r}
-responses_lrn <- responses_submits %>%
+responses_lrn <- responses_nosurvey %>%
   filter(item_type != "code") 
 ```
 
 ```{r}
+# create temporary codebook for learnosity
 codebook_lrn <- responses_lrn %>%
   group_by(book, release, chapter_num, page_num) %>%
   mutate(n_lrn_q = length(unique(lrn_question_reference)),
@@ -127,15 +110,14 @@ codebook_lrn <- responses_lrn %>%
   distinct() 
 ```
 
-get counts of all the lrn_types
 ```{r}
+# get counts of all learnosity types
 codebook_lrn_type_long <- responses_lrn %>%
   group_by(book, release, chapter_num, page_num, lrn_type) %>%
   mutate(n_lrn_q_per_type = length(unique(lrn_question_reference))) %>%
   select(book, release, chapter_num, page_num, lrn_type, n_lrn_q_per_type) %>%
   distinct() 
 ```
-
 
 ```{r}
 codebook_lrn_type_wide <- 
@@ -157,17 +139,21 @@ codebook_lrn_with_types <- codebook_lrn %>%
   select(book, release, chapter_num, page_num, n_lrn_q, n_lrn_item, lrn_auto, mcq, association, shorttext, clozeassociation, imageclozeassociation, sortlist, formulaV2, choicematrix, plaintext)
 ```
 
-```{r}
-rm(codebook_lrn, codebook_lrn_type_long, codebook_lrn_type_wide)
-```
+## 5. Merge all page level codebooks and write a csv file called `codebook_page.csv`
 
-# Merge all codebooks
 ```{r}
-codebook_page_final <- codebook_page %>%
+
+codebook_page <- codebook_page_temp %>%
   left_join(codebook_ckcode, by = c("book", "release", "chapter_num", "page_num")) %>%
   left_join(codebook_lrn_with_types, by = c("book", "release", "chapter_num", "page_num")) 
-write.csv(codebook_page_final, "codebook_page_final.csv")
+
+write.csv(codebook_page, "../codebooks/codebook_page.csv")
 
 ```
 
+```{r}
+# remove temporary datafiles
+rm(responses_lrn, codebook_lrn, codebook_lrn_type_long, codebook_lrn_type_wide)
+rm(codebook_ckcode, codebook_lrn_with_types, codebook_page_temp)
+```
 
