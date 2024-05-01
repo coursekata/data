@@ -43,6 +43,7 @@ codebook_page_temp <- responses %>%
          page_within_ch = ifelse(is_10 | is_between_10_20, temp_page_within_ch*10, temp_page_within_ch)) %>%
   select(book, release, chapter, page, chapter_num, page_within_ch) %>% 
   mutate(page_num = page_within_ch*100) %>%
+  select(-page_within_ch) %>%
   filter(!is.na(page_num))
 
 ```
@@ -127,6 +128,7 @@ codebook_lrn_type_wide <-
   distinct() 
   #head()
 
+# add 0s so the we can sum up the auto-scored columns
 codebook_lrn_type_wide[is.na(codebook_lrn_type_wide)] <- 0
 
 codebook_lrn_type_wide <- codebook_lrn_type_wide %>%
@@ -146,6 +148,8 @@ codebook_lrn_with_types <- codebook_lrn %>%
 codebook_page <- codebook_page_temp %>%
   left_join(codebook_ckcode, by = c("book", "release", "chapter_num", "page_num")) %>%
   left_join(codebook_lrn_with_types, by = c("book", "release", "chapter_num", "page_num")) 
+
+codebook_page[is.na(codebook_page)] <- 0
 
 write.csv(codebook_page, "../codebooks/codebook_page.csv")
 

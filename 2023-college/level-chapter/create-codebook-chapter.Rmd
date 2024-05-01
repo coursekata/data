@@ -1,0 +1,42 @@
+---
+title: Create Chapter-Level Codebook from `responses.Rdata`
+output: html_notebook
+---
+
+Before you run this notebook, please run the `create-page-codebook.Rmd` file. We will need the following data frames:
+- `codebook_page`
+- `responses`
+- `responses_nosurvey`
+
+The purpose of this script is to make a chapter-level codebook (eventually called `codebook_chapter`) from `responses.Rdata` that will do the following: 
+1. Include `num_pages` (counts of pages within each chapter) as well as all the variables from `codebook_page` grouped by book, chapter, and release version
+
+## 1. Create `num_pages` and all summed variables
+
+```{r}
+codebook_chapter <- codebook_page %>%
+  group_by(book, release, chapter_num) %>%
+  mutate(num_pages = n(),
+         n_code = sum(n_code),
+         n_lrn_q = sum(n_lrn_q),
+         n_lrn_item = sum(n_lrn_item),
+         lrn_auto = sum(lrn_auto),
+         mcq = sum(mcq),
+         association = sum(association),
+         shorttext = sum(shorttext),
+         clozeassociation = sum(clozeassociation),
+         imageclozeassociation = sum(imageclozeassociation),
+         sortlist = sum(sortlist),
+         formulaV2 = sum(formulaV2),
+         choicematrix = sum(choicematrix),
+         plaintext = sum(plaintext)) %>%
+  select(book, release, chapter_num, num_pages, n_code, n_lrn_q, n_lrn_item, lrn_auto,
+         mcq, association, shorttext, clozeassociation, imageclozeassociation,
+         sortlist, formulaV2, choicematrix, plaintext) %>%
+  distinct()
+```
+
+```{r}
+write.csv(codebook_chapter, "../codebooks/codebook_chapter.csv")
+```
+

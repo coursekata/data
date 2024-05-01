@@ -1,0 +1,93 @@
+---
+title: Create End of Chapter (EOC) Review Questions Summaries `checkpoints_eoc.Rdata`
+output: html_notebook
+---
+
+The purpose of this script is to make a data set summarizing student performance on end of chapter (EOC) review questions (eventually called `checkpoints_eoc.Rdata`) from `responses.Rdata`. It has the following properties:
+- Each row is a `student_id`+`class_id`+`chapter_num` combination.
+- This script makes use of the `codebook_page.csv` file.
+
+Because not all classes made use of the EOC questions/pages and not all students did them, this is a subset of the students and classes represented in `responses.Rdata`:
+- 1475 unique `student_id`
+- 46 unique `class_id`
+
+## Set up and load `responses.Rdata`
+
+```{r}
+# load libraries
+library(mosaic)
+library(dplyr)
+library(tidyverse)
+library(stringr)
+
+# start with raw data from responses.Rdata
+load("../responses.Rdata")
+
+# there should be no duplicates but just in case, this removes duplicate rows
+responses_all <- distinct(responses) 
+responses <- responses_all[, c(3:30)]
+
+```
+
+## 1. Identify Review Questions & Merge with `codebook_page`
+
+Read in `codebook_page.csv`
+
+```{r}
+codebook_page <- read.csv("../../codebooks/codebook_page.csv") 
+```
+
+Make `responses_review` which only keeps data relevant to the first page of review questions (note: some chapters have two pages of review questions). Also join with `codebook_page`.
+
+```{r}
+
+# Only keep the first page of the review questions for each chapter
+responses_review <- responses %>%
+  filter(str_detect(item_id, "Review")) %>%
+  filter(page == "Review Questions" | !str_detect(page, "Review Questions 2")) %>%
+  # join with codebook_page
+  left_join(codebook_page, by = c("book", "release", "chapter", "page"))
+
+```
+
+```{r}
+# print out page titles to check that these are the review pages
+unique(responses_review$page)
+```
+
+## 2. Make `checkpoints_eoc`
+
+```{r}
+# Group by book, release, class_id, student_id, chapter_num, page_num
+# i.e., if a student is in two classes, they will appear as two separate students
+checkpoints_eoc <- responses_review %>%
+  group_by(book, release, class_id, student_id, chapter_num, page_num) %>%
+  mutate(
+    # how many questions did the student "submit" an answer to on this page
+    n_submit = n(),
+    # how many questions were answered correctly
+    n_correct = sum(points_earned, na.rm = TRUE),
+    # proportion of questions correct divided by total questions on page (both coding and learnosity questions)
+    # this is bound between 0 and 1
+    eoc = n_correct / (n_code + n_lrn_q)
+  ) %>%
+  select(book, release, class_id, student_id, chapter_num, page_num, eoc, n_submit, n_correct, n_code, n_lrn_q, lrn_auto, plaintext) %>%
+  distinct()
+
+```
+
+Check how many unique `student_id` and `class_id` represented in `checkpoints_eoc`
+
+```{r}
+n_distinct(checkpoints_eoc$student_id)
+n_distinct(checkpoints_eoc$class_id)
+```
+
+Save as a .RData file in raw folder.
+
+```{r}
+save(checkpoints_eoc, file = "../checkpoints_eoc.RData")
+```
+
+
+
