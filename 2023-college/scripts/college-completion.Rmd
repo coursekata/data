@@ -1,0 +1,138 @@
+---
+title: "College Completion"
+output: html_notebook
+---
+
+The purpose of this script is to get completion metrics such as 
+
+1. Number of responses/submits at the student and page/chapter level: 
+- total number of responses/submits per student per page, `total_responses_per_student_per_page`
+- the average number of responses/submits per page (across students), `average_responses_per_page`
+- average responses per student per chapter, `student_chapter_average_responses`
+- average responses by chapter (across students),`average_responses_per_chapter`
+
+2. Page completion
+- chapter completion by student, i.e., how many pages per chapter does a student complete,`student_chapter_completion`
+
+3. Merged datafile - `student_chapter_submits_completion_college` - that includes the number of submits and completion proportion by student and chapter
+
+- 
+This assumes we start with a basic `responses.csv` file.
+
+In this data processing, we will treat student_id+release as a unique student. If a student responds in two release versions (e.g., 4.2 and 5.0), that student will appear as two cases.
+
+
+
+```{r}
+#### Import Data and Setup
+library(mosaic)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+
+# start with raw data from responses.Rdata
+setwd("~/Desktop/github repository/data/2023-college/raw")
+load("../raw/responses.Rdata")
+responses_all <- responses
+
+# also load codebook page and codebook_all_surveys
+
+codebook_all_surveys <- read.csv("../codebooks/codebook_all_surveys.csv")
+codebook_page <- read.csv("../codebooks/codebook_page.csv")
+codebook_chapter <- read.csv("../codebooks/codebook_chapter.csv")
+```
+
+
+
+```{r}
+## Merge page_num and chapter_num into responses and read in survey codebook so we can filter out survey responses.
+
+responses_nosurvey <- responses %>%
+  left_join(codebook_page, by=c("book", "release", "chapter", "page"))
+
+responses_submits <- responses_nosurvey[, c("student_id", "class_id", "item_id", "lrn_question_reference", "item_type", "chapter_num", "page_num", "completes_page", "response", "points_possible", "points_earned", "lrn_status", "lrn_type", "lrn_auto", "attempt", "lrn_dt_started", "lrn_dt_saved", "dt_submitted", "book", "release")] %>%
+  filter(!(item_id %in% codebook_all_surveys$item_id)) %>%
+  filter(!(is.na(page_num))) 
+
+```
+
+
+```{r}
+# Calculate/count the total number of responses/submits per student per page
+total_responses_per_student_per_page <- responses_submits %>%
+  group_by(student_id, page_num, chapter_num) %>%
+  count() %>%
+  arrange(-n)
+
+```
+
+## 1. Number of responses/submits
+
+```{r}
+# Calculate/count the average number of responses/submits per page (across students)
+
+average_responses_per_page <- total_responses_per_student_per_page %>%
+  group_by(chapter_num,page_num) %>%
+  summarise(average_responses = mean(n, na.rm=TRUE))
+
+```
+
+
+# average responses by STUDENT and chapter 
+```{r}
+student_chapter_average_responses <- total_responses_per_student_per_page %>%
+  group_by(student_id, chapter_num) %>%
+  summarise(average_responses = mean(n, na.rm=TRUE)) %>%
+      filter(!is.na(chapter_num))
+
+```
+
+# average responses by chapter (without student_id)
+```{r}
+average_responses_per_chapter<- average_responses_per_page %>%
+  group_by(chapter_num) %>%
+  summarise(average_responses_ch = mean(average_responses, na.rm=TRUE)) %>%
+    filter(!is.na(chapter_num))
+
+```
+
+## 2. Page Completion by Student and Page 
+
+```{r}
+#We want one variable per student per page whether they completed it or not
+student_page_completion <- responses_submits %>%
+  group_by(student_id, page_num) %>%
+  mutate(is_page_complete = any(completes_page)) %>% 
+  select(student_id, page_num, chapter_num, is_page_complete, class_id, release, book) %>%
+  distinct() 
+  
+```
+
+# calculate at the student level, i.e., how many pages per chapter does a student complete
+```{r}
+student_chapter_completion <- student_page_completion %>%
+  group_by(student_id, chapter_num) %>%
+  mutate(num_pages_complete = sum(is_page_complete, na.rm=TRUE), #number of pages students completed
+         num_pages_responded = n()) %>% #number of pages students had a response on; how many did they respond on - should be equal to or greater to num_pages_complete (i.e., if you respond it doesnt mean you complete it)
+  select(student_id, class_id, release, book, chapter_num, num_pages_complete, num_pages_responded) %>%
+  distinct() %>%
+  left_join(codebook_chapter, by = c("book", "release", "chapter_num")) %>%
+  mutate(ch_completion_prop_responded= num_pages_complete / num_pages_responded, # n=number of pages students responded on
+         ch_completion_prop = num_pages_complete / num_pages) %>%
+  filter(!is.na(chapter_num))
+  
+
+```
+
+## 3. save and merge student by chapter file: `student_chapter_submits_completion_college`
+```{r}
+student_chapter_submits_completion <- student_chapter_average_responses %>%
+  left_join(student_chapter_completion, by=c("student_id", "chapter_num"))
+  
+#save file            
+setwd("~/Desktop/github repository/data/2023-college/level-chapter")
+
+save(student_chapter_submits_completion, file = "../level-chapter/student_chapter_submits_completion.Rdata", compress = "xz", compression_level = 9)
+
+```
+
