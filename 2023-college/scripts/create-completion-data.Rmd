@@ -1,0 +1,114 @@
+---
+title: "Create Completion Data"
+output: html_notebook
+---
+
+The purpose of this script is to produce two data files:
+
+1. `student_page_completion.RData`
+  - each row is a unique `student_id`+`class_id`+`chapter_num`+`page_num`
+  - note that each class only uses one `book` with a particular `release`
+2. `student_ch_completion.RData`
+  - each row is a unique combination of `student_id`+`class_id`+`chapter_num`
+  
+These data files include completion metrics such as: 
+- Completion (either per page or per chapter)
+- Number of submits (either per page or per chapter)
+
+## Set up
+
+```{r}
+# load relevant libraries
+library(tidyverse)
+library(mosaic)
+
+# start with raw data from responses.Rdata
+load("../raw/responses.Rdata")
+responses_all <- responses
+
+# load all codebooks
+codebook_all_surveys <- read.csv("../codebooks/codebook_all_surveys.csv")
+codebook_page <- read.csv("../codebooks/codebook_page.csv")
+codebook_chapter <- read.csv("../codebooks/codebook_chapter.csv")
+```
+
+Merge variables `page_num` and `chapter_num` into `responses`. Also filter out any survey responses.
+
+```{r}
+responses_nosurvey <- responses %>%
+  left_join(codebook_page, by=c("book", "release", "chapter", "page")) %>%
+  select("book", "release", "class_id", "student_id", "item_id", "lrn_question_reference", 
+         "item_type", "chapter_num", "page_num", "completes_page", "response", 
+         "points_possible", "points_earned", "lrn_status", "lrn_type", "lrn_auto", "attempt", 
+         "lrn_dt_started", "lrn_dt_saved", "dt_submitted") %>%
+  filter(!(item_id %in% codebook_all_surveys$item_id)) %>%
+  filter(!(is.na(page_num))) 
+
+```
+
+## 1. Create `student_page_completion.RData`
+
+Create variables:
+- `is_page_complete` whether the page is ever marked complete
+- `n_submits` number of submits (either from ckcode or learnosity)
+
+```{r}
+student_page_completion <- responses_nosurvey %>%
+  group_by(student_id, class_id, chapter_num, page_num) %>%
+  mutate(is_page_complete = any(as.logical(completes_page)),
+         n_submits = n()) %>% 
+  select(book, release, class_id, student_id, chapter_num, page_num, is_page_complete, n_submits) %>%
+  distinct() 
+  
+```
+
+## 2. Create `student_ch_completion.RData`
+
+Create variables:
+- `n_pages_complete` for each chapter, number of pages this student completed (submitted on every exercise on that page)
+- `n_pages_submit` for each chapter, number of pages this student had at least one submission (this is equal to or greater than `n_pages_complete`)
+- `n_submits_ch` for each chapter, total number of submits
+- `prop_pages_complete` for each chapter, the proportion of pages completed
+- `prop_pages_submit` for each chapter, the proportion of pages with at least one submission 
+
+```{r}
+student_ch_completion <- student_page_completion %>%
+  group_by(student_id, class_id, chapter_num) %>%
+  mutate(n_pages_complete = sum(is_page_complete, na.rm=TRUE), 
+         n_pages_submit = n(),
+         n_submits_ch = sum(n_submits, na.rm=TRUE)) %>% 
+  select(book, release, class_id, student_id, chapter_num,
+         n_pages_complete, n_pages_submit, n_submits_ch) %>%
+  distinct() %>%
+  left_join(codebook_chapter, by = c("book", "release", "chapter_num")) %>%
+  mutate(prop_pages_complete = n_pages_complete / num_pages, 
+         prop_pages_submit = n_pages_submit / num_pages) %>%
+  select(book, release, class_id, student_id, chapter_num,
+         n_pages_complete, n_pages_submit, n_submits_ch,
+         prop_pages_complete, prop_pages_submit)
+```
+
+Check to make sure proportions do not go over 1.
+
+```{r}
+favstats(~ prop_pages_complete, data = student_ch_completion)
+favstats(~ prop_pages_submit, data = student_ch_completion)
+```
+
+
+## Write .RData files
+
+```{r}
+
+#save(student_page_completion, file = "../level-page/student_page_completion.Rdata", compress = "xz", compression_level = 9)
+
+#save(student_ch_completion, file = "../level-chapter/student_ch_completion.Rdata", compress = "xz", compression_level = 9)
+
+```
+
+Remove temporary files (optional).
+
+```{r}
+#rm(responses_nosurvey)
+```
+
