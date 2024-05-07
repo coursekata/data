@@ -1,0 +1,49 @@
+institution_id,class_id,book,release,n_students
+292cff87-3c74-4e94-8622-233afb0427dd,6fbf5a0a-cf5d-4567-89b5-eb5c4a16c4ab,College / Advanced Statistics and Data Science (ABCD),v5.0-exp2,214
+d2e6c885-36f4-48b9-988b-42eef1f8ed9d,25d5269a-ea76-4cb4-844d-3dbcf0bffc53,College / Advanced Statistics and Data Science (ABCD),v5.0,15
+292cff87-3c74-4e94-8622-233afb0427dd,b7489f46-1d28-4c69-9901-3fb8bf9b85a6,College / Advanced Statistics and Data Science (ABCD),v5.0,103
+2f830a93-5a14-4aff-a6e8-c7d2562e2007,312e145c-f6b8-4f25-a73e-4d9f5b5926c0,College / Advanced Statistics and Data Science (ABCD),v5.0,46
+97aebe75-a051-4bff-a2c0-1d53eb5d9498,173bd102-4560-470f-b4f1-9841e55f7f37,College / Advanced Statistics and Data Science (ABCD),v5.0,21
+c699dd97-e5a4-49ce-9718-877a81b1d475,34036ef8-17eb-4e96-b97e-8ec8054a290f,College / Advanced Statistics and Data Science (ABCD),v5.0,32
+be43fa14-0937-40a4-bad9-d96294e565e3,d1175d28-51bb-44af-b4e0-6f7a36c8cc43,College / Advanced Statistics and Data Science (ABCD),v5.0,4
+292cff87-3c74-4e94-8622-233afb0427dd,84444a0e-2905-46a8-bc93-5f566c0c1916,College / Advanced Statistics and Data Science (ABCD),v5.1.1,98
+292cff87-3c74-4e94-8622-233afb0427dd,074123e7-cd90-4500-86fe-286aaa733bf5,College / Statistics and Data Science (ABC),v5.0-exp1,216
+292cff87-3c74-4e94-8622-233afb0427dd,51711479-441b-4c02-aef7-517aca63a53f,College / Statistics and Data Science (ABC),v5.0,21
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,552ede8f-6b54-426d-8d29-abdc43a668cb,College / Statistics and Data Science (ABC),v5.0,28
+97aebe75-a051-4bff-a2c0-1d53eb5d9498,3631cec9-51d3-4237-906f-a142a715be51,College / Statistics and Data Science (ABC),v5.0,23
+04157183-8665-400a-925d-3bbb70ffe45e,afcb6b4e-a0c0-46ce-b38c-c96329c91471,College / Statistics and Data Science (ABC),v5.0,27
+97aebe75-a051-4bff-a2c0-1d53eb5d9498,9fad0c9e-9d3d-4eed-ada6-3959bd6d712c,College / Statistics and Data Science (ABC),v5.0,25
+97aebe75-a051-4bff-a2c0-1d53eb5d9498,40e49bfa-f6cb-42fa-a3a4-b23592b799ec,College / Statistics and Data Science (ABC),v5.0,26
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,8589cd83-192c-44c8-b649-cd848e519530,College / Statistics and Data Science (ABC),v5.0,28
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,94da41a4-f9f8-4225-bf41-42db737850b9,College / Statistics and Data Science (ABC),v5.0,14
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,b16b895d-ca1d-4330-a36d-c43fb33436e5,College / Statistics and Data Science (ABC),v5.0,21
+364da48a-e0b2-4507-bc31-e7761fe16e95,4a3b5b2c-ef0f-4121-96f4-fd8a42764836,College / Statistics and Data Science (ABC),v5.0,16
+364da48a-e0b2-4507-bc31-e7761fe16e95,52619962-72f6-4716-9c64-1c06fe10f739,College / Statistics and Data Science (ABC),v5.0,21
+97aebe75-a051-4bff-a2c0-1d53eb5d9498,65246c1e-a176-4760-acb5-a320a9b7b2fe,College / Statistics and Data Science (ABC),v5.0,17
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,9bdf8bfc-9998-4fd8-85d2-70c91cf94891,College / Statistics and Data Science (ABC),v5.0,30
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,20bd524c-bb2d-4b74-a419-929475b91d94,College / Statistics and Data Science (ABC),v5.0,15
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,686478e7-82ac-4e6c-a3ec-2da0076ef868,College / Statistics and Data Science (ABC),v5.0,28
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,b1421b49-4026-4c61-9786-d4ef110c8db3,College / Statistics and Data Science (ABC),v5.0,19
+97aebe75-a051-4bff-a2c0-1d53eb5d9498,79662249-02f6-48d8-aa99-1e1c0aeea77d,College / Statistics and Data Science (ABC),v5.0,24
+97aebe75-a051-4bff-a2c0-1d53eb5d9498,c7008a64-b43c-4eb4-bebf-07b08b9894ad,College / Statistics and Data Science (ABC),v5.0,20
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,bcae937d-c95f-436c-ac0f-d4a5e995de19,College / Statistics and Data Science (ABC),v5.0,15
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,d0b4f5e2-6d8f-4828-91cd-3f4714b821b0,College / Statistics and Data Science (ABC),v5.0,27
+f17495c5-e105-492d-878a-07a03ea3f805,0089dedf-6316-4c32-a38c-d48dfafed882,College / Statistics and Data Science (ABC),v5.0,19
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,fe8c4185-7e8d-48eb-bf0e-85562e060d5d,College / Statistics and Data Science (ABC),v5.0,17
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,c09145c1-d635-41ae-b881-17ab46895fe4,College / Statistics and Data Science (ABC),v5.0,24
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,1cca9f91-5c4a-4e1a-8e0e-293b070dfd6f,College / Statistics and Data Science (ABC),v5.0,19
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,7a987176-7e55-45b5-a715-7f56c59d5f49,College / Statistics and Data Science (ABC),v5.0,23
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,103f5ce8-9e95-4916-815e-9f821d274a59,College / Statistics and Data Science (ABC),v5.0,16
+364da48a-e0b2-4507-bc31-e7761fe16e95,60e05fa5-c986-4973-9833-16238720b727,College / Statistics and Data Science (ABC),v5.0,27
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,bc650f4f-11f0-439a-a90a-47726724c811,College / Statistics and Data Science (ABC),v5.0,25
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,98119d92-8cc6-416a-972c-630351726223,College / Statistics and Data Science (ABC),v5.0,24
+364da48a-e0b2-4507-bc31-e7761fe16e95,97c61e74-5a20-4cf5-bf67-8f8db750d0e7,College / Statistics and Data Science (ABC),v5.0,25
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,0d546479-6f77-4477-9c7e-365cd36c97eb,College / Statistics and Data Science (ABC),v5.0,26
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,2294d558-6f5d-41c5-8d28-7b5280970f95,College / Statistics and Data Science (ABC),v5.0,25
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,5bd961c4-659c-40a7-a685-6735189f2b65,College / Statistics and Data Science (ABC),v5.1.1,13
+d2e6c885-36f4-48b9-988b-42eef1f8ed9d,c1168ee3-7ac8-4fdc-af0e-e375ad0629fe,College / Statistics and Data Science (ABC),v5.1.1,15
+292cff87-3c74-4e94-8622-233afb0427dd,cc1ffb2e-5555-4109-8ad8-2d49cb54ad10,College / Statistics and Data Science (ABC),v5.2,92
+364da48a-e0b2-4507-bc31-e7761fe16e95,822d72d9-0c18-47a0-99fc-7223b4fd22f5,College / Statistics and Data Science (ABC),v5.2,14
+fc5f1b1b-2aeb-4e09-93fc-06fdac0d8030,1020418a-3eeb-4251-88f7-150c8fe00a56,College / Statistics and Data Science (ABC),v5.2,14
+94a809a9-a0ef-4c47-8d96-3a5ad76f674b,ec76b77f-7635-4b9d-9975-f28bc334e336,High School / Advanced Statistics and Data Science I (ABC),v5.0,29
+fc5f1b1b-2aeb-4e09-93fc-06fdac0d8030,95370fbf-5008-435f-b801-8214285f251b,High School / Advanced Statistics and Data Science I (ABC),v5.0,10
