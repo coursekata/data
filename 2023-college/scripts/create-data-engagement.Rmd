@@ -1,0 +1,106 @@
+---
+title: "Engagement"
+output: html_document
+---
+The purpose of this script is to create 
+
+1. `student_page_engagement.RData`
+  - each row is a unique `student_id`+`class_id`+`chapter_num`+`page_num`
+  - note that each class only uses one `book` with a particular `release`
+2. `student_ch_engagement.RData`
+  - each row is a unique combination of `student_id`+`class_id`+`chapter_num`
+  
+    
+These data files include engagement metrics such as: 
+- engagement per page or chapter
+- number of visits per page or chapter
+- idle brief and long
+- off page brief and long
+
+
+## Set up and load `page_views.Rdata`and `codebook_page`
+
+```{r}
+install.packages("mosaic")
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(mosaic)
+library(stringr)
+
+# start with raw data from page_views.Rdata
+setwd("~/Desktop/github repository/data/2023-college/raw")
+load("page_views.Rdata")
+
+# load page_views_codebook
+setwd("~/Desktop/github repository/data/2023-college/codebooks")
+codebook_page <- read.csv("codebook_page_pageviews.csv")
+```
+
+
+```{r}
+## merge codebook and page_views
+
+# @Ji check out warning: Detected an unexpected many-to-many relationship between `x` and `y`.
+page_views_merged <- left_join(codebook_page, page_views, by = "page")
+page_views <- page_views_merged
+
+```
+
+## 1. Create `student_page_engagement.RData`
+
+### 1.1. Create engagement-related metrics
+```{r}
+# Find # of students based on # of distinct student_ids 
+student_count <- as.numeric(page_views %>% distinct(student_id) %>% count())
+
+```
+
+```{r}
+#@Ji, I think we can get rid of all the "mean" stuff, because that's equal to sum (i.e., students don't have an average per page)
+student_page_engagement <- page_views %>%
+  group_by(book, release, class_id, student_id, chapter_num, page_num) %>%
+  summarize(
+    sum_engagement = sum(engaged / 60000, na.rm = TRUE), 
+    sum_idle_brief = sum(idle_brief / 60000, na.rm = TRUE), 
+    sum_idle_long = sum(idle_long / 60000, na.rm = TRUE), 
+    sum_off_page_brief = sum(off_page_brief / 60000, na.rm = TRUE), 
+    sum_off_page_long = sum(off_page_long / 60000, na.rm = TRUE), 
+    number_visits = n()
+  ) 
+```
+
+
+```{r}
+
+# save file
+setwd("~/Desktop/github repository/data/2023-college/level-page")
+save(student_page_engagement, file = "student_page_engagement.Rdata", compress = "xz", compression_level = 9)
+```
+
+
+## 2. Create `student_ch_engagement.RData`
+
+```{r}
+# student CHAPTER data to create mean engagement
+student_chapter_engagement <- student_page_engagement %>% 
+  group_by(student_id, class_id, chapter_num) %>% 
+  summarize(mean_engagement_ch=mean(sum_engagement, na.rm = TRUE),
+            mean_visits_ch = mean(number_visits, na.rm = TRUE),
+            mean_idle_brief_ch = mean(sum_idle_brief, na.rm = TRUE), 
+            mean_idle_long_ch = mean(sum_idle_long, na.rm = TRUE), 
+            mean_off_page_brief_ch = mean(sum_off_page_brief, na.rm = TRUE), 
+            mean_off_page_long_ch = mean(sum_off_page_long, na.rm = TRUE)
+  )
+
+```
+
+
+
+```{r}
+
+# save file
+setwd("~/Desktop/github repository/data/2023-college/level-chapter")
+save(student_page_engagement, file = "student_chapter_engagement.Rdata", compress = "xz", compression_level = 9)
+```
+
