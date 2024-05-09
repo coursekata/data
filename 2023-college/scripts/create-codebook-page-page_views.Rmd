@@ -1,0 +1,65 @@
+---
+title: Create Page-Level Codebook from `page_views.Rdata`
+output: html_notebook
+---
+
+The purpose of this script is to make a page-level codebook (eventually called `codebook_page`) from `page_views.Rdata` that will do the following: 
+
+In `page_views`, `page` variable is a string that includes both the chapter and page number (e.g., 10.4 represents chapter 10, page 4) and descriptive text. This codebook will have variables called `chapter_num` and `page_num` that each only include one number (e.g., `chapter_num` will be 10 and `page_num` will be 4).
+
+
+## Set up and load `page_views.Rdata`
+
+```{r}
+# load libraries
+library(mosaic)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+
+# start with raw data from page_views.Rdata
+setwd("~/Desktop/github repository/data/2023-college/raw")
+load("page_views.Rdata")
+classes <-read.csv("classes.csv")
+
+# there should be no duplicates but just in case, this removes duplicate rows
+page_views_all <- distinct(page_views)
+```
+
+
+```{r}
+#leftjoin page_views and class_id to get book and release
+page_views_class <- page_views %>%
+  left_join(classes, by=c("class_id"))
+
+page_views <- page_views_class
+```
+
+
+## Create page_num and chapter_num variables
+
+```{r}
+# make a data frame where each row is a page
+codebook_page <- page_views %>%
+  select(release, book,chapter, page) %>%
+  unique() %>%
+  mutate(chapter_num = as.numeric(gsub("\\D", "", chapter)),
+         page_string = str_extract(str_trunc(page, 8, "right"), "\\d+\\.*\\d*"),
+         page_num_from_string = as.numeric(str_extract(str_trunc(page, 8, "right"), "\\d+\\.*\\d*")),
+         temp_page_within_ch = round((page_num_from_string - chapter_num)/10,3),
+         is_10 = grepl(".10", page_string, fixed = TRUE),
+         is_between_10_20 = temp_page_within_ch > .010 & temp_page_within_ch < .019,
+         page_within_ch = ifelse(is_10 | is_between_10_20, temp_page_within_ch*10, temp_page_within_ch)) %>%
+  select(release, book, chapter, page, chapter_num, page_within_ch) %>% 
+  mutate(page_num = page_within_ch*100) %>%
+  select(-page_within_ch) %>%
+  filter(!is.na(page_num))
+
+```
+
+
+```{r}
+#save codebook
+setwd("~/Desktop/github repository/data/2023-college/codebooks")
+write.csv(codebook_page, "codebook_page_pageviews.csv")
+```
