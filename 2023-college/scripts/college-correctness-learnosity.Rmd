@@ -1,0 +1,187 @@
+---
+title: "College Correctness Learnosity Exercises"
+output: html_notebook
+---
+
+The purpose of this script is to create
+
+1.  `new_responses_lrn_auto`, which is a response data file that only includes auto-scored learnosity questions
+
+2. correctness metrics, including at the page level
+
+a) proportion correctness by student by release version by page `student_page_lrn_correct`
+b) proportion correctnesss by page by release version `page_release_lrn_correct`
+c) proportion correctness by page `page_lrn_correct`
+
+3. correctness metrics at the chapter level:
+
+a) proportion correctness by student by chapter `student_chapter_lrn`
+b) proportion correctness by chapter `chapter_lrn`
+
+
+This assumes we start with a basic `responses.csv` file.
+
+In this data processing, we will treat student_id+release as a unique student. If a student responds in two release versions (e.g., 4.2 and 5.0), that student will appear as two cases.
+
+## Set up and load `responses.Rdata`, `codebook_page`, and `codebook_all_surveys`
+
+```{r}
+# load libraries
+library(mosaic)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+
+# start with raw data from responses.Rdata
+setwd("~/Desktop/github repository/data/2023-college/raw")
+load("../raw/responses.Rdata")
+
+# there should be no duplicates but just in case, this removes duplicate rows
+responses_all <- distinct(responses)
+
+# also load codebook page and codebook_all_surveys
+setwd("~/Desktop/github repository/data/2023-college/codebooks")
+codebook_page <- read.csv("../codebooks/codebook_page.csv")
+codebook_all_surveys <- read.csv("../codebooks/codebook_all_surveys.csv")
+```
+
+
+1.  Create `new_responses_lrn_auto` - a response data file that only includes auto-scored learnosity questions
+
+```{r}
+## Merge page_num and chapter_num (and lrn_auto") into responses and read in survey codebook so we can filter out survey responses.
+
+responses_nosurvey <- responses %>%
+  left_join(codebook_page, by=c("book", "release", "chapter", "page"))
+
+responses_nosurvey <- responses_nosurvey[, c("student_id", "class_id", "item_id", "lrn_question_reference", "item_type", "chapter_num", "page_num", "completes_page", "response", "points_possible", "points_earned", "lrn_status", "lrn_type", "lrn_auto", "attempt", "lrn_dt_started", "lrn_dt_saved", "dt_submitted", "book", "release")] %>%
+  filter(!(item_id %in% codebook_all_surveys$item_id)) %>%
+  filter(!(is.na(page_num)))
+```
+
+```{r}
+
+# Also take out all coding exercises and surveys
+new_responses_lrn_auto <- new_responses %>%
+  filter(item_type != "code") %>%
+  filter(!(item_id %in% codebook_all_surveys$item_id)) %>%
+  filter(lrn_auto>=1) #learnosity (auto scored)
+
+```
+
+2.  correctness metrics at the page level
+# 2a) each row is a student + class + release + page (for lrn auto scored questions)
+```{r}
+student_lrn_correct <- new_responses_lrn_auto %>%
+  group_by(student_id, class_id, release, lrn_question_reference) %>%
+  select(book, student_id, release, item_id, lrn_question_reference, item_type, lrn_type, page_num, chapter_num, class_id, points_earned, attempt) %>%
+  filter(!is.na(page_num)) %>% 
+  distinct()
+```
+
+```{r}
+student_page_lrn_correct <- student_lrn_correct %>%
+  group_by (student_id, class_id, release, chapter_num, page_num) %>%
+  mutate(correct_per_page = sum(points_earned, na.rm=TRUE),
+         num_attempts =sum(attempt, na.rm=TRUE)) %>% 
+  select(book, student_id, release, page_num, chapter_num, class_id, correct_per_page, num_attempts) %>%
+  distinct()
+```
+
+```{r}
+codebook_page_final <- codebook_page 
+
+codebook_slim <- codebook_page_final %>%
+  select("book", "release", "chapter_num", "page_num", "lrn_auto") 
+
+student_page_lrn_correct <- student_page_lrn_correct %>%
+  left_join(codebook_slim, by = c('book', 'release', 'chapter_num', 'page_num')) %>%
+  mutate(corr_prop = correct_per_page / lrn_auto, 
+         attempt_prop = num_attempts / lrn_auto)
+
+#write.csv(student_page_lrn_correct, "student_page_lrn_correct.csv")
+save(student_page_lrn_correct, file = "student_page_lrn_correct.Rdata", compress = "xz", compression_level = 9)
+
+```
+
+# 2b) proportion correctness by page and release version
+```{r}
+page_release_lrn_correct <- student_page_lrn_correct %>%
+    group_by(release, chapter_num, page_num) %>%
+  summarize(avg_corr_prop = mean(corr_prop, na.rm=TRUE))
+
+print(page_release_lrn_correct) # cannot be greater than 1
+
+```
+
+
+# 2c) proportion correctness by page
+```{r}
+# get PROPORTION correctness by page 
+
+page_lrn_correct <- page_release_lrn_correct %>%
+    group_by(chapter_num, page_num) %>%
+    summarize(avg_corr_prop_page = mean(avg_corr_prop, na.rm=TRUE))
+
+#print(page_lrn_correct) # cannot be greater than 1
+#write.csv(page_lrn_correct, "page_lrn_correct_college.csv", row.names = FALSE)
+
+```
+
+
+3. correctness metrics at the chapter level
+
+```{r}
+#codebook for chapter
+codebook_ch <- codebook_page %>%
+  group_by(book, release, chapter_num) %>%
+  mutate(n_lrn_auto_ch = sum(lrn_auto, na.rm=TRUE)) %>%
+  select(book, release, chapter_num, n_lrn_auto_ch) %>%
+  distinct()
+```
+
+## 3a) each row is a student + release + chapter (for lrn auto scored questions)
+```{r}
+
+student_chapter_lrn <- student_page_lrn_correct %>%
+  group_by(student_id, class_id, release, chapter_num) %>%
+  mutate(corr_per_ch = sum(correct_per_page, na.rm=TRUE)) %>%
+  left_join(codebook_ch, by = c("book", "release", "chapter_num")) %>%
+  mutate(corr_prop = corr_per_ch / n_lrn_auto_ch, na.rm = TRUE) %>%
+  select(student_id, class_id, release, chapter_num, corr_per_ch, book, corr_prop, n_lrn_auto_ch) %>%
+  distinct()
+
+#write.csv(student_chapter_lrn, "student_chapter_lrn_college.csv", row.names = FALSE)
+save(student_chapter_lrn, file = "student_chapter_lrn.Rdata", compress = "xz", compression_level = 9)
+```
+
+## 3b) each row is a student + release + chapter (for lrn auto scored questions)
+```{r}
+# Get averages by chapter_num without student_id
+chapter_lrn <- student_chapter_lrn %>%
+  group_by(chapter_num) %>%
+  summarize(average_corr_prop = mean(corr_prop,  na.rm = TRUE))
+
+print(chapter_lrn)
+
+#setwd("~/Desktop/2023-college-claudia-ji/chapter-level-files")
+#write.csv(chapter_lrn, "chapter_lrn_college.csv", row.names = FALSE)
+
+```
+
+
+## 3b) wide format
+```{r}
+# Wide format
+
+wide_student_chapter_lrn <- student_chapter_lrn %>%
+  pivot_wider(
+    names_from = chapter_num, values_from = c(corr_per_ch, corr_prop, n_lrn_auto_ch) 
+  ) 
+
+#Save Wide Format
+#write.csv(wide_student_chapter_lrn, "wide_student_chapter_lrn_college.csv", row.names = FALSE)
+
+```
+
+

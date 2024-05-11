@@ -2,40 +2,31 @@
 
 Publicly available CourseKata datasets for demonstrations. 
 
-More resources (codebooks, documentation, scripts, information about variables, etc.) can be found at [research.coursekata.org](research.coursekata.org). 
+Resources (codebooks, documentation, scripts, etc.) can be found at [research.coursekata.org](research.coursekata.org). 
 
 If you'd like to publish or present research using this data, please review and sign our [CourseKata Data Use Agreement for Researchers](https://docs.google.com/forms/d/e/1FAIpQLSecVJKONItq5fni8CLfXxvjTlNBcMoQityqkt_6sCJMjvwltQ/viewform).
 
-## Basic Summary of 2023-college
 
-Publicly available CourseKata data from college courses that used a CourseKata textbook (ABC or ABCD) in 2023.
-- 1625 unique students from 48 classes in 11 institutions of higher education (28 of those unique students are in more than one class)
-- Took a college course in 2023 that used one of the CourseKata statistics and data science textbooks
+## About the Raw Data Files
 
-### Raw Data files
+Go to [research.coursekata.org](research.coursekata.org) for more information about our datafiles. There, you can also find other relevant resources such as codebooks, processing files, survey overviews etc. 
 
 In this publicly available repo, we have relatively raw files that we typically provide to CourseKata researchers:
-- `classes.Rdata`
-- `responses.Rdata`
-- `media_views.Rdata`
-- `page_views.Rdata`
+- classes.Rdata
+- responses.Rdata
+- media_views.Rdata
+- page_views.Rdata
 
 However, we have also have two additional files similar to the files provided to the [ASA DataFest in 2024](https://ww2.amstat.org/education/datafest/index.cfm):
-- `checkpoints_eoc.Rdata`
-- `checkpoints_pulse.Rdata`
-
-### Page- and Chapter-Level Data
-
-We have also provided data files that provide page- and chapter-level summary data for each student. A student is defined as a unique `student_id`+`class_id` combination thus if a student was in multiple courses that used CourseKata materials, they are treated as different students.
-
-All scripts used to process the raw data files into the page- and chapter-level data are provided in the scripts folder.
+- checkpoints_eoc.Rdata
+- checkpoints_pulse.Rdata
 
 
-## Anonymization
+## Anonymized Further
 
 All CourseKata data are anonymized but this public version is anonymized even further in that:
 
-- open responses or short text responses have been removed from responses.Rdata (replaced with NA) 
+- open responses or short text have been removed from responses.Rdata (replaced with NA) 
 - removed coding responses have been removed from responses.Rdata (replaced with NA) 
 
 If you would like these written responses to analyze for research purposes, please [contact us](research@coursekata.org) and become part of our CourseKata Research network.
