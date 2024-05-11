@@ -1,0 +1,131 @@
+---
+title: "Engagement"
+output: html_document
+---
+The purpose of this script is to create 
+
+1. `student_page_engagement.RData`
+  - each row is a unique `student_id`+`class_id`+`chapter_num`+`page_num`
+  - note that each class only uses one `book` with a particular `release`
+2. `student_ch_engagement.RData`
+  - each row is a unique combination of `student_id`+`class_id`+`chapter_num`
+  
+  
+These data files include engagement metrics such as: 
+- engagement per page or chapter
+- number of visits per page or chapter
+- idle brief and long
+- off page brief and long
+
+
+## Set up and load files
+
+```{r}
+library(tidyverse)
+library(mosaic)
+library(stringr)
+```
+
+We need:
+- `page_views.Rdata`
+- `codebook_page_pageviews.csv`
+- `classes.csv`
+
+```{r}
+
+load("../raw/page_views.Rdata")
+
+codebook_page <- read.csv("../codebooks/codebook_page_pageviews.csv") %>%
+  select(-1)
+
+classes <- read.csv("../raw/classes.csv")
+
+page_views_raw <- page_views
+```
+
+Merge the three data frames: page_views, codebook, and classes.
+
+```{r}
+
+page_views <- page_views_raw %>%
+  left_join(classes, by = c("institution_id", "class_id")) %>%
+  select(-n_students) %>%
+  left_join(codebook_page, by = c("book", "release", "chapter", "page"))
+
+```
+
+## 1. Create `student_page_engagement.RData`
+
+### 1.1. Create engagement-related metrics
+
+All engagement metrics having to do with time are converted to minutes (from milliseconds).
+
+```{r}
+student_page_engagement <- page_views %>%
+  group_by(book, release, class_id, student_id, chapter_num, page_num) %>%
+  summarize(
+    sum_engaged_pg = sum(engaged / 60000, na.rm = TRUE), 
+    sum_idle_brief_pg = sum(idle_brief / 60000, na.rm = TRUE), 
+    sum_idle_long_pg = sum(idle_long / 60000, na.rm = TRUE), 
+    sum_off_page_brief_pg = sum(off_page_brief / 60000, na.rm = TRUE), 
+    sum_off_page_long_pg = sum(off_page_long / 60000, na.rm = TRUE), 
+    n_visits_pg = n()
+  ) %>%
+  distinct()
+```
+
+Sanity checks:
+- both `page_views` and `student_page_engagement` should have the same number of unique student IDs.
+
+```{r}
+n_distinct(page_views$student_id)
+n_distinct(student_page_engagement$student_id)
+
+# why are there negative numbers in engaged and off_page_brief?
+summary(student_page_engagement)
+summary(page_views)
+```
+
+```{r}
+save(student_page_engagement, file = "../level-page/student_page_engagement.Rdata", compress = "xz", compression_level = 9)
+
+```
+
+
+## 2. Create `student_ch_engagement.RData`
+
+Create a `codebook_ch` that contains number of pages per chapter.
+
+```{r}
+codebook_ch <- codebook_page %>%
+  group_by(book, release, chapter, chapter_num) %>%
+  summarize(n_pages = n()) 
+```
+
+
+```{r}
+student_ch_engagement <- student_page_engagement %>% 
+  group_by(book, release, class_id, student_id, chapter_num) %>% 
+  summarize(sum_engaged_ch = sum(sum_engaged_pg, na.rm = TRUE),
+            sum_idle_brief_ch = sum(sum_idle_brief_pg, na.rm = TRUE), 
+            sum_idle_long_ch = sum(sum_idle_long_pg, na.rm = TRUE), 
+            sum_off_page_brief_ch = sum(sum_off_page_brief_pg, na.rm = TRUE), 
+            sum_off_page_long_ch = sum(sum_off_page_long_pg, na.rm = TRUE),
+            n_visits_ch = sum(n_visits_pg, na.rm = TRUE),
+            n_pages_visited = n_distinct(page_num)) %>%
+  distinct() %>%
+  left_join(codebook_ch, by = c("book", "release", "chapter_num")) %>%
+  mutate(prop_pages_visited = n_pages_visited / n_pages) %>%
+  select(-chapter, n_pages) %>%
+
+```
+
+```{r}
+summary(student_ch_engagement)
+```
+
+```{r}
+# save file
+save(student_ch_engagement, file = "../level-chapter/student_ch_engagement.Rdata", compress = "xz", compression_level = 9)
+```
+

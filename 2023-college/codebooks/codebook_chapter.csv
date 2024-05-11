@@ -1,0 +1,103 @@
+"","book","release","chapter_num","num_pages","n_code","n_lrn_q","n_lrn_item","lrn_auto","mcq","association","shorttext","clozeassociation","imageclozeassociation","sortlist","formulaV2","choicematrix","plaintext"
+"1","College / Statistics and Data Science (ABC)","v5.0-exp1",1,5,24,14,14,13,13,0,0,0,0,0,0,0,1
+"2","College / Statistics and Data Science (ABC)","v5.0-exp1",2,11,26,82,71,63,54,0,9,0,0,0,0,2,17
+"3","College / Statistics and Data Science (ABC)","v5.0-exp1",3,11,29,88,75,65,60,2,1,2,0,0,0,2,21
+"4","College / Statistics and Data Science (ABC)","v5.0-exp1",4,16,19,135,92,96,81,2,9,3,1,0,0,3,36
+"5","College / Statistics and Data Science (ABC)","v5.0-exp1",5,12,12,71,55,52,45,4,3,0,0,0,0,0,19
+"6","College / Statistics and Data Science (ABC)","v5.0-exp1",6,14,19,100,79,78,67,5,4,0,1,1,0,0,22
+"7","College / Statistics and Data Science (ABC)","v5.0-exp1",7,11,7,56,40,54,50,4,0,0,0,0,0,0,2
+"8","College / Statistics and Data Science (ABC)","v5.0-exp1",8,8,12,60,42,57,50,5,1,0,0,0,1,0,3
+"9","College / Statistics and Data Science (ABC)","v5.0-exp1",9,13,13,102,80,85,80,5,0,0,0,0,0,2,15
+"10","College / Statistics and Data Science (ABC)","v5.0-exp1",10,7,12,54,30,50,50,0,0,0,0,0,0,0,4
+"11","College / Statistics and Data Science (ABC)","v5.0-exp1",11,8,16,66,36,57,54,1,2,0,0,0,0,0,9
+"12","College / Statistics and Data Science (ABC)","v5.0-exp1",12,6,14,73,52,61,61,0,0,0,0,0,0,0,12
+"13","College / Statistics and Data Science (ABC)","v5.0",1,5,24,14,14,13,13,0,0,0,0,0,0,0,1
+"14","College / Statistics and Data Science (ABC)","v5.0",2,11,26,82,71,63,54,0,9,0,0,0,0,2,17
+"15","College / Statistics and Data Science (ABC)","v5.0",3,11,29,88,75,65,60,2,1,2,0,0,0,2,21
+"16","College / Statistics and Data Science (ABC)","v5.0",4,16,19,133,91,96,81,2,9,3,1,0,0,1,36
+"17","College / Statistics and Data Science (ABC)","v5.0",5,12,12,71,55,52,45,4,3,0,0,0,0,0,19
+"18","College / Statistics and Data Science (ABC)","v5.0",6,14,19,100,79,78,67,5,4,0,1,1,0,0,22
+"19","College / Statistics and Data Science (ABC)","v5.0",7,11,7,56,40,54,50,4,0,0,0,0,0,0,2
+"20","College / Statistics and Data Science (ABC)","v5.0",8,8,12,60,42,57,50,5,1,0,0,0,1,0,3
+"21","College / Statistics and Data Science (ABC)","v5.0",9,13,13,100,79,85,80,5,0,0,0,0,0,0,15
+"22","College / Statistics and Data Science (ABC)","v5.0",10,7,12,54,30,50,50,0,0,0,0,0,0,0,4
+"23","College / Statistics and Data Science (ABC)","v5.0",11,8,16,66,36,57,54,1,2,0,0,0,0,0,9
+"24","College / Statistics and Data Science (ABC)","v5.0",12,6,14,73,52,61,61,0,0,0,0,0,0,0,12
+"25","College / Statistics and Data Science (ABC)","v5.0",13,3,8,21,9,18,18,0,0,0,0,0,0,0,3
+"26","College / Statistics and Data Science (ABC)","v5.1.1",13,3,8,21,9,18,18,0,0,0,0,0,0,0,3
+"27","High School / Advanced Statistics and Data Science I (ABC)","v5.0",1,5,24,14,14,13,13,0,0,0,0,0,0,0,1
+"28","High School / Advanced Statistics and Data Science I (ABC)","v5.0",2,11,26,82,71,63,54,0,9,0,0,0,0,2,17
+"29","High School / Advanced Statistics and Data Science I (ABC)","v5.0",3,11,29,88,75,65,60,2,1,2,0,0,0,2,21
+"30","High School / Advanced Statistics and Data Science I (ABC)","v5.0",4,16,19,133,91,96,81,2,9,3,1,0,0,1,36
+"31","High School / Advanced Statistics and Data Science I (ABC)","v5.0",5,12,12,71,55,52,45,4,3,0,0,0,0,0,19
+"32","High School / Advanced Statistics and Data Science I (ABC)","v5.0",6,14,19,100,79,78,67,5,4,0,1,1,0,0,22
+"33","High School / Advanced Statistics and Data Science I (ABC)","v5.0",7,11,7,56,40,54,50,4,0,0,0,0,0,0,2
+"34","High School / Advanced Statistics and Data Science I (ABC)","v5.0",8,8,12,60,42,57,50,5,1,0,0,0,1,0,3
+"35","High School / Advanced Statistics and Data Science I (ABC)","v5.0",9,13,13,100,79,85,80,5,0,0,0,0,0,0,15
+"36","High School / Advanced Statistics and Data Science I (ABC)","v5.0",10,7,12,54,30,50,50,0,0,0,0,0,0,0,4
+"37","High School / Advanced Statistics and Data Science I (ABC)","v5.0",11,8,16,66,36,57,54,1,2,0,0,0,0,0,9
+"38","High School / Advanced Statistics and Data Science I (ABC)","v5.0",12,6,14,73,52,61,61,0,0,0,0,0,0,0,12
+"39","College / Statistics and Data Science (ABC)","v5.2",1,4,24,13,13,13,13,0,0,0,0,0,0,0,0
+"40","College / Statistics and Data Science (ABC)","v5.2",2,10,26,81,70,63,54,0,9,0,0,0,0,2,16
+"41","College / Statistics and Data Science (ABC)","v5.2",3,11,29,87,74,65,60,2,1,2,0,0,0,2,20
+"42","College / Statistics and Data Science (ABC)","v5.2",4,16,20,133,91,96,81,2,9,3,1,0,0,1,36
+"43","College / Statistics and Data Science (ABC)","v5.2",5,11,12,70,54,52,45,4,3,0,0,0,0,0,18
+"44","College / Statistics and Data Science (ABC)","v5.2",6,13,19,99,78,78,67,5,4,0,1,1,0,0,21
+"45","College / Statistics and Data Science (ABC)","v5.2",7,11,7,56,40,54,50,4,0,0,0,0,0,0,2
+"46","College / Statistics and Data Science (ABC)","v5.2",8,8,11,60,42,57,50,5,1,0,0,0,1,0,3
+"47","College / Statistics and Data Science (ABC)","v5.2",9,13,13,99,78,85,80,5,0,0,0,0,0,0,14
+"48","College / Statistics and Data Science (ABC)","v5.2",10,7,12,53,29,50,50,0,0,0,0,0,0,0,3
+"49","College / Statistics and Data Science (ABC)","v5.2",11,8,16,65,35,57,54,1,2,0,0,0,0,0,8
+"50","College / Statistics and Data Science (ABC)","v5.2",12,6,14,72,51,61,61,0,0,0,0,0,0,0,11
+"51","College / Statistics and Data Science (ABC)","v5.2",13,3,8,21,9,18,18,0,0,0,0,0,0,0,3
+"52","College / Statistics and Data Science (ABC)","v5.1.1",1,5,24,14,14,13,13,0,0,0,0,0,0,0,1
+"53","College / Statistics and Data Science (ABC)","v5.1.1",2,11,26,82,71,63,54,0,9,0,0,0,0,2,17
+"54","College / Statistics and Data Science (ABC)","v5.1.1",3,11,29,88,75,65,60,2,1,2,0,0,0,2,21
+"55","College / Statistics and Data Science (ABC)","v5.1.1",4,8,14,101,73,77,73,0,0,3,1,0,0,0,24
+"56","College / Statistics and Data Science (ABC)","v5.1.1",5,8,4,60,48,45,41,4,0,0,0,0,0,0,15
+"57","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",1,5,24,16,16,13,13,0,0,0,0,0,0,2,1
+"58","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",2,11,26,85,74,63,54,0,9,0,0,0,0,5,17
+"59","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",3,11,29,91,78,65,60,2,1,2,0,0,0,5,21
+"60","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",4,15,20,136,94,96,81,2,9,3,1,0,0,4,36
+"61","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",5,11,12,74,58,52,45,4,3,0,0,0,0,3,19
+"62","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",6,14,19,103,82,78,67,5,4,0,1,1,0,3,22
+"63","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",7,11,7,59,43,54,50,4,0,0,0,0,0,3,2
+"64","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",8,8,12,62,44,57,50,5,1,0,0,0,1,2,3
+"65","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",9,13,13,103,82,85,80,5,0,0,0,0,0,3,15
+"66","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",10,7,12,56,32,50,50,0,0,0,0,0,0,2,4
+"67","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",11,8,16,68,38,57,54,1,2,0,0,0,0,2,9
+"68","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",12,6,14,73,52,61,61,0,0,0,0,0,0,0,12
+"69","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",13,9,11,54,35,47,43,1,3,0,0,0,0,1,6
+"70","College / Advanced Statistics and Data Science (ABCD)","v5.0-exp2",14,11,17,53,39,35,33,0,2,0,0,0,0,2,16
+"71","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",1,5,24,14,14,13,13,0,0,0,0,0,0,0,1
+"72","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",2,11,26,82,71,63,54,0,9,0,0,0,0,2,17
+"73","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",3,11,29,88,75,65,60,2,1,2,0,0,0,2,21
+"74","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",4,16,20,133,91,96,81,2,9,3,1,0,0,1,36
+"75","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",5,12,12,71,55,52,45,4,3,0,0,0,0,0,19
+"76","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",6,14,19,100,79,78,67,5,4,0,1,1,0,0,22
+"77","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",7,11,7,56,40,54,50,4,0,0,0,0,0,0,2
+"78","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",8,8,12,60,42,57,50,5,1,0,0,0,1,0,3
+"79","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",9,13,13,100,79,85,80,5,0,0,0,0,0,0,15
+"80","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",10,7,12,54,30,50,50,0,0,0,0,0,0,0,4
+"81","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",11,8,16,66,36,57,54,1,2,0,0,0,0,0,9
+"82","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",12,6,14,73,52,61,61,0,0,0,0,0,0,0,12
+"83","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",13,9,11,54,35,47,43,1,3,0,0,0,0,1,6
+"84","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",14,11,17,53,39,35,33,0,2,0,0,0,0,2,16
+"85","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",15,8,9,51,39,38,35,1,2,0,0,0,0,1,12
+"86","College / Advanced Statistics and Data Science (ABCD)","v5.1.1",16,8,8,36,22,25,24,1,0,0,0,0,0,1,10
+"87","College / Advanced Statistics and Data Science (ABCD)","v5.0",1,5,24,14,14,13,13,0,0,0,0,0,0,0,1
+"88","College / Advanced Statistics and Data Science (ABCD)","v5.0",2,11,26,82,71,63,54,0,9,0,0,0,0,2,17
+"89","College / Advanced Statistics and Data Science (ABCD)","v5.0",3,11,29,88,75,65,60,2,1,2,0,0,0,2,21
+"90","College / Advanced Statistics and Data Science (ABCD)","v5.0",4,16,19,133,91,96,81,2,9,3,1,0,0,1,36
+"91","College / Advanced Statistics and Data Science (ABCD)","v5.0",5,12,12,71,55,52,45,4,3,0,0,0,0,0,19
+"92","College / Advanced Statistics and Data Science (ABCD)","v5.0",6,14,19,100,79,78,67,5,4,0,1,1,0,0,22
+"93","College / Advanced Statistics and Data Science (ABCD)","v5.0",7,11,7,56,40,54,50,4,0,0,0,0,0,0,2
+"94","College / Advanced Statistics and Data Science (ABCD)","v5.0",8,8,12,60,42,57,50,5,1,0,0,0,1,0,3
+"95","College / Advanced Statistics and Data Science (ABCD)","v5.0",9,13,13,100,79,85,80,5,0,0,0,0,0,0,15
+"96","College / Advanced Statistics and Data Science (ABCD)","v5.0",10,7,12,54,30,50,50,0,0,0,0,0,0,0,4
+"97","College / Advanced Statistics and Data Science (ABCD)","v5.0",11,8,16,66,36,57,54,1,2,0,0,0,0,0,9
+"98","College / Advanced Statistics and Data Science (ABCD)","v5.0",12,6,14,73,52,61,61,0,0,0,0,0,0,0,12
+"99","College / Advanced Statistics and Data Science (ABCD)","v5.0",13,9,11,54,35,47,43,1,3,0,0,0,0,1,6
+"100","College / Advanced Statistics and Data Science (ABCD)","v5.0",15,8,6,50,38,37,34,1,2,0,0,0,0,1,12
+"101","College / Advanced Statistics and Data Science (ABCD)","v5.0",14,11,17,53,39,35,33,0,2,0,0,0,0,2,16
+"102","College / Advanced Statistics and Data Science (ABCD)","v5.0",16,8,8,36,22,25,24,1,0,0,0,0,0,1,10
