@@ -7,20 +7,18 @@ The purpose of this script is to make a page-level codebook (eventually called `
 
 In `page_views`, `page` variable is a string that includes both the chapter and page number (e.g., 10.4 represents chapter 10, page 4) and descriptive text. This codebook will have variables called `chapter_num` and `page_num` that each only include one number (e.g., `chapter_num` will be 10 and `page_num` will be 4).
 
+This is needed because we found that we cannot use the codebook created from `responses.Rdata` to process `page_views.Rdata`.
 
 ## Set up and load `page_views.Rdata`
 
 ```{r}
 # load libraries
-library(mosaic)
-library(dplyr)
 library(tidyverse)
-library(ggplot2)
+library(mosaic)
 
-# start with raw data from page_views.Rdata
-setwd("~/Desktop/github repository/data/2023-college/raw")
-load("page_views.Rdata")
-classes <-read.csv("classes.csv")
+# start with page_views.Rdata
+load("../raw/page_views.Rdata")
+classes <- read.csv("../raw/classes.csv")
 
 # there should be no duplicates but just in case, this removes duplicate rows
 page_views_all <- distinct(page_views)
@@ -29,12 +27,9 @@ page_views_all <- distinct(page_views)
 
 ```{r}
 #leftjoin page_views and class_id to get book and release
-page_views_class <- page_views %>%
-  left_join(classes, by=c("class_id"))
-
-page_views <- page_views_class
+page_views <- page_views %>%
+  left_join(classes, by=c("institution_id", "class_id"))
 ```
-
 
 ## Create page_num and chapter_num variables
 
@@ -57,9 +52,6 @@ codebook_page <- page_views %>%
 
 ```
 
-
 ```{r}
-#save codebook
-setwd("~/Desktop/github repository/data/2023-college/codebooks")
-write.csv(codebook_page, "codebook_page_pageviews.csv")
+write.csv(codebook_page, "../codebooks/codebook_page_pageviews.csv")
 ```
